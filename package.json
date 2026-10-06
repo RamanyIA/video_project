@@ -1,0 +1,21 @@
+{
+  "name": "au-menu-ia-short",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Motion design short 9:16 - Au menu IA",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render src/index.ts Short out/short.mp4",
+    "still": "remotion still src/index.ts Short out/preview.png"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.533",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.533"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}

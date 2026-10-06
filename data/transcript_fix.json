@@ -1,0 +1,988 @@
+[
+ {
+  "range": [
+   238.5,
+   252.4
+  ],
+  "text": " C'est la pièce manquante pour la robotique. Attends, comment ça la robotique? Ouais, imagine un robot humanoïde qui vaut une tasse de café, lui glisser des mains. Il n'a pas le temps de générer un paragraphe interne pour réfléchir à la gravité. Ah bah non, la tasse serait déjà éclatée par terre. Voilà.",
+  "chunks": [
+   {
+    "text": " C",
+    "timestamp": [
+     238.64,
+     238.64
+    ]
+   },
+   {
+    "text": "'est",
+    "timestamp": [
+     238.64,
+     238.76
+    ]
+   },
+   {
+    "text": " la",
+    "timestamp": [
+     238.76,
+     238.92
+    ]
+   },
+   {
+    "text": " pièce",
+    "timestamp": [
+     238.92,
+     239.18
+    ]
+   },
+   {
+    "text": " manquante",
+    "timestamp": [
+     239.18,
+     239.66
+    ]
+   },
+   {
+    "text": " pour",
+    "timestamp": [
+     239.66,
+     239.78
+    ]
+   },
+   {
+    "text": " la",
+    "timestamp": [
+     239.78,
+     240.02
+    ]
+   },
+   {
+    "text": " robotique.",
+    "timestamp": [
+     240.02,
+     240.5
+    ]
+   },
+   {
+    "text": " Attends,",
+    "timestamp": [
+     241.3,
+     241.42
+    ]
+   },
+   {
+    "text": " comment",
+    "timestamp": [
+     241.56,
+     241.7
+    ]
+   },
+   {
+    "text": " ça",
+    "timestamp": [
+     241.7,
+     241.82
+    ]
+   },
+   {
+    "text": " la",
+    "timestamp": [
+     241.82,
+     241.98
+    ]
+   },
+   {
+    "text": " robotique?",
+    "timestamp": [
+     241.98,
+     242.38
+    ]
+   },
+   {
+    "text": " Ouais,",
+    "timestamp": [
+     242.66,
+     242.86
+    ]
+   },
+   {
+    "text": " imagine",
+    "timestamp": [
+     243.16,
+     243.32
+    ]
+   },
+   {
+    "text": " un",
+    "timestamp": [
+     243.32,
+     243.48
+    ]
+   },
+   {
+    "text": " robot",
+    "timestamp": [
+     243.48,
+     243.78
+    ]
+   },
+   {
+    "text": " humanoïde",
+    "timestamp": [
+     243.78,
+     244.34
+    ]
+   },
+   {
+    "text": " qui",
+    "timestamp": [
+     244.34,
+     244.44
+    ]
+   },
+   {
+    "text": " vaut",
+    "timestamp": [
+     244.44,
+     244.56
+    ]
+   },
+   {
+    "text": " une",
+    "timestamp": [
+     244.56,
+     244.7
+    ]
+   },
+   {
+    "text": " tasse",
+    "timestamp": [
+     244.7,
+     244.84
+    ]
+   },
+   {
+    "text": " de",
+    "timestamp": [
+     244.84,
+     245.02
+    ]
+   },
+   {
+    "text": " café,",
+    "timestamp": [
+     245.02,
+     245.2
+    ]
+   },
+   {
+    "text": " lui",
+    "timestamp": [
+     245.22,
+     245.4
+    ]
+   },
+   {
+    "text": " glisser",
+    "timestamp": [
+     245.4,
+     245.64
+    ]
+   },
+   {
+    "text": " des",
+    "timestamp": [
+     245.64,
+     245.76
+    ]
+   },
+   {
+    "text": " mains.",
+    "timestamp": [
+     245.76,
+     245.9
+    ]
+   },
+   {
+    "text": " Il",
+    "timestamp": [
+     246.64,
+     246.7
+    ]
+   },
+   {
+    "text": " n",
+    "timestamp": [
+     246.7,
+     246.7
+    ]
+   },
+   {
+    "text": "'a",
+    "timestamp": [
+     246.7,
+     246.8
+    ]
+   },
+   {
+    "text": " pas",
+    "timestamp": [
+     246.8,
+     246.86
+    ]
+   },
+   {
+    "text": " le",
+    "timestamp": [
+     246.86,
+     246.94
+    ]
+   },
+   {
+    "text": " temps",
+    "timestamp": [
+     246.94,
+     247.02
+    ]
+   },
+   {
+    "text": " de",
+    "timestamp": [
+     247.02,
+     247.18
+    ]
+   },
+   {
+    "text": " générer",
+    "timestamp": [
+     247.18,
+     247.42
+    ]
+   },
+   {
+    "text": " un",
+    "timestamp": [
+     247.42,
+     247.64
+    ]
+   },
+   {
+    "text": " paragraphe",
+    "timestamp": [
+     247.64,
+     248.08
+    ]
+   },
+   {
+    "text": " interne",
+    "timestamp": [
+     248.08,
+     248.32
+    ]
+   },
+   {
+    "text": " pour",
+    "timestamp": [
+     248.32,
+     248.5
+    ]
+   },
+   {
+    "text": " réfléchir",
+    "timestamp": [
+     248.5,
+     248.8
+    ]
+   },
+   {
+    "text": " à",
+    "timestamp": [
+     248.8,
+     248.86
+    ]
+   },
+   {
+    "text": " la",
+    "timestamp": [
+     248.86,
+     249.02
+    ]
+   },
+   {
+    "text": " gravité.",
+    "timestamp": [
+     249.02,
+     249.34
+    ]
+   },
+   {
+    "text": " Ah",
+    "timestamp": [
+     249.82,
+     249.9
+    ]
+   },
+   {
+    "text": " bah",
+    "timestamp": [
+     249.9,
+     250
+    ]
+   },
+   {
+    "text": " non,",
+    "timestamp": [
+     250,
+     250.04
+    ]
+   },
+   {
+    "text": " la",
+    "timestamp": [
+     250.14,
+     250.28
+    ]
+   },
+   {
+    "text": " tasse",
+    "timestamp": [
+     250.28,
+     250.5
+    ]
+   },
+   {
+    "text": " serait",
+    "timestamp": [
+     250.5,
+     250.74
+    ]
+   },
+   {
+    "text": " déjà",
+    "timestamp": [
+     250.74,
+     250.84
+    ]
+   },
+   {
+    "text": " éclatée",
+    "timestamp": [
+     250.84,
+     251.14
+    ]
+   },
+   {
+    "text": " par",
+    "timestamp": [
+     251.14,
+     251.26
+    ]
+   },
+   {
+    "text": " terre.",
+    "timestamp": [
+     251.26,
+     251.38
+    ]
+   },
+   {
+    "text": " Voilà.",
+    "timestamp": [
+     251.66,
+     251.88
+    ]
+   }
+  ]
+ },
+ {
+  "range": [
+   252.1,
+   263.7
+  ],
+  "text": " Il lui faut cet instinct, ce système 1, pour statuer et rattraper l'objet en quelques millisecondes. D'accord, je vois. C'est la promesse d'une automatisation qui se font totalement dans le décor. C'est ça l'idée. Mais...",
+  "chunks": [
+   {
+    "text": " Il",
+    "timestamp": [
+     252.28,
+     252.35999999999999
+    ]
+   },
+   {
+    "text": " lui",
+    "timestamp": [
+     252.35999999999999,
+     252.51999999999998
+    ]
+   },
+   {
+    "text": " faut",
+    "timestamp": [
+     252.51999999999998,
+     252.76
+    ]
+   },
+   {
+    "text": " cet",
+    "timestamp": [
+     252.76,
+     253.16
+    ]
+   },
+   {
+    "text": " instinct,",
+    "timestamp": [
+     253.16,
+     253.4
+    ]
+   },
+   {
+    "text": " ce",
+    "timestamp": [
+     253.54,
+     253.92
+    ]
+   },
+   {
+    "text": " système",
+    "timestamp": [
+     253.92,
+     254.23999999999998
+    ]
+   },
+   {
+    "text": " 1,",
+    "timestamp": [
+     254.23999999999998,
+     254.64
+    ]
+   },
+   {
+    "text": " pour",
+    "timestamp": [
+     254.76,
+     254.96
+    ]
+   },
+   {
+    "text": " statuer",
+    "timestamp": [
+     254.96,
+     255.23999999999998
+    ]
+   },
+   {
+    "text": " et",
+    "timestamp": [
+     255.23999999999998,
+     255.44
+    ]
+   },
+   {
+    "text": " rattraper",
+    "timestamp": [
+     255.44,
+     255.72
+    ]
+   },
+   {
+    "text": " l",
+    "timestamp": [
+     255.72,
+     255.76
+    ]
+   },
+   {
+    "text": "'objet",
+    "timestamp": [
+     255.76,
+     256.04
+    ]
+   },
+   {
+    "text": " en",
+    "timestamp": [
+     256.04,
+     256.32
+    ]
+   },
+   {
+    "text": " quelques",
+    "timestamp": [
+     256.32,
+     256.6
+    ]
+   },
+   {
+    "text": " millisecondes.",
+    "timestamp": [
+     256.6,
+     257
+    ]
+   },
+   {
+    "text": " D",
+    "timestamp": [
+     257.54,
+     257.56
+    ]
+   },
+   {
+    "text": "'accord,",
+    "timestamp": [
+     257.56,
+     257.96
+    ]
+   },
+   {
+    "text": " je",
+    "timestamp": [
+     258.02,
+     258.18
+    ]
+   },
+   {
+    "text": " vois.",
+    "timestamp": [
+     258.18,
+     258.4
+    ]
+   },
+   {
+    "text": " C",
+    "timestamp": [
+     258.9,
+     258.92
+    ]
+   },
+   {
+    "text": "'est",
+    "timestamp": [
+     258.92,
+     259.04
+    ]
+   },
+   {
+    "text": " la",
+    "timestamp": [
+     259.04,
+     259.21999999999997
+    ]
+   },
+   {
+    "text": " promesse",
+    "timestamp": [
+     259.21999999999997,
+     259.5
+    ]
+   },
+   {
+    "text": " d",
+    "timestamp": [
+     259.5,
+     259.6
+    ]
+   },
+   {
+    "text": "'une",
+    "timestamp": [
+     259.6,
+     259.84
+    ]
+   },
+   {
+    "text": " automatisation",
+    "timestamp": [
+     259.84,
+     260.5
+    ]
+   },
+   {
+    "text": " qui",
+    "timestamp": [
+     260.5,
+     260.65999999999997
+    ]
+   },
+   {
+    "text": " se",
+    "timestamp": [
+     260.65999999999997,
+     260.92
+    ]
+   },
+   {
+    "text": " font",
+    "timestamp": [
+     260.92,
+     261.48
+    ]
+   },
+   {
+    "text": " totalement",
+    "timestamp": [
+     261.48,
+     261.76
+    ]
+   },
+   {
+    "text": " dans",
+    "timestamp": [
+     261.76,
+     261.84
+    ]
+   },
+   {
+    "text": " le",
+    "timestamp": [
+     261.84,
+     262
+    ]
+   },
+   {
+    "text": " décor.",
+    "timestamp": [
+     262,
+     262.26
+    ]
+   },
+   {
+    "text": " C",
+    "timestamp": [
+     262.4,
+     262.4
+    ]
+   },
+   {
+    "text": "'est",
+    "timestamp": [
+     262.4,
+     262.58
+    ]
+   },
+   {
+    "text": " ça",
+    "timestamp": [
+     262.58,
+     262.68
+    ]
+   },
+   {
+    "text": " l",
+    "timestamp": [
+     262.68,
+     262.68
+    ]
+   },
+   {
+    "text": "'idée.",
+    "timestamp": [
+     262.68,
+     263.24
+    ]
+   },
+   {
+    "text": " Mais",
+    "timestamp": [
+     263.7,
+     263.78
+    ]
+   },
+   {
+    "text": "...",
+    "timestamp": [
+     263.78,
+     263.78
+    ]
+   }
+  ]
+ },
+ {
+  "range": [
+   263.5,
+   272.5
+  ],
+  "text": " Mais du coup, ça lasse quand même une sacrée réflexion en suspens pour ceux qui nous écoutent aujourd'hui. Ah oui? La quelle? Si une IA a fini par agir comme un instinct numérique mondial, qu'elle prend des...",
+  "chunks": [
+   {
+    "text": " Mais",
+    "timestamp": [
+     263.68,
+     263.78
+    ]
+   },
+   {
+    "text": " du",
+    "timestamp": [
+     263.78,
+     263.88
+    ]
+   },
+   {
+    "text": " coup,",
+    "timestamp": [
+     263.88,
+     263.96
+    ]
+   },
+   {
+    "text": " ça",
+    "timestamp": [
+     264,
+     264.08
+    ]
+   },
+   {
+    "text": " lasse",
+    "timestamp": [
+     264.08,
+     264.22
+    ]
+   },
+   {
+    "text": " quand",
+    "timestamp": [
+     264.22,
+     264.3
+    ]
+   },
+   {
+    "text": " même",
+    "timestamp": [
+     264.3,
+     264.46
+    ]
+   },
+   {
+    "text": " une",
+    "timestamp": [
+     264.46,
+     264.68
+    ]
+   },
+   {
+    "text": " sacrée",
+    "timestamp": [
+     264.68,
+     264.98
+    ]
+   },
+   {
+    "text": " réflexion",
+    "timestamp": [
+     264.98,
+     265.36
+    ]
+   },
+   {
+    "text": " en",
+    "timestamp": [
+     265.36,
+     265.52
+    ]
+   },
+   {
+    "text": " suspens",
+    "timestamp": [
+     265.52,
+     265.84
+    ]
+   },
+   {
+    "text": " pour",
+    "timestamp": [
+     265.84,
+     266.02
+    ]
+   },
+   {
+    "text": " ceux",
+    "timestamp": [
+     266.02,
+     266.14
+    ]
+   },
+   {
+    "text": " qui",
+    "timestamp": [
+     266.14,
+     266.24
+    ]
+   },
+   {
+    "text": " nous",
+    "timestamp": [
+     266.24,
+     266.42
+    ]
+   },
+   {
+    "text": " écoutent",
+    "timestamp": [
+     266.42,
+     266.7
+    ]
+   },
+   {
+    "text": " aujourd",
+    "timestamp": [
+     266.7,
+     266.82
+    ]
+   },
+   {
+    "text": "'hui.",
+    "timestamp": [
+     266.82,
+     267.02
+    ]
+   },
+   {
+    "text": " Ah",
+    "timestamp": [
+     267.18,
+     267.28
+    ]
+   },
+   {
+    "text": " oui?",
+    "timestamp": [
+     267.28,
+     267.42
+    ]
+   },
+   {
+    "text": " La",
+    "timestamp": [
+     267.52,
+     267.64
+    ]
+   },
+   {
+    "text": " quelle?",
+    "timestamp": [
+     267.64,
+     267.96
+    ]
+   },
+   {
+    "text": " Si",
+    "timestamp": [
+     268.62,
+     268.8
+    ]
+   },
+   {
+    "text": " une",
+    "timestamp": [
+     268.8,
+     268.98
+    ]
+   },
+   {
+    "text": " IA",
+    "timestamp": [
+     268.98,
+     269.26
+    ]
+   },
+   {
+    "text": " a",
+    "timestamp": [
+     269.26,
+     269.38
+    ]
+   },
+   {
+    "text": " fini",
+    "timestamp": [
+     269.38,
+     269.62
+    ]
+   },
+   {
+    "text": " par",
+    "timestamp": [
+     269.62,
+     269.78
+    ]
+   },
+   {
+    "text": " agir",
+    "timestamp": [
+     269.78,
+     270.04
+    ]
+   },
+   {
+    "text": " comme",
+    "timestamp": [
+     270.04,
+     270.2
+    ]
+   },
+   {
+    "text": " un",
+    "timestamp": [
+     270.2,
+     270.48
+    ]
+   },
+   {
+    "text": " instinct",
+    "timestamp": [
+     270.48,
+     270.72
+    ]
+   },
+   {
+    "text": " numérique",
+    "timestamp": [
+     270.72,
+     271.12
+    ]
+   },
+   {
+    "text": " mondial,",
+    "timestamp": [
+     271.12,
+     271.82
+    ]
+   },
+   {
+    "text": " qu",
+    "timestamp": [
+     271.96,
+     272.02
+    ]
+   },
+   {
+    "text": "'elle",
+    "timestamp": [
+     272.02,
+     272.24
+    ]
+   },
+   {
+    "text": " prend",
+    "timestamp": [
+     272.24,
+     272.42
+    ]
+   },
+   {
+    "text": " des",
+    "timestamp": [
+     272.42,
+     272.6
+    ]
+   },
+   {
+    "text": "...",
+    "timestamp": [
+     272.6,
+     272.62
+    ]
+   }
+  ]
+ }
+]

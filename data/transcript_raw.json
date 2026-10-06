@@ -1,0 +1,7327 @@
+{
+ "text": " Bonjour et bienvenue dans ce format très court où on décortique l'annonce sans doute la plus importante au monde en ce moment en matière d'IA. Oui, salut. Et je précise juste en passant pour ceux qui préfèrent le visuel, qu'on a aussi décliné toute cette analyse en vidéo sur la chaîne YouTube, au menu « Tirez IA ». Exactement. Et le but aujourd'hui, c'est vraiment d'aller à l'essentiel en trois minutes maximum. Donc on va plonger dans nos documents sur une start-up qui s'appelle Type Safe, c'est fondé par Diego Almeida, un ancien de OpenAI. C'est ça. Et leur nouveau modèle, qui s'appelle Jive, il met littéralement toute la silicone valée en ébullition en ce moment. Ce qui est dingue, c'est que c'est une IA qui est genre incapable de rédiger la moindre phrase. C'est hyper paradoxal. En fait, pour comprendre l'engouement, il faut un peu changer notre vision de la machine. Prends « Charge & PT » par exemple. C'est un peu l'élève studio qui s'assoit, qui réfléchit longtemps et te pond une dissertation complexe. Le fameux système 2 de la pensée, la réflexion lente. Voilà, tout à fait. Alors que « Jive » d'après les notes techniques, c'est l'élève qui passe un QCM à toute vitesse. Donc il regarde la feuille, il coche la bonne case à l'instinct en une fraction de seconde et il passe à la suite. Le système 1, en gros. Exactement. Et techniquement, ça s'explique parce que nos hiéogénératives habituelles, ce sont des décodeurs. Leur but, c'est de prédire le mot suivant pour créer du texte. D'accord. Imagine plein de miroirs placés face à face. L'information rebondit, elle s'étire, elle se déforme. Ce qui est génial pour inventer des histoires, mais c'est ça qui crée les hallucinations, en fait. Mais c'est exactement ça. L'image finit toujours par ce tordre à force de rebondir. Alors que Jive, lui, c'est un encodeur. Donc il génère rien de nouveau. Rien du tout. C'est un seul miroir, parfaitement plat. Il prend l'info, il regarde les données telles qu'elles sont, et il coche la case du QCAM direct. Oui, enfin, je dois avouer que je suis quand même resté un peu sceptique à la lecture de ses recherches. Ah bon? Pourquoi? Bah, si cette IA elle fait juste que trier des données dans des cases, en quoi c'est différent d'un vieux filtre anti-spam des années 2000, tu vois. Pourquoi tout ce battage médiatique pour un truc si basique? C'est une super question. Le truc c'est que la faille des anciens filtres, c'était leur rigidité. Fallait les entraîner avec des milliers d'exemples spécifiques juste pour bloquer des spam. C'est-à-dire que si on voulait l'utiliser pour trier des factures, après, fallait tout reprendre à zéro. Ouais, la grosse galère. La force de Jive, c'est qu'il comprend naturellement le langage direct, sans aucun entraînement préalable sur la nouvelle tâche. C'est ce qu'on appelle le zéro shot. Ah ouais d'accord, donc on peut littéralement changer les règles en cours de route. C'est ça. Les ingénieurs appellent ça un Smart If, donc une condition intelligente. Un peu comme un aiguilleur de gare super sophistiqué en fait. Ouais, c'est une très bonne image. Tu lui donnes un texte complexe, tu lui définis de nouvelles gare de destination à la volée, et le modèle roue des millions de requêtes sont jamais se trompées. Et vu qu'il n'a pas besoin de générer du texte ou d'être entraîné des mois, ça doit être hyper rapide et surtout super peu cher, non? C'est aurissant. Dans les sources, il y a cette anecdote géniale où un dev a carrément branché Jive sur Super Mario. Ah oui, j'ai vu ça! L'IA analyse le terrain et choisit le bouton apprécié en temps réel pour jouer. C'est quand même assez qu'aucasse de voir la meilleure tech de la décennie servir à écraser des champignons virtuels. C'est drôle, oui. Mais ça montre une réactivité extrême, tu vois. Ça permet aussi de régler un vrai problème moderne, la fameuse fatigue de LIA. Ah oui, le fait que les assistants virtuels s'arrêtent tout le temps pour demander des validations humaines avant de faire un truc. Exactement. Jif peut servir de filtres ultra rapides pour router ses tâches. Et des validés en coulisses, de machine à machine. Ce qui nous amène d'ailleurs à l'impact économique. Nos notes parlent d'un concept clé qui a inspiré le nom de LIA, le paradoxe de Gévan. Oui, ce paradoxe dit que plus une technologie est performante et pas chère, plus son utilisation explose. Donc analyser des millions d'avis clients, la fameuse dark data qui coûtait une fortune, avec les hiages génératives, ça devient faisable. Voilà, avec un encodeur rapide, le coût tombe à une fraction de centime. Donc ça rend hyper rentable des milliards de micro décisions invisibles qu'on ignorait jusque-là? C'est fou! C'est une brique fondamentale pour nos applis, mais surtout, et ça c'est crucial, c'est la pièce manquante pour la robotique. Attends, on commence à la robotique. Oui, imagine un robot humanoïde qui vaut une tas robot qui vaudra, on a un robot qui vaudra, on a un robot qui vaudra, on a un robot qui vaudra, on a un robot qui vaudra, on a un robot qui vaudra, on a un robot qui vaudra, on a un robot qui vaudra, on a un robot qui vaudra, on a un robot qui vaudra, on a un robot qui vaud une sacrée réflexion en suspens pour ceux qui nous écoutent aujourd'hui. Ah oui, laquelle? Si une IA a fini par agir comme un instinct numérique mondial, qu'elle prend des milliards de décisions éclaires et invisibles pour filtrer notre réalité. Oui. Au final, qui détient vraiment le pouvoir? Celui qui prend cette décision fulgure en tant bout de chaîne, ou celui qui a discrètement défini les cases du QCM à l'origine?",
+ "chunks": [
+  {
+   "text": " Bonjour",
+   "timestamp": [
+    0.34,
+    0.56
+   ]
+  },
+  {
+   "text": " et",
+   "timestamp": [
+    0.56,
+    0.74
+   ]
+  },
+  {
+   "text": " bienvenue",
+   "timestamp": [
+    0.74,
+    1.12
+   ]
+  },
+  {
+   "text": " dans",
+   "timestamp": [
+    1.12,
+    1.28
+   ]
+  },
+  {
+   "text": " ce",
+   "timestamp": [
+    1.28,
+    1.5
+   ]
+  },
+  {
+   "text": " format",
+   "timestamp": [
+    1.5,
+    1.74
+   ]
+  },
+  {
+   "text": " très",
+   "timestamp": [
+    1.74,
+    1.92
+   ]
+  },
+  {
+   "text": " court",
+   "timestamp": [
+    1.92,
+    2.22
+   ]
+  },
+  {
+   "text": " où",
+   "timestamp": [
+    2.22,
+    2.36
+   ]
+  },
+  {
+   "text": " on",
+   "timestamp": [
+    2.36,
+    2.56
+   ]
+  },
+  {
+   "text": " décortique",
+   "timestamp": [
+    2.56,
+    3.3
+   ]
+  },
+  {
+   "text": " l",
+   "timestamp": [
+    3.3,
+    3.42
+   ]
+  },
+  {
+   "text": "'annonce",
+   "timestamp": [
+    3.42,
+    3.68
+   ]
+  },
+  {
+   "text": " sans",
+   "timestamp": [
+    3.68,
+    3.82
+   ]
+  },
+  {
+   "text": " doute",
+   "timestamp": [
+    3.82,
+    3.94
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    3.96,
+    4.02
+   ]
+  },
+  {
+   "text": " plus",
+   "timestamp": [
+    4.1,
+    4.54
+   ]
+  },
+  {
+   "text": " importante",
+   "timestamp": [
+    4.54,
+    4.78
+   ]
+  },
+  {
+   "text": " au",
+   "timestamp": [
+    4.78,
+    4.96
+   ]
+  },
+  {
+   "text": " monde",
+   "timestamp": [
+    4.96,
+    5.14
+   ]
+  },
+  {
+   "text": " en",
+   "timestamp": [
+    5.14,
+    5.22
+   ]
+  },
+  {
+   "text": " ce",
+   "timestamp": [
+    5.22,
+    5.42
+   ]
+  },
+  {
+   "text": " moment",
+   "timestamp": [
+    5.42,
+    5.64
+   ]
+  },
+  {
+   "text": " en",
+   "timestamp": [
+    5.64,
+    5.82
+   ]
+  },
+  {
+   "text": " matière",
+   "timestamp": [
+    5.82,
+    6
+   ]
+  },
+  {
+   "text": " d",
+   "timestamp": [
+    6,
+    6.04
+   ]
+  },
+  {
+   "text": "'IA.",
+   "timestamp": [
+    6.04,
+    6.36
+   ]
+  },
+  {
+   "text": " Oui,",
+   "timestamp": [
+    6.54,
+    6.66
+   ]
+  },
+  {
+   "text": " salut.",
+   "timestamp": [
+    6.82,
+    7.44
+   ]
+  },
+  {
+   "text": " Et",
+   "timestamp": [
+    7.7,
+    7.9
+   ]
+  },
+  {
+   "text": " je",
+   "timestamp": [
+    7.9,
+    8.06
+   ]
+  },
+  {
+   "text": " précise",
+   "timestamp": [
+    8.06,
+    8.38
+   ]
+  },
+  {
+   "text": " juste",
+   "timestamp": [
+    8.38,
+    8.62
+   ]
+  },
+  {
+   "text": " en",
+   "timestamp": [
+    8.62,
+    8.76
+   ]
+  },
+  {
+   "text": " passant",
+   "timestamp": [
+    8.76,
+    9.06
+   ]
+  },
+  {
+   "text": " pour",
+   "timestamp": [
+    9.06,
+    9.22
+   ]
+  },
+  {
+   "text": " ceux",
+   "timestamp": [
+    9.22,
+    9.38
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    9.38,
+    9.58
+   ]
+  },
+  {
+   "text": " préfèrent",
+   "timestamp": [
+    9.58,
+    9.78
+   ]
+  },
+  {
+   "text": " le",
+   "timestamp": [
+    9.78,
+    9.94
+   ]
+  },
+  {
+   "text": " visuel,",
+   "timestamp": [
+    9.94,
+    10.2
+   ]
+  },
+  {
+   "text": " qu",
+   "timestamp": [
+    10.24,
+    10.28
+   ]
+  },
+  {
+   "text": "'on",
+   "timestamp": [
+    10.28,
+    10.38
+   ]
+  },
+  {
+   "text": " a",
+   "timestamp": [
+    10.38,
+    10.66
+   ]
+  },
+  {
+   "text": " aussi",
+   "timestamp": [
+    10.66,
+    10.96
+   ]
+  },
+  {
+   "text": " décliné",
+   "timestamp": [
+    10.96,
+    11.42
+   ]
+  },
+  {
+   "text": " toute",
+   "timestamp": [
+    11.56,
+    11.76
+   ]
+  },
+  {
+   "text": " cette",
+   "timestamp": [
+    11.76,
+    12.02
+   ]
+  },
+  {
+   "text": " analyse",
+   "timestamp": [
+    12.02,
+    12.22
+   ]
+  },
+  {
+   "text": " en",
+   "timestamp": [
+    12.22,
+    12.48
+   ]
+  },
+  {
+   "text": " vidéo",
+   "timestamp": [
+    12.48,
+    13.02
+   ]
+  },
+  {
+   "text": " sur",
+   "timestamp": [
+    13.02,
+    13.16
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    13.16,
+    13.3
+   ]
+  },
+  {
+   "text": " chaîne",
+   "timestamp": [
+    13.3,
+    13.7
+   ]
+  },
+  {
+   "text": " YouTube,",
+   "timestamp": [
+    13.7,
+    13.96
+   ]
+  },
+  {
+   "text": " au",
+   "timestamp": [
+    14.1,
+    14.34
+   ]
+  },
+  {
+   "text": " menu",
+   "timestamp": [
+    14.34,
+    14.74
+   ]
+  },
+  {
+   "text": " «",
+   "timestamp": [
+    14.74,
+    14.74
+   ]
+  },
+  {
+   "text": " Tirez",
+   "timestamp": [
+    14.74,
+    15.1
+   ]
+  },
+  {
+   "text": " IA",
+   "timestamp": [
+    15.1,
+    15.4
+   ]
+  },
+  {
+   "text": " ».",
+   "timestamp": [
+    15.42,
+    15.58
+   ]
+  },
+  {
+   "text": " Exactement.",
+   "timestamp": [
+    15.68,
+    16.38
+   ]
+  },
+  {
+   "text": " Et",
+   "timestamp": [
+    16.52,
+    16.62
+   ]
+  },
+  {
+   "text": " le",
+   "timestamp": [
+    16.62,
+    16.72
+   ]
+  },
+  {
+   "text": " but",
+   "timestamp": [
+    16.72,
+    16.88
+   ]
+  },
+  {
+   "text": " aujourd",
+   "timestamp": [
+    16.88,
+    16.88
+   ]
+  },
+  {
+   "text": "'hui,",
+   "timestamp": [
+    16.88,
+    17.14
+   ]
+  },
+  {
+   "text": " c",
+   "timestamp": [
+    17.16,
+    17.16
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    17.16,
+    17.38
+   ]
+  },
+  {
+   "text": " vraiment",
+   "timestamp": [
+    17.38,
+    17.58
+   ]
+  },
+  {
+   "text": " d",
+   "timestamp": [
+    17.58,
+    17.58
+   ]
+  },
+  {
+   "text": "'aller",
+   "timestamp": [
+    17.58,
+    17.8
+   ]
+  },
+  {
+   "text": " à",
+   "timestamp": [
+    17.8,
+    17.88
+   ]
+  },
+  {
+   "text": " l",
+   "timestamp": [
+    17.88,
+    17.9
+   ]
+  },
+  {
+   "text": "'essentiel",
+   "timestamp": [
+    17.9,
+    18.36
+   ]
+  },
+  {
+   "text": " en",
+   "timestamp": [
+    18.36,
+    18.52
+   ]
+  },
+  {
+   "text": " trois",
+   "timestamp": [
+    18.52,
+    18.76
+   ]
+  },
+  {
+   "text": " minutes",
+   "timestamp": [
+    18.76,
+    19.28
+   ]
+  },
+  {
+   "text": " maximum.",
+   "timestamp": [
+    19.28,
+    19.44
+   ]
+  },
+  {
+   "text": " Donc",
+   "timestamp": [
+    20.04,
+    20.12
+   ]
+  },
+  {
+   "text": " on",
+   "timestamp": [
+    20.12,
+    20.22
+   ]
+  },
+  {
+   "text": " va",
+   "timestamp": [
+    20.22,
+    20.36
+   ]
+  },
+  {
+   "text": " plonger",
+   "timestamp": [
+    20.36,
+    20.6
+   ]
+  },
+  {
+   "text": " dans",
+   "timestamp": [
+    20.6,
+    20.72
+   ]
+  },
+  {
+   "text": " nos",
+   "timestamp": [
+    20.72,
+    21
+   ]
+  },
+  {
+   "text": " documents",
+   "timestamp": [
+    21,
+    21.28
+   ]
+  },
+  {
+   "text": " sur",
+   "timestamp": [
+    21.28,
+    21.42
+   ]
+  },
+  {
+   "text": " une",
+   "timestamp": [
+    21.42,
+    21.6
+   ]
+  },
+  {
+   "text": " start",
+   "timestamp": [
+    21.6,
+    21.78
+   ]
+  },
+  {
+   "text": "-up",
+   "timestamp": [
+    21.78,
+    22.16
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    22.16,
+    22.28
+   ]
+  },
+  {
+   "text": " s",
+   "timestamp": [
+    22.28,
+    22.34
+   ]
+  },
+  {
+   "text": "'appelle",
+   "timestamp": [
+    22.34,
+    22.7
+   ]
+  },
+  {
+   "text": " Type",
+   "timestamp": [
+    22.7,
+    22.96
+   ]
+  },
+  {
+   "text": " Safe,",
+   "timestamp": [
+    22.96,
+    23.4
+   ]
+  },
+  {
+   "text": " c",
+   "timestamp": [
+    23.48,
+    23.48
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    23.48,
+    23.64
+   ]
+  },
+  {
+   "text": " fondé",
+   "timestamp": [
+    23.64,
+    23.9
+   ]
+  },
+  {
+   "text": " par",
+   "timestamp": [
+    23.9,
+    24.1
+   ]
+  },
+  {
+   "text": " Diego",
+   "timestamp": [
+    24.1,
+    24.34
+   ]
+  },
+  {
+   "text": " Almeida,",
+   "timestamp": [
+    24.34,
+    24.8
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    24.92,
+    25.12
+   ]
+  },
+  {
+   "text": " ancien",
+   "timestamp": [
+    25.12,
+    25.3
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    25.3,
+    25.58
+   ]
+  },
+  {
+   "text": " OpenAI.",
+   "timestamp": [
+    25.58,
+    26.08
+   ]
+  },
+  {
+   "text": " C",
+   "timestamp": [
+    26.34,
+    26.36
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    26.36,
+    26.48
+   ]
+  },
+  {
+   "text": " ça.",
+   "timestamp": [
+    26.48,
+    26.82
+   ]
+  },
+  {
+   "text": " Et",
+   "timestamp": [
+    26.88,
+    27.04
+   ]
+  },
+  {
+   "text": " leur",
+   "timestamp": [
+    27.04,
+    27.2
+   ]
+  },
+  {
+   "text": " nouveau",
+   "timestamp": [
+    27.2,
+    27.5
+   ]
+  },
+  {
+   "text": " modèle,",
+   "timestamp": [
+    27.5,
+    28.02
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    28.38,
+    28.5
+   ]
+  },
+  {
+   "text": " s",
+   "timestamp": [
+    28.5,
+    28.56
+   ]
+  },
+  {
+   "text": "'appelle",
+   "timestamp": [
+    28.56,
+    28.82
+   ]
+  },
+  {
+   "text": " Jive,",
+   "timestamp": [
+    28.82,
+    29.24
+   ]
+  },
+  {
+   "text": " il",
+   "timestamp": [
+    29.66,
+    29.76
+   ]
+  },
+  {
+   "text": " met",
+   "timestamp": [
+    29.76,
+    29.92
+   ]
+  },
+  {
+   "text": " littéralement",
+   "timestamp": [
+    29.92,
+    30.5
+   ]
+  },
+  {
+   "text": " toute",
+   "timestamp": [
+    30.5,
+    30.74
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    30.74,
+    30.98
+   ]
+  },
+  {
+   "text": " silicone",
+   "timestamp": [
+    30.98,
+    31.32
+   ]
+  },
+  {
+   "text": " valée",
+   "timestamp": [
+    31.32,
+    31.46
+   ]
+  },
+  {
+   "text": " en",
+   "timestamp": [
+    31.46,
+    31.58
+   ]
+  },
+  {
+   "text": " ébullition",
+   "timestamp": [
+    31.58,
+    31.98
+   ]
+  },
+  {
+   "text": " en",
+   "timestamp": [
+    31.98,
+    32.04
+   ]
+  },
+  {
+   "text": " ce",
+   "timestamp": [
+    32.04,
+    32.2
+   ]
+  },
+  {
+   "text": " moment.",
+   "timestamp": [
+    32.2,
+    32.52
+   ]
+  },
+  {
+   "text": " Ce",
+   "timestamp": [
+    32.98,
+    33.02
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    33.02,
+    33.1
+   ]
+  },
+  {
+   "text": " est",
+   "timestamp": [
+    33.1,
+    33.32
+   ]
+  },
+  {
+   "text": " dingue,",
+   "timestamp": [
+    33.32,
+    33.52
+   ]
+  },
+  {
+   "text": " c",
+   "timestamp": [
+    33.64,
+    33.64
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    33.64,
+    33.72
+   ]
+  },
+  {
+   "text": " que",
+   "timestamp": [
+    33.72,
+    33.78
+   ]
+  },
+  {
+   "text": " c",
+   "timestamp": [
+    33.78,
+    33.78
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    33.78,
+    34.02
+   ]
+  },
+  {
+   "text": " une",
+   "timestamp": [
+    34.02,
+    34.16
+   ]
+  },
+  {
+   "text": " IA",
+   "timestamp": [
+    34.16,
+    34.82
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    34.82,
+    34.96
+   ]
+  },
+  {
+   "text": " est",
+   "timestamp": [
+    34.96,
+    35.14
+   ]
+  },
+  {
+   "text": " genre",
+   "timestamp": [
+    35.14,
+    35.76
+   ]
+  },
+  {
+   "text": " incapable",
+   "timestamp": [
+    35.76,
+    36.2
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    36.2,
+    36.36
+   ]
+  },
+  {
+   "text": " rédiger",
+   "timestamp": [
+    36.36,
+    36.74
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    36.74,
+    36.98
+   ]
+  },
+  {
+   "text": " moindre",
+   "timestamp": [
+    36.98,
+    37.44
+   ]
+  },
+  {
+   "text": " phrase.",
+   "timestamp": [
+    37.44,
+    37.88
+   ]
+  },
+  {
+   "text": " C",
+   "timestamp": [
+    38.26,
+    38.28
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    38.28,
+    38.42
+   ]
+  },
+  {
+   "text": " hyper",
+   "timestamp": [
+    38.42,
+    38.68
+   ]
+  },
+  {
+   "text": " paradoxal.",
+   "timestamp": [
+    38.68,
+    39.64
+   ]
+  },
+  {
+   "text": " En",
+   "timestamp": [
+    39.84,
+    39.92
+   ]
+  },
+  {
+   "text": " fait,",
+   "timestamp": [
+    39.92,
+    40.14
+   ]
+  },
+  {
+   "text": " pour",
+   "timestamp": [
+    40.34,
+    40.62
+   ]
+  },
+  {
+   "text": " comprendre",
+   "timestamp": [
+    40.62,
+    40.78
+   ]
+  },
+  {
+   "text": " l",
+   "timestamp": [
+    40.78,
+    40.78
+   ]
+  },
+  {
+   "text": "'engouement,",
+   "timestamp": [
+    40.78,
+    41.54
+   ]
+  },
+  {
+   "text": " il",
+   "timestamp": [
+    41.68,
+    41.74
+   ]
+  },
+  {
+   "text": " faut",
+   "timestamp": [
+    41.74,
+    41.82
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    41.82,
+    41.9
+   ]
+  },
+  {
+   "text": " peu",
+   "timestamp": [
+    41.9,
+    42.1
+   ]
+  },
+  {
+   "text": " changer",
+   "timestamp": [
+    42.1,
+    42.28
+   ]
+  },
+  {
+   "text": " notre",
+   "timestamp": [
+    42.28,
+    42.58
+   ]
+  },
+  {
+   "text": " vision",
+   "timestamp": [
+    42.58,
+    42.74
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    42.74,
+    42.82
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    42.82,
+    43.04
+   ]
+  },
+  {
+   "text": " machine.",
+   "timestamp": [
+    43.04,
+    43.72
+   ]
+  },
+  {
+   "text": " Prends",
+   "timestamp": [
+    44.08,
+    44.28
+   ]
+  },
+  {
+   "text": " «",
+   "timestamp": [
+    44.28,
+    44.4
+   ]
+  },
+  {
+   "text": " Charge",
+   "timestamp": [
+    44.4,
+    44.56
+   ]
+  },
+  {
+   "text": " &",
+   "timestamp": [
+    44.54,
+    44.7
+   ]
+  },
+  {
+   "text": " PT",
+   "timestamp": [
+    44.7,
+    44.8
+   ]
+  },
+  {
+   "text": " »",
+   "timestamp": [
+    44.8,
+    44.92
+   ]
+  },
+  {
+   "text": " par",
+   "timestamp": [
+    44.92,
+    45.18
+   ]
+  },
+  {
+   "text": " exemple.",
+   "timestamp": [
+    45.18,
+    45.46
+   ]
+  },
+  {
+   "text": " C",
+   "timestamp": [
+    45.88,
+    45.88
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    45.88,
+    45.94
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    45.94,
+    46.02
+   ]
+  },
+  {
+   "text": " peu",
+   "timestamp": [
+    46.02,
+    46.12
+   ]
+  },
+  {
+   "text": " l",
+   "timestamp": [
+    46.12,
+    46.12
+   ]
+  },
+  {
+   "text": "'élève",
+   "timestamp": [
+    46.12,
+    46.56
+   ]
+  },
+  {
+   "text": " studio",
+   "timestamp": [
+    46.56,
+    46.94
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    46.94,
+    47.1
+   ]
+  },
+  {
+   "text": " s",
+   "timestamp": [
+    47.1,
+    47.12
+   ]
+  },
+  {
+   "text": "'assoit,",
+   "timestamp": [
+    47.12,
+    47.84
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    48.02,
+    48.22
+   ]
+  },
+  {
+   "text": " réfléchit",
+   "timestamp": [
+    48.22,
+    48.68
+   ]
+  },
+  {
+   "text": " longtemps",
+   "timestamp": [
+    48.68,
+    49.2
+   ]
+  },
+  {
+   "text": " et",
+   "timestamp": [
+    49.2,
+    49.38
+   ]
+  },
+  {
+   "text": " te",
+   "timestamp": [
+    49.38,
+    49.5
+   ]
+  },
+  {
+   "text": " pond",
+   "timestamp": [
+    49.5,
+    49.6
+   ]
+  },
+  {
+   "text": " une",
+   "timestamp": [
+    49.6,
+    49.9
+   ]
+  },
+  {
+   "text": " dissertation",
+   "timestamp": [
+    49.9,
+    50.3
+   ]
+  },
+  {
+   "text": " complexe.",
+   "timestamp": [
+    50.3,
+    50.64
+   ]
+  },
+  {
+   "text": " Le",
+   "timestamp": [
+    51.12,
+    51.3
+   ]
+  },
+  {
+   "text": " fameux",
+   "timestamp": [
+    51.3,
+    51.8
+   ]
+  },
+  {
+   "text": " système",
+   "timestamp": [
+    51.8,
+    52.04
+   ]
+  },
+  {
+   "text": " 2",
+   "timestamp": [
+    52.04,
+    52.1
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    52.1,
+    52.2
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    52.2,
+    52.36
+   ]
+  },
+  {
+   "text": " pensée,",
+   "timestamp": [
+    52.36,
+    52.56
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    52.76,
+    52.96
+   ]
+  },
+  {
+   "text": " réflexion",
+   "timestamp": [
+    52.96,
+    53.32
+   ]
+  },
+  {
+   "text": " lente.",
+   "timestamp": [
+    53.32,
+    53.56
+   ]
+  },
+  {
+   "text": " Voilà,",
+   "timestamp": [
+    53.84,
+    54.16
+   ]
+  },
+  {
+   "text": " tout",
+   "timestamp": [
+    54.16,
+    54.32
+   ]
+  },
+  {
+   "text": " à",
+   "timestamp": [
+    54.32,
+    54.38
+   ]
+  },
+  {
+   "text": " fait.",
+   "timestamp": [
+    54.38,
+    54.64
+   ]
+  },
+  {
+   "text": " Alors",
+   "timestamp": [
+    55.06,
+    55.24
+   ]
+  },
+  {
+   "text": " que",
+   "timestamp": [
+    55.24,
+    55.4
+   ]
+  },
+  {
+   "text": " «",
+   "timestamp": [
+    55.4,
+    55.4
+   ]
+  },
+  {
+   "text": " Jive",
+   "timestamp": [
+    55.4,
+    56.46
+   ]
+  },
+  {
+   "text": " »",
+   "timestamp": [
+    56.46,
+    56.66
+   ]
+  },
+  {
+   "text": " d",
+   "timestamp": [
+    56.66,
+    56.66
+   ]
+  },
+  {
+   "text": "'après",
+   "timestamp": [
+    56.66,
+    56.96
+   ]
+  },
+  {
+   "text": " les",
+   "timestamp": [
+    56.96,
+    57.08
+   ]
+  },
+  {
+   "text": " notes",
+   "timestamp": [
+    57.08,
+    57.34
+   ]
+  },
+  {
+   "text": " techniques,",
+   "timestamp": [
+    57.34,
+    57.52
+   ]
+  },
+  {
+   "text": " c",
+   "timestamp": [
+    57.78,
+    57.8
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    57.8,
+    57.92
+   ]
+  },
+  {
+   "text": " l",
+   "timestamp": [
+    57.92,
+    57.92
+   ]
+  },
+  {
+   "text": "'élève",
+   "timestamp": [
+    57.92,
+    58.26
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    58.26,
+    58.42
+   ]
+  },
+  {
+   "text": " passe",
+   "timestamp": [
+    58.42,
+    58.58
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    58.58,
+    58.72
+   ]
+  },
+  {
+   "text": " QCM",
+   "timestamp": [
+    58.72,
+    59.08
+   ]
+  },
+  {
+   "text": " à",
+   "timestamp": [
+    59.08,
+    59.18
+   ]
+  },
+  {
+   "text": " toute",
+   "timestamp": [
+    59.18,
+    59.4
+   ]
+  },
+  {
+   "text": " vitesse.",
+   "timestamp": [
+    59.4,
+    59.76
+   ]
+  },
+  {
+   "text": " Donc",
+   "timestamp": [
+    60.08,
+    60.18
+   ]
+  },
+  {
+   "text": " il",
+   "timestamp": [
+    60.18,
+    60.36
+   ]
+  },
+  {
+   "text": " regarde",
+   "timestamp": [
+    60.36,
+    60.56
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    60.56,
+    60.78
+   ]
+  },
+  {
+   "text": " feuille,",
+   "timestamp": [
+    60.78,
+    61.2
+   ]
+  },
+  {
+   "text": " il",
+   "timestamp": [
+    61.2,
+    61.28
+   ]
+  },
+  {
+   "text": " coche",
+   "timestamp": [
+    61.28,
+    61.46
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    61.46,
+    61.6
+   ]
+  },
+  {
+   "text": " bonne",
+   "timestamp": [
+    61.6,
+    61.78
+   ]
+  },
+  {
+   "text": " case",
+   "timestamp": [
+    61.78,
+    61.88
+   ]
+  },
+  {
+   "text": " à",
+   "timestamp": [
+    61.88,
+    61.96
+   ]
+  },
+  {
+   "text": " l",
+   "timestamp": [
+    61.96,
+    62
+   ]
+  },
+  {
+   "text": "'instinct",
+   "timestamp": [
+    62,
+    62.44
+   ]
+  },
+  {
+   "text": " en",
+   "timestamp": [
+    62.44,
+    62.56
+   ]
+  },
+  {
+   "text": " une",
+   "timestamp": [
+    62.56,
+    62.68
+   ]
+  },
+  {
+   "text": " fraction",
+   "timestamp": [
+    62.68,
+    62.92
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    62.92,
+    63.12
+   ]
+  },
+  {
+   "text": " seconde",
+   "timestamp": [
+    63.12,
+    63.26
+   ]
+  },
+  {
+   "text": " et",
+   "timestamp": [
+    63.26,
+    63.32
+   ]
+  },
+  {
+   "text": " il",
+   "timestamp": [
+    63.32,
+    63.42
+   ]
+  },
+  {
+   "text": " passe",
+   "timestamp": [
+    63.42,
+    63.52
+   ]
+  },
+  {
+   "text": " à",
+   "timestamp": [
+    63.52,
+    63.58
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    63.58,
+    63.7
+   ]
+  },
+  {
+   "text": " suite.",
+   "timestamp": [
+    63.7,
+    63.94
+   ]
+  },
+  {
+   "text": " Le",
+   "timestamp": [
+    64.44,
+    64.7
+   ]
+  },
+  {
+   "text": " système",
+   "timestamp": [
+    64.7,
+    65
+   ]
+  },
+  {
+   "text": " 1,",
+   "timestamp": [
+    65,
+    65.26
+   ]
+  },
+  {
+   "text": " en",
+   "timestamp": [
+    65.32,
+    65.44
+   ]
+  },
+  {
+   "text": " gros.",
+   "timestamp": [
+    65.44,
+    65.52
+   ]
+  },
+  {
+   "text": " Exactement.",
+   "timestamp": [
+    65.76,
+    66.64
+   ]
+  },
+  {
+   "text": " Et",
+   "timestamp": [
+    66.98,
+    67.1
+   ]
+  },
+  {
+   "text": " techniquement,",
+   "timestamp": [
+    67.1,
+    67.4
+   ]
+  },
+  {
+   "text": " ça",
+   "timestamp": [
+    67.54,
+    67.6
+   ]
+  },
+  {
+   "text": " s",
+   "timestamp": [
+    67.6,
+    67.6
+   ]
+  },
+  {
+   "text": "'explique",
+   "timestamp": [
+    67.6,
+    68.06
+   ]
+  },
+  {
+   "text": " parce",
+   "timestamp": [
+    68.06,
+    68.2
+   ]
+  },
+  {
+   "text": " que",
+   "timestamp": [
+    68.2,
+    68.88
+   ]
+  },
+  {
+   "text": " nos",
+   "timestamp": [
+    69.16,
+    69.34
+   ]
+  },
+  {
+   "text": " hiéogénératives",
+   "timestamp": [
+    69.34,
+    70.06
+   ]
+  },
+  {
+   "text": " habituelles,",
+   "timestamp": [
+    70.06,
+    70.44
+   ]
+  },
+  {
+   "text": " ce",
+   "timestamp": [
+    70.44,
+    70.6
+   ]
+  },
+  {
+   "text": " sont",
+   "timestamp": [
+    70.6,
+    70.72
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    70.72,
+    70.9
+   ]
+  },
+  {
+   "text": " décodeurs.",
+   "timestamp": [
+    70.9,
+    71.64
+   ]
+  },
+  {
+   "text": " Leur",
+   "timestamp": [
+    71.88,
+    72.1
+   ]
+  },
+  {
+   "text": " but,",
+   "timestamp": [
+    72.1,
+    72.28
+   ]
+  },
+  {
+   "text": " c",
+   "timestamp": [
+    72.34,
+    72.34
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    72.34,
+    72.5
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    72.5,
+    72.68
+   ]
+  },
+  {
+   "text": " prédire",
+   "timestamp": [
+    72.68,
+    73
+   ]
+  },
+  {
+   "text": " le",
+   "timestamp": [
+    73,
+    73.1
+   ]
+  },
+  {
+   "text": " mot",
+   "timestamp": [
+    73.1,
+    73.34
+   ]
+  },
+  {
+   "text": " suivant",
+   "timestamp": [
+    73.34,
+    73.62
+   ]
+  },
+  {
+   "text": " pour",
+   "timestamp": [
+    73.62,
+    73.82
+   ]
+  },
+  {
+   "text": " créer",
+   "timestamp": [
+    73.82,
+    73.96
+   ]
+  },
+  {
+   "text": " du",
+   "timestamp": [
+    73.96,
+    74.14
+   ]
+  },
+  {
+   "text": " texte.",
+   "timestamp": [
+    74.14,
+    74.8
+   ]
+  },
+  {
+   "text": " D",
+   "timestamp": [
+    75.04,
+    75.04
+   ]
+  },
+  {
+   "text": "'accord.",
+   "timestamp": [
+    75.04,
+    75.48
+   ]
+  },
+  {
+   "text": " Imagine",
+   "timestamp": [
+    75.98,
+    76.28
+   ]
+  },
+  {
+   "text": " plein",
+   "timestamp": [
+    76.28,
+    76.38
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    76.38,
+    76.44
+   ]
+  },
+  {
+   "text": " miroirs",
+   "timestamp": [
+    76.44,
+    76.82
+   ]
+  },
+  {
+   "text": " placés",
+   "timestamp": [
+    76.82,
+    77.1
+   ]
+  },
+  {
+   "text": " face",
+   "timestamp": [
+    77.1,
+    77.22
+   ]
+  },
+  {
+   "text": " à",
+   "timestamp": [
+    77.22,
+    77.38
+   ]
+  },
+  {
+   "text": " face.",
+   "timestamp": [
+    77.38,
+    77.64
+   ]
+  },
+  {
+   "text": " L",
+   "timestamp": [
+    77.82,
+    77.82
+   ]
+  },
+  {
+   "text": "'information",
+   "timestamp": [
+    77.82,
+    78.36
+   ]
+  },
+  {
+   "text": " rebondit,",
+   "timestamp": [
+    78.36,
+    78.78
+   ]
+  },
+  {
+   "text": " elle",
+   "timestamp": [
+    78.84,
+    78.94
+   ]
+  },
+  {
+   "text": " s",
+   "timestamp": [
+    78.94,
+    78.96
+   ]
+  },
+  {
+   "text": "'étire,",
+   "timestamp": [
+    78.96,
+    79.28
+   ]
+  },
+  {
+   "text": " elle",
+   "timestamp": [
+    79.34,
+    79.44
+   ]
+  },
+  {
+   "text": " se",
+   "timestamp": [
+    79.44,
+    79.56
+   ]
+  },
+  {
+   "text": " déforme.",
+   "timestamp": [
+    79.56,
+    80.44
+   ]
+  },
+  {
+   "text": " Ce",
+   "timestamp": [
+    80.68,
+    80.74
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    80.74,
+    80.8
+   ]
+  },
+  {
+   "text": " est",
+   "timestamp": [
+    80.8,
+    80.96
+   ]
+  },
+  {
+   "text": " génial",
+   "timestamp": [
+    80.96,
+    81.22
+   ]
+  },
+  {
+   "text": " pour",
+   "timestamp": [
+    81.22,
+    81.36
+   ]
+  },
+  {
+   "text": " inventer",
+   "timestamp": [
+    81.36,
+    81.6
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    81.6,
+    81.76
+   ]
+  },
+  {
+   "text": " histoires,",
+   "timestamp": [
+    81.76,
+    81.84
+   ]
+  },
+  {
+   "text": " mais",
+   "timestamp": [
+    82,
+    82.1
+   ]
+  },
+  {
+   "text": " c",
+   "timestamp": [
+    82.1,
+    82.1
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    82.1,
+    82.2
+   ]
+  },
+  {
+   "text": " ça",
+   "timestamp": [
+    82.2,
+    82.3
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    82.3,
+    82.46
+   ]
+  },
+  {
+   "text": " crée",
+   "timestamp": [
+    82.46,
+    82.62
+   ]
+  },
+  {
+   "text": " les",
+   "timestamp": [
+    82.62,
+    82.88
+   ]
+  },
+  {
+   "text": " hallucinations,",
+   "timestamp": [
+    82.88,
+    83.3
+   ]
+  },
+  {
+   "text": " en",
+   "timestamp": [
+    83.38,
+    83.48
+   ]
+  },
+  {
+   "text": " fait.",
+   "timestamp": [
+    83.48,
+    83.64
+   ]
+  },
+  {
+   "text": " Mais",
+   "timestamp": [
+    83.86,
+    83.96
+   ]
+  },
+  {
+   "text": " c",
+   "timestamp": [
+    83.96,
+    83.98
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    83.98,
+    84.22
+   ]
+  },
+  {
+   "text": " exactement",
+   "timestamp": [
+    84.22,
+    84.44
+   ]
+  },
+  {
+   "text": " ça.",
+   "timestamp": [
+    84.44,
+    84.88
+   ]
+  },
+  {
+   "text": " L",
+   "timestamp": [
+    85.08,
+    85.1
+   ]
+  },
+  {
+   "text": "'image",
+   "timestamp": [
+    85.1,
+    85.42
+   ]
+  },
+  {
+   "text": " finit",
+   "timestamp": [
+    85.42,
+    85.7
+   ]
+  },
+  {
+   "text": " toujours",
+   "timestamp": [
+    85.7,
+    85.88
+   ]
+  },
+  {
+   "text": " par",
+   "timestamp": [
+    85.88,
+    86.02
+   ]
+  },
+  {
+   "text": " ce",
+   "timestamp": [
+    86.02,
+    86.18
+   ]
+  },
+  {
+   "text": " tordre",
+   "timestamp": [
+    86.18,
+    86.36
+   ]
+  },
+  {
+   "text": " à",
+   "timestamp": [
+    86.36,
+    86.46
+   ]
+  },
+  {
+   "text": " force",
+   "timestamp": [
+    86.46,
+    86.6
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    86.6,
+    86.68
+   ]
+  },
+  {
+   "text": " rebondir.",
+   "timestamp": [
+    86.68,
+    87.46
+   ]
+  },
+  {
+   "text": " Alors",
+   "timestamp": [
+    87.88,
+    88.04
+   ]
+  },
+  {
+   "text": " que",
+   "timestamp": [
+    88.04,
+    88.18
+   ]
+  },
+  {
+   "text": " Jive,",
+   "timestamp": [
+    88.18,
+    88.3
+   ]
+  },
+  {
+   "text": " lui,",
+   "timestamp": [
+    88.4,
+    89.02
+   ]
+  },
+  {
+   "text": " c",
+   "timestamp": [
+    90.1,
+    90.1
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    90.1,
+    90.24
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    90.24,
+    90.36
+   ]
+  },
+  {
+   "text": " encodeur.",
+   "timestamp": [
+    90.36,
+    91.16
+   ]
+  },
+  {
+   "text": " Donc",
+   "timestamp": [
+    91.6,
+    91.74
+   ]
+  },
+  {
+   "text": " il",
+   "timestamp": [
+    91.74,
+    91.92
+   ]
+  },
+  {
+   "text": " génère",
+   "timestamp": [
+    91.92,
+    92.32
+   ]
+  },
+  {
+   "text": " rien",
+   "timestamp": [
+    92.32,
+    92.48
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    92.48,
+    92.62
+   ]
+  },
+  {
+   "text": " nouveau.",
+   "timestamp": [
+    92.62,
+    92.84
+   ]
+  },
+  {
+   "text": " Rien",
+   "timestamp": [
+    93.16,
+    93.4
+   ]
+  },
+  {
+   "text": " du",
+   "timestamp": [
+    93.4,
+    93.54
+   ]
+  },
+  {
+   "text": " tout.",
+   "timestamp": [
+    93.54,
+    94.12
+   ]
+  },
+  {
+   "text": " C",
+   "timestamp": [
+    94.38,
+    94.38
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    94.38,
+    94.48
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    94.48,
+    94.6
+   ]
+  },
+  {
+   "text": " seul",
+   "timestamp": [
+    94.6,
+    94.72
+   ]
+  },
+  {
+   "text": " miroir,",
+   "timestamp": [
+    94.72,
+    95.14
+   ]
+  },
+  {
+   "text": " parfaitement",
+   "timestamp": [
+    95.32,
+    95.66
+   ]
+  },
+  {
+   "text": " plat.",
+   "timestamp": [
+    95.66,
+    96.08
+   ]
+  },
+  {
+   "text": " Il",
+   "timestamp": [
+    96.44,
+    96.62
+   ]
+  },
+  {
+   "text": " prend",
+   "timestamp": [
+    96.62,
+    96.72
+   ]
+  },
+  {
+   "text": " l",
+   "timestamp": [
+    96.72,
+    96.72
+   ]
+  },
+  {
+   "text": "'info,",
+   "timestamp": [
+    96.72,
+    97.24
+   ]
+  },
+  {
+   "text": " il",
+   "timestamp": [
+    97.32,
+    97.54
+   ]
+  },
+  {
+   "text": " regarde",
+   "timestamp": [
+    97.54,
+    97.68
+   ]
+  },
+  {
+   "text": " les",
+   "timestamp": [
+    97.68,
+    97.84
+   ]
+  },
+  {
+   "text": " données",
+   "timestamp": [
+    97.84,
+    98.04
+   ]
+  },
+  {
+   "text": " telles",
+   "timestamp": [
+    98.04,
+    98.16
+   ]
+  },
+  {
+   "text": " qu",
+   "timestamp": [
+    98.16,
+    98.18
+   ]
+  },
+  {
+   "text": "'elles",
+   "timestamp": [
+    98.18,
+    98.44
+   ]
+  },
+  {
+   "text": " sont,",
+   "timestamp": [
+    98.44,
+    98.82
+   ]
+  },
+  {
+   "text": " et",
+   "timestamp": [
+    99.08,
+    99.18
+   ]
+  },
+  {
+   "text": " il",
+   "timestamp": [
+    99.18,
+    99.28
+   ]
+  },
+  {
+   "text": " coche",
+   "timestamp": [
+    99.28,
+    99.48
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    99.48,
+    99.62
+   ]
+  },
+  {
+   "text": " case",
+   "timestamp": [
+    99.62,
+    99.78
+   ]
+  },
+  {
+   "text": " du",
+   "timestamp": [
+    99.78,
+    99.88
+   ]
+  },
+  {
+   "text": " QCAM",
+   "timestamp": [
+    99.88,
+    100.28
+   ]
+  },
+  {
+   "text": " direct.",
+   "timestamp": [
+    100.28,
+    100.92
+   ]
+  },
+  {
+   "text": " Oui,",
+   "timestamp": [
+    101.22,
+    101.36
+   ]
+  },
+  {
+   "text": " enfin,",
+   "timestamp": [
+    101.42,
+    101.52
+   ]
+  },
+  {
+   "text": " je",
+   "timestamp": [
+    101.54,
+    101.64
+   ]
+  },
+  {
+   "text": " dois",
+   "timestamp": [
+    101.64,
+    101.84
+   ]
+  },
+  {
+   "text": " avouer",
+   "timestamp": [
+    101.84,
+    102
+   ]
+  },
+  {
+   "text": " que",
+   "timestamp": [
+    102,
+    102.18
+   ]
+  },
+  {
+   "text": " je",
+   "timestamp": [
+    102.18,
+    102.3
+   ]
+  },
+  {
+   "text": " suis",
+   "timestamp": [
+    102.3,
+    102.4
+   ]
+  },
+  {
+   "text": " quand",
+   "timestamp": [
+    102.4,
+    102.5
+   ]
+  },
+  {
+   "text": " même",
+   "timestamp": [
+    102.5,
+    102.68
+   ]
+  },
+  {
+   "text": " resté",
+   "timestamp": [
+    102.68,
+    102.78
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    102.78,
+    102.88
+   ]
+  },
+  {
+   "text": " peu",
+   "timestamp": [
+    102.88,
+    103
+   ]
+  },
+  {
+   "text": " sceptique",
+   "timestamp": [
+    103,
+    103.44
+   ]
+  },
+  {
+   "text": " à",
+   "timestamp": [
+    103.44,
+    103.52
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    103.52,
+    103.68
+   ]
+  },
+  {
+   "text": " lecture",
+   "timestamp": [
+    103.68,
+    103.86
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    103.86,
+    104
+   ]
+  },
+  {
+   "text": " ses",
+   "timestamp": [
+    104,
+    104.14
+   ]
+  },
+  {
+   "text": " recherches.",
+   "timestamp": [
+    104.14,
+    104.5
+   ]
+  },
+  {
+   "text": " Ah",
+   "timestamp": [
+    104.78,
+    104.86
+   ]
+  },
+  {
+   "text": " bon?",
+   "timestamp": [
+    104.86,
+    105.24
+   ]
+  },
+  {
+   "text": " Pourquoi?",
+   "timestamp": [
+    105.24,
+    105.7
+   ]
+  },
+  {
+   "text": " Bah,",
+   "timestamp": [
+    105.82,
+    106.56
+   ]
+  },
+  {
+   "text": " si",
+   "timestamp": [
+    106.88,
+    107.1
+   ]
+  },
+  {
+   "text": " cette",
+   "timestamp": [
+    107.1,
+    107.26
+   ]
+  },
+  {
+   "text": " IA",
+   "timestamp": [
+    107.26,
+    107.62
+   ]
+  },
+  {
+   "text": " elle",
+   "timestamp": [
+    107.62,
+    107.76
+   ]
+  },
+  {
+   "text": " fait",
+   "timestamp": [
+    107.76,
+    107.98
+   ]
+  },
+  {
+   "text": " juste",
+   "timestamp": [
+    107.98,
+    108.24
+   ]
+  },
+  {
+   "text": " que",
+   "timestamp": [
+    108.24,
+    108.52
+   ]
+  },
+  {
+   "text": " trier",
+   "timestamp": [
+    108.52,
+    108.7
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    108.7,
+    108.98
+   ]
+  },
+  {
+   "text": " données",
+   "timestamp": [
+    108.98,
+    109.18
+   ]
+  },
+  {
+   "text": " dans",
+   "timestamp": [
+    109.18,
+    109.34
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    109.34,
+    109.62
+   ]
+  },
+  {
+   "text": " cases,",
+   "timestamp": [
+    109.62,
+    110.02
+   ]
+  },
+  {
+   "text": " en",
+   "timestamp": [
+    110.12,
+    110.22
+   ]
+  },
+  {
+   "text": " quoi",
+   "timestamp": [
+    110.22,
+    110.34
+   ]
+  },
+  {
+   "text": " c",
+   "timestamp": [
+    110.34,
+    110.36
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    110.36,
+    110.64
+   ]
+  },
+  {
+   "text": " différent",
+   "timestamp": [
+    110.64,
+    110.68
+   ]
+  },
+  {
+   "text": " d",
+   "timestamp": [
+    110.8,
+    110.8
+   ]
+  },
+  {
+   "text": "'un",
+   "timestamp": [
+    110.8,
+    111.04
+   ]
+  },
+  {
+   "text": " vieux",
+   "timestamp": [
+    111.04,
+    111.3
+   ]
+  },
+  {
+   "text": " filtre",
+   "timestamp": [
+    111.3,
+    111.66
+   ]
+  },
+  {
+   "text": " anti",
+   "timestamp": [
+    111.66,
+    111.78
+   ]
+  },
+  {
+   "text": "-spam",
+   "timestamp": [
+    111.78,
+    112.08
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    112.08,
+    112.26
+   ]
+  },
+  {
+   "text": " années",
+   "timestamp": [
+    112.26,
+    112.5
+   ]
+  },
+  {
+   "text": " 2000,",
+   "timestamp": [
+    112.5,
+    112.66
+   ]
+  },
+  {
+   "text": " tu",
+   "timestamp": [
+    112.66,
+    112.8
+   ]
+  },
+  {
+   "text": " vois.",
+   "timestamp": [
+    112.8,
+    113.16
+   ]
+  },
+  {
+   "text": " Pourquoi",
+   "timestamp": [
+    113.82,
+    114.04
+   ]
+  },
+  {
+   "text": " tout",
+   "timestamp": [
+    114.04,
+    114.12
+   ]
+  },
+  {
+   "text": " ce",
+   "timestamp": [
+    114.12,
+    114.3
+   ]
+  },
+  {
+   "text": " battage",
+   "timestamp": [
+    114.3,
+    114.6
+   ]
+  },
+  {
+   "text": " médiatique",
+   "timestamp": [
+    114.6,
+    114.94
+   ]
+  },
+  {
+   "text": " pour",
+   "timestamp": [
+    114.94,
+    115.04
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    115.04,
+    115.16
+   ]
+  },
+  {
+   "text": " truc",
+   "timestamp": [
+    115.16,
+    115.32
+   ]
+  },
+  {
+   "text": " si",
+   "timestamp": [
+    115.32,
+    115.5
+   ]
+  },
+  {
+   "text": " basique?",
+   "timestamp": [
+    115.5,
+    115.8
+   ]
+  },
+  {
+   "text": " C",
+   "timestamp": [
+    116.38,
+    116.38
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    116.38,
+    116.48
+   ]
+  },
+  {
+   "text": " une",
+   "timestamp": [
+    116.48,
+    116.64
+   ]
+  },
+  {
+   "text": " super",
+   "timestamp": [
+    116.64,
+    116.88
+   ]
+  },
+  {
+   "text": " question.",
+   "timestamp": [
+    116.88,
+    117.12
+   ]
+  },
+  {
+   "text": " Le",
+   "timestamp": [
+    117.74,
+    117.88
+   ]
+  },
+  {
+   "text": " truc",
+   "timestamp": [
+    117.88,
+    117.98
+   ]
+  },
+  {
+   "text": " c",
+   "timestamp": [
+    117.98,
+    117.98
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    117.98,
+    118.08
+   ]
+  },
+  {
+   "text": " que",
+   "timestamp": [
+    118.08,
+    118.18
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    118.18,
+    118.42
+   ]
+  },
+  {
+   "text": " faille",
+   "timestamp": [
+    118.42,
+    118.58
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    118.58,
+    118.78
+   ]
+  },
+  {
+   "text": " anciens",
+   "timestamp": [
+    118.78,
+    119.12
+   ]
+  },
+  {
+   "text": " filtres,",
+   "timestamp": [
+    119.12,
+    119.42
+   ]
+  },
+  {
+   "text": " c",
+   "timestamp": [
+    119.8,
+    119.84
+   ]
+  },
+  {
+   "text": "'était",
+   "timestamp": [
+    119.84,
+    120.06
+   ]
+  },
+  {
+   "text": " leur",
+   "timestamp": [
+    120.06,
+    120.3
+   ]
+  },
+  {
+   "text": " rigidité.",
+   "timestamp": [
+    120.3,
+    120.64
+   ]
+  },
+  {
+   "text": " Fallait",
+   "timestamp": [
+    121.36,
+    121.58
+   ]
+  },
+  {
+   "text": " les",
+   "timestamp": [
+    121.58,
+    121.84
+   ]
+  },
+  {
+   "text": " entraîner",
+   "timestamp": [
+    121.84,
+    122.12
+   ]
+  },
+  {
+   "text": " avec",
+   "timestamp": [
+    122.12,
+    122.3
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    122.3,
+    122.74
+   ]
+  },
+  {
+   "text": " milliers",
+   "timestamp": [
+    122.74,
+    123.1
+   ]
+  },
+  {
+   "text": " d",
+   "timestamp": [
+    123.1,
+    123.12
+   ]
+  },
+  {
+   "text": "'exemples",
+   "timestamp": [
+    123.12,
+    123.58
+   ]
+  },
+  {
+   "text": " spécifiques",
+   "timestamp": [
+    123.58,
+    124.32
+   ]
+  },
+  {
+   "text": " juste",
+   "timestamp": [
+    124.32,
+    124.78
+   ]
+  },
+  {
+   "text": " pour",
+   "timestamp": [
+    124.78,
+    124.92
+   ]
+  },
+  {
+   "text": " bloquer",
+   "timestamp": [
+    124.92,
+    125.18
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    125.18,
+    125.34
+   ]
+  },
+  {
+   "text": " spam.",
+   "timestamp": [
+    125.36,
+    125.9
+   ]
+  },
+  {
+   "text": " C",
+   "timestamp": [
+    126.34,
+    126.34
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    126.34,
+    126.54
+   ]
+  },
+  {
+   "text": "-à",
+   "timestamp": [
+    126.54,
+    126.54
+   ]
+  },
+  {
+   "text": "-dire",
+   "timestamp": [
+    126.54,
+    126.66
+   ]
+  },
+  {
+   "text": " que",
+   "timestamp": [
+    126.66,
+    126.76
+   ]
+  },
+  {
+   "text": " si",
+   "timestamp": [
+    126.76,
+    126.84
+   ]
+  },
+  {
+   "text": " on",
+   "timestamp": [
+    126.84,
+    126.98
+   ]
+  },
+  {
+   "text": " voulait",
+   "timestamp": [
+    126.98,
+    127.16
+   ]
+  },
+  {
+   "text": " l",
+   "timestamp": [
+    127.16,
+    127.16
+   ]
+  },
+  {
+   "text": "'utiliser",
+   "timestamp": [
+    127.16,
+    127.66
+   ]
+  },
+  {
+   "text": " pour",
+   "timestamp": [
+    127.66,
+    127.8
+   ]
+  },
+  {
+   "text": " trier",
+   "timestamp": [
+    127.8,
+    127.92
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    127.92,
+    128.08
+   ]
+  },
+  {
+   "text": " factures,",
+   "timestamp": [
+    128.08,
+    128.38
+   ]
+  },
+  {
+   "text": " après,",
+   "timestamp": [
+    128.54,
+    128.76
+   ]
+  },
+  {
+   "text": " fallait",
+   "timestamp": [
+    129.08,
+    129.22
+   ]
+  },
+  {
+   "text": " tout",
+   "timestamp": [
+    129.22,
+    129.32
+   ]
+  },
+  {
+   "text": " reprendre",
+   "timestamp": [
+    129.32,
+    129.54
+   ]
+  },
+  {
+   "text": " à",
+   "timestamp": [
+    129.54,
+    129.6
+   ]
+  },
+  {
+   "text": " zéro.",
+   "timestamp": [
+    129.6,
+    129.62
+   ]
+  },
+  {
+   "text": " Ouais,",
+   "timestamp": [
+    130.34,
+    130.48
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    130.6,
+    130.74
+   ]
+  },
+  {
+   "text": " grosse",
+   "timestamp": [
+    130.74,
+    130.92
+   ]
+  },
+  {
+   "text": " galère.",
+   "timestamp": [
+    130.92,
+    131.56
+   ]
+  },
+  {
+   "text": " La",
+   "timestamp": [
+    131.72,
+    131.88
+   ]
+  },
+  {
+   "text": " force",
+   "timestamp": [
+    131.88,
+    132
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    132,
+    132.14
+   ]
+  },
+  {
+   "text": " Jive,",
+   "timestamp": [
+    132.14,
+    132.48
+   ]
+  },
+  {
+   "text": " c",
+   "timestamp": [
+    132.58,
+    132.58
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    132.58,
+    132.72
+   ]
+  },
+  {
+   "text": " qu",
+   "timestamp": [
+    132.72,
+    132.76
+   ]
+  },
+  {
+   "text": "'il",
+   "timestamp": [
+    132.76,
+    133.06
+   ]
+  },
+  {
+   "text": " comprend",
+   "timestamp": [
+    133.06,
+    133.42
+   ]
+  },
+  {
+   "text": " naturellement",
+   "timestamp": [
+    133.42,
+    133.86
+   ]
+  },
+  {
+   "text": " le",
+   "timestamp": [
+    133.86,
+    134.04
+   ]
+  },
+  {
+   "text": " langage",
+   "timestamp": [
+    134.04,
+    134.34
+   ]
+  },
+  {
+   "text": " direct,",
+   "timestamp": [
+    134.44,
+    135.06
+   ]
+  },
+  {
+   "text": " sans",
+   "timestamp": [
+    135.44,
+    135.7
+   ]
+  },
+  {
+   "text": " aucun",
+   "timestamp": [
+    135.7,
+    135.92
+   ]
+  },
+  {
+   "text": " entraînement",
+   "timestamp": [
+    135.92,
+    136.24
+   ]
+  },
+  {
+   "text": " préalable",
+   "timestamp": [
+    136.24,
+    136.64
+   ]
+  },
+  {
+   "text": " sur",
+   "timestamp": [
+    136.64,
+    136.76
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    136.76,
+    136.9
+   ]
+  },
+  {
+   "text": " nouvelle",
+   "timestamp": [
+    136.9,
+    137.1
+   ]
+  },
+  {
+   "text": " tâche.",
+   "timestamp": [
+    137.1,
+    137.4
+   ]
+  },
+  {
+   "text": " C",
+   "timestamp": [
+    137.48,
+    137.48
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    137.48,
+    137.56
+   ]
+  },
+  {
+   "text": " ce",
+   "timestamp": [
+    137.56,
+    137.62
+   ]
+  },
+  {
+   "text": " qu",
+   "timestamp": [
+    137.62,
+    137.64
+   ]
+  },
+  {
+   "text": "'on",
+   "timestamp": [
+    137.64,
+    137.82
+   ]
+  },
+  {
+   "text": " appelle",
+   "timestamp": [
+    137.82,
+    138.06
+   ]
+  },
+  {
+   "text": " le",
+   "timestamp": [
+    138.06,
+    138.24
+   ]
+  },
+  {
+   "text": " zéro",
+   "timestamp": [
+    138.24,
+    138.5
+   ]
+  },
+  {
+   "text": " shot.",
+   "timestamp": [
+    138.52,
+    139.04
+   ]
+  },
+  {
+   "text": " Ah",
+   "timestamp": [
+    139.26,
+    139.32
+   ]
+  },
+  {
+   "text": " ouais",
+   "timestamp": [
+    139.32,
+    139.44
+   ]
+  },
+  {
+   "text": " d",
+   "timestamp": [
+    139.44,
+    139.48
+   ]
+  },
+  {
+   "text": "'accord,",
+   "timestamp": [
+    139.48,
+    139.64
+   ]
+  },
+  {
+   "text": " donc",
+   "timestamp": [
+    139.7,
+    139.88
+   ]
+  },
+  {
+   "text": " on",
+   "timestamp": [
+    139.88,
+    140.1
+   ]
+  },
+  {
+   "text": " peut",
+   "timestamp": [
+    140.1,
+    140.38
+   ]
+  },
+  {
+   "text": " littéralement",
+   "timestamp": [
+    140.38,
+    140.84
+   ]
+  },
+  {
+   "text": " changer",
+   "timestamp": [
+    140.84,
+    141.06
+   ]
+  },
+  {
+   "text": " les",
+   "timestamp": [
+    141.06,
+    141.2
+   ]
+  },
+  {
+   "text": " règles",
+   "timestamp": [
+    141.2,
+    141.34
+   ]
+  },
+  {
+   "text": " en",
+   "timestamp": [
+    141.34,
+    141.42
+   ]
+  },
+  {
+   "text": " cours",
+   "timestamp": [
+    141.42,
+    141.54
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    141.54,
+    141.62
+   ]
+  },
+  {
+   "text": " route.",
+   "timestamp": [
+    141.68,
+    141.98
+   ]
+  },
+  {
+   "text": " C",
+   "timestamp": [
+    142.08,
+    142.08
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    142.08,
+    142.22
+   ]
+  },
+  {
+   "text": " ça.",
+   "timestamp": [
+    142.22,
+    142.76
+   ]
+  },
+  {
+   "text": " Les",
+   "timestamp": [
+    142.96,
+    143.08
+   ]
+  },
+  {
+   "text": " ingénieurs",
+   "timestamp": [
+    143.08,
+    143.38
+   ]
+  },
+  {
+   "text": " appellent",
+   "timestamp": [
+    143.38,
+    143.62
+   ]
+  },
+  {
+   "text": " ça",
+   "timestamp": [
+    143.62,
+    143.9
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    143.9,
+    144.3
+   ]
+  },
+  {
+   "text": " Smart",
+   "timestamp": [
+    144.3,
+    144.66
+   ]
+  },
+  {
+   "text": " If,",
+   "timestamp": [
+    144.66,
+    145.4
+   ]
+  },
+  {
+   "text": " donc",
+   "timestamp": [
+    145.54,
+    145.74
+   ]
+  },
+  {
+   "text": " une",
+   "timestamp": [
+    145.74,
+    146.08
+   ]
+  },
+  {
+   "text": " condition",
+   "timestamp": [
+    146.08,
+    146.34
+   ]
+  },
+  {
+   "text": " intelligente.",
+   "timestamp": [
+    146.34,
+    146.8
+   ]
+  },
+  {
+   "text": " Un",
+   "timestamp": [
+    147.38,
+    147.46
+   ]
+  },
+  {
+   "text": " peu",
+   "timestamp": [
+    147.46,
+    147.7
+   ]
+  },
+  {
+   "text": " comme",
+   "timestamp": [
+    147.7,
+    147.94
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    147.94,
+    148.04
+   ]
+  },
+  {
+   "text": " aiguilleur",
+   "timestamp": [
+    148.04,
+    148.4
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    148.4,
+    148.56
+   ]
+  },
+  {
+   "text": " gare",
+   "timestamp": [
+    148.56,
+    148.82
+   ]
+  },
+  {
+   "text": " super",
+   "timestamp": [
+    148.82,
+    149
+   ]
+  },
+  {
+   "text": " sophistiqué",
+   "timestamp": [
+    149,
+    149.44
+   ]
+  },
+  {
+   "text": " en",
+   "timestamp": [
+    149.44,
+    149.52
+   ]
+  },
+  {
+   "text": " fait.",
+   "timestamp": [
+    149.52,
+    149.6
+   ]
+  },
+  {
+   "text": " Ouais,",
+   "timestamp": [
+    149.9,
+    150.04
+   ]
+  },
+  {
+   "text": " c",
+   "timestamp": [
+    150.06,
+    150.06
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    150.06,
+    150.16
+   ]
+  },
+  {
+   "text": " une",
+   "timestamp": [
+    150.16,
+    150.24
+   ]
+  },
+  {
+   "text": " très",
+   "timestamp": [
+    150.24,
+    150.34
+   ]
+  },
+  {
+   "text": " bonne",
+   "timestamp": [
+    150.34,
+    150.48
+   ]
+  },
+  {
+   "text": " image.",
+   "timestamp": [
+    150.48,
+    151
+   ]
+  },
+  {
+   "text": " Tu",
+   "timestamp": [
+    151.12,
+    151.24
+   ]
+  },
+  {
+   "text": " lui",
+   "timestamp": [
+    151.24,
+    151.34
+   ]
+  },
+  {
+   "text": " donnes",
+   "timestamp": [
+    151.34,
+    151.5
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    151.5,
+    151.66
+   ]
+  },
+  {
+   "text": " texte",
+   "timestamp": [
+    151.66,
+    152.04
+   ]
+  },
+  {
+   "text": " complexe,",
+   "timestamp": [
+    152.04,
+    152.5
+   ]
+  },
+  {
+   "text": " tu",
+   "timestamp": [
+    152.86,
+    152.98
+   ]
+  },
+  {
+   "text": " lui",
+   "timestamp": [
+    152.98,
+    153.22
+   ]
+  },
+  {
+   "text": " définis",
+   "timestamp": [
+    153.22,
+    153.48
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    153.48,
+    153.66
+   ]
+  },
+  {
+   "text": " nouvelles",
+   "timestamp": [
+    153.66,
+    153.7
+   ]
+  },
+  {
+   "text": " gare",
+   "timestamp": [
+    153.82,
+    154.02
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    154.02,
+    154.4
+   ]
+  },
+  {
+   "text": " destination",
+   "timestamp": [
+    154.4,
+    154.82
+   ]
+  },
+  {
+   "text": " à",
+   "timestamp": [
+    154.82,
+    154.9
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    154.9,
+    155.02
+   ]
+  },
+  {
+   "text": " volée,",
+   "timestamp": [
+    155.02,
+    155.32
+   ]
+  },
+  {
+   "text": " et",
+   "timestamp": [
+    155.86,
+    155.98
+   ]
+  },
+  {
+   "text": " le",
+   "timestamp": [
+    155.98,
+    156.14
+   ]
+  },
+  {
+   "text": " modèle",
+   "timestamp": [
+    156.14,
+    156.38
+   ]
+  },
+  {
+   "text": " roue",
+   "timestamp": [
+    156.38,
+    156.54
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    156.54,
+    156.9
+   ]
+  },
+  {
+   "text": " millions",
+   "timestamp": [
+    156.9,
+    157.08
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    157.08,
+    157.24
+   ]
+  },
+  {
+   "text": " requêtes",
+   "timestamp": [
+    157.24,
+    157.62
+   ]
+  },
+  {
+   "text": " sont",
+   "timestamp": [
+    157.62,
+    157.86
+   ]
+  },
+  {
+   "text": " jamais",
+   "timestamp": [
+    157.86,
+    157.86
+   ]
+  },
+  {
+   "text": " se",
+   "timestamp": [
+    158.04,
+    158.08
+   ]
+  },
+  {
+   "text": " trompées.",
+   "timestamp": [
+    158.08,
+    158.4
+   ]
+  },
+  {
+   "text": " Et",
+   "timestamp": [
+    158.54,
+    158.64
+   ]
+  },
+  {
+   "text": " vu",
+   "timestamp": [
+    158.64,
+    158.76
+   ]
+  },
+  {
+   "text": " qu",
+   "timestamp": [
+    158.76,
+    158.8
+   ]
+  },
+  {
+   "text": "'il",
+   "timestamp": [
+    158.8,
+    158.88
+   ]
+  },
+  {
+   "text": " n",
+   "timestamp": [
+    158.88,
+    158.88
+   ]
+  },
+  {
+   "text": "'a",
+   "timestamp": [
+    158.88,
+    159
+   ]
+  },
+  {
+   "text": " pas",
+   "timestamp": [
+    159,
+    159.22
+   ]
+  },
+  {
+   "text": " besoin",
+   "timestamp": [
+    159.22,
+    159.42
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    159.42,
+    159.66
+   ]
+  },
+  {
+   "text": " générer",
+   "timestamp": [
+    159.66,
+    159.94
+   ]
+  },
+  {
+   "text": " du",
+   "timestamp": [
+    159.94,
+    160.16
+   ]
+  },
+  {
+   "text": " texte",
+   "timestamp": [
+    160.16,
+    160.72
+   ]
+  },
+  {
+   "text": " ou",
+   "timestamp": [
+    160.72,
+    161.1
+   ]
+  },
+  {
+   "text": " d",
+   "timestamp": [
+    161.1,
+    161.12
+   ]
+  },
+  {
+   "text": "'être",
+   "timestamp": [
+    161.12,
+    161.42
+   ]
+  },
+  {
+   "text": " entraîné",
+   "timestamp": [
+    161.42,
+    161.48
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    161.66,
+    161.82
+   ]
+  },
+  {
+   "text": " mois,",
+   "timestamp": [
+    161.82,
+    162.26
+   ]
+  },
+  {
+   "text": " ça",
+   "timestamp": [
+    162.38,
+    162.48
+   ]
+  },
+  {
+   "text": " doit",
+   "timestamp": [
+    162.48,
+    162.6
+   ]
+  },
+  {
+   "text": " être",
+   "timestamp": [
+    162.6,
+    162.78
+   ]
+  },
+  {
+   "text": " hyper",
+   "timestamp": [
+    162.78,
+    163
+   ]
+  },
+  {
+   "text": " rapide",
+   "timestamp": [
+    163,
+    163.24
+   ]
+  },
+  {
+   "text": " et",
+   "timestamp": [
+    163.24,
+    163.54
+   ]
+  },
+  {
+   "text": " surtout",
+   "timestamp": [
+    163.54,
+    164.42
+   ]
+  },
+  {
+   "text": " super",
+   "timestamp": [
+    164.42,
+    164.64
+   ]
+  },
+  {
+   "text": " peu",
+   "timestamp": [
+    164.64,
+    164.84
+   ]
+  },
+  {
+   "text": " cher,",
+   "timestamp": [
+    164.84,
+    164.92
+   ]
+  },
+  {
+   "text": " non?",
+   "timestamp": [
+    165,
+    165.42
+   ]
+  },
+  {
+   "text": " C",
+   "timestamp": [
+    165.56,
+    165.6
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    165.6,
+    165.72
+   ]
+  },
+  {
+   "text": " aurissant.",
+   "timestamp": [
+    165.72,
+    166.68
+   ]
+  },
+  {
+   "text": " Dans",
+   "timestamp": [
+    167.02,
+    167.16
+   ]
+  },
+  {
+   "text": " les",
+   "timestamp": [
+    167.16,
+    167.4
+   ]
+  },
+  {
+   "text": " sources,",
+   "timestamp": [
+    167.4,
+    167.82
+   ]
+  },
+  {
+   "text": " il",
+   "timestamp": [
+    167.9,
+    167.9
+   ]
+  },
+  {
+   "text": " y",
+   "timestamp": [
+    167.9,
+    167.92
+   ]
+  },
+  {
+   "text": " a",
+   "timestamp": [
+    167.92,
+    168.08
+   ]
+  },
+  {
+   "text": " cette",
+   "timestamp": [
+    168.08,
+    168.14
+   ]
+  },
+  {
+   "text": " anecdote",
+   "timestamp": [
+    168.34,
+    168.66
+   ]
+  },
+  {
+   "text": " géniale",
+   "timestamp": [
+    168.66,
+    169.42
+   ]
+  },
+  {
+   "text": " où",
+   "timestamp": [
+    169.42,
+    169.58
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    169.58,
+    169.7
+   ]
+  },
+  {
+   "text": " dev",
+   "timestamp": [
+    169.7,
+    169.88
+   ]
+  },
+  {
+   "text": " a",
+   "timestamp": [
+    169.88,
+    170.02
+   ]
+  },
+  {
+   "text": " carrément",
+   "timestamp": [
+    170.02,
+    170.46
+   ]
+  },
+  {
+   "text": " branché",
+   "timestamp": [
+    170.46,
+    170.88
+   ]
+  },
+  {
+   "text": " Jive",
+   "timestamp": [
+    170.88,
+    171.24
+   ]
+  },
+  {
+   "text": " sur",
+   "timestamp": [
+    171.24,
+    171.44
+   ]
+  },
+  {
+   "text": " Super",
+   "timestamp": [
+    171.44,
+    171.68
+   ]
+  },
+  {
+   "text": " Mario.",
+   "timestamp": [
+    171.68,
+    172.16
+   ]
+  },
+  {
+   "text": " Ah",
+   "timestamp": [
+    172.6,
+    172.78
+   ]
+  },
+  {
+   "text": " oui,",
+   "timestamp": [
+    172.78,
+    172.88
+   ]
+  },
+  {
+   "text": " j",
+   "timestamp": [
+    172.9,
+    172.92
+   ]
+  },
+  {
+   "text": "'ai",
+   "timestamp": [
+    172.92,
+    173
+   ]
+  },
+  {
+   "text": " vu",
+   "timestamp": [
+    173,
+    173.16
+   ]
+  },
+  {
+   "text": " ça!",
+   "timestamp": [
+    173.16,
+    174.06
+   ]
+  },
+  {
+   "text": " L",
+   "timestamp": [
+    174.38,
+    174.42
+   ]
+  },
+  {
+   "text": "'IA",
+   "timestamp": [
+    174.42,
+    174.98
+   ]
+  },
+  {
+   "text": " analyse",
+   "timestamp": [
+    174.98,
+    175.18
+   ]
+  },
+  {
+   "text": " le",
+   "timestamp": [
+    175.18,
+    175.42
+   ]
+  },
+  {
+   "text": " terrain",
+   "timestamp": [
+    175.42,
+    176.02
+   ]
+  },
+  {
+   "text": " et",
+   "timestamp": [
+    176.02,
+    176.22
+   ]
+  },
+  {
+   "text": " choisit",
+   "timestamp": [
+    176.22,
+    176.5
+   ]
+  },
+  {
+   "text": " le",
+   "timestamp": [
+    176.5,
+    176.72
+   ]
+  },
+  {
+   "text": " bouton",
+   "timestamp": [
+    176.72,
+    177.02
+   ]
+  },
+  {
+   "text": " apprécié",
+   "timestamp": [
+    177.02,
+    177.32
+   ]
+  },
+  {
+   "text": " en",
+   "timestamp": [
+    177.32,
+    177.48
+   ]
+  },
+  {
+   "text": " temps",
+   "timestamp": [
+    177.48,
+    177.68
+   ]
+  },
+  {
+   "text": " réel",
+   "timestamp": [
+    177.68,
+    177.76
+   ]
+  },
+  {
+   "text": " pour",
+   "timestamp": [
+    177.92,
+    178.12
+   ]
+  },
+  {
+   "text": " jouer.",
+   "timestamp": [
+    178.12,
+    178.62
+   ]
+  },
+  {
+   "text": " C",
+   "timestamp": [
+    179.04,
+    179.04
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    179.04,
+    179.16
+   ]
+  },
+  {
+   "text": " quand",
+   "timestamp": [
+    179.16,
+    179.28
+   ]
+  },
+  {
+   "text": " même",
+   "timestamp": [
+    179.28,
+    179.46
+   ]
+  },
+  {
+   "text": " assez",
+   "timestamp": [
+    179.46,
+    179.6
+   ]
+  },
+  {
+   "text": " qu",
+   "timestamp": [
+    179.6,
+    179.72
+   ]
+  },
+  {
+   "text": "'aucasse",
+   "timestamp": [
+    179.72,
+    179.94
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    179.94,
+    180.08
+   ]
+  },
+  {
+   "text": " voir",
+   "timestamp": [
+    180.08,
+    180.2
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    180.2,
+    180.4
+   ]
+  },
+  {
+   "text": " meilleure",
+   "timestamp": [
+    180.4,
+    180.52
+   ]
+  },
+  {
+   "text": " tech",
+   "timestamp": [
+    180.68,
+    180.82
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    180.82,
+    180.92
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    180.92,
+    181.12
+   ]
+  },
+  {
+   "text": " décennie",
+   "timestamp": [
+    181.12,
+    181.88
+   ]
+  },
+  {
+   "text": " servir",
+   "timestamp": [
+    181.88,
+    182.12
+   ]
+  },
+  {
+   "text": " à",
+   "timestamp": [
+    182.12,
+    182.26
+   ]
+  },
+  {
+   "text": " écraser",
+   "timestamp": [
+    182.26,
+    182.6
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    182.6,
+    182.76
+   ]
+  },
+  {
+   "text": " champignons",
+   "timestamp": [
+    182.76,
+    183.26
+   ]
+  },
+  {
+   "text": " virtuels.",
+   "timestamp": [
+    183.26,
+    183.6
+   ]
+  },
+  {
+   "text": " C",
+   "timestamp": [
+    184.04,
+    184.08
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    184.08,
+    184.22
+   ]
+  },
+  {
+   "text": " drôle,",
+   "timestamp": [
+    184.22,
+    184.34
+   ]
+  },
+  {
+   "text": " oui.",
+   "timestamp": [
+    184.44,
+    184.92
+   ]
+  },
+  {
+   "text": " Mais",
+   "timestamp": [
+    185.08,
+    185.26
+   ]
+  },
+  {
+   "text": " ça",
+   "timestamp": [
+    185.26,
+    185.4
+   ]
+  },
+  {
+   "text": " montre",
+   "timestamp": [
+    185.4,
+    185.58
+   ]
+  },
+  {
+   "text": " une",
+   "timestamp": [
+    185.58,
+    185.74
+   ]
+  },
+  {
+   "text": " réactivité",
+   "timestamp": [
+    185.74,
+    186.48
+   ]
+  },
+  {
+   "text": " extrême,",
+   "timestamp": [
+    186.48,
+    186.82
+   ]
+  },
+  {
+   "text": " tu",
+   "timestamp": [
+    186.84,
+    186.96
+   ]
+  },
+  {
+   "text": " vois.",
+   "timestamp": [
+    186.96,
+    186.96
+   ]
+  },
+  {
+   "text": " Ça",
+   "timestamp": [
+    187.76,
+    187.94
+   ]
+  },
+  {
+   "text": " permet",
+   "timestamp": [
+    187.94,
+    188.1
+   ]
+  },
+  {
+   "text": " aussi",
+   "timestamp": [
+    188.1,
+    188.22
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    188.22,
+    188.32
+   ]
+  },
+  {
+   "text": " régler",
+   "timestamp": [
+    188.32,
+    188.54
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    188.54,
+    188.82
+   ]
+  },
+  {
+   "text": " vrai",
+   "timestamp": [
+    188.82,
+    189.1
+   ]
+  },
+  {
+   "text": " problème",
+   "timestamp": [
+    189.1,
+    189.44
+   ]
+  },
+  {
+   "text": " moderne,",
+   "timestamp": [
+    189.44,
+    189.92
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    189.98,
+    190.14
+   ]
+  },
+  {
+   "text": " fameuse",
+   "timestamp": [
+    190.14,
+    191.02
+   ]
+  },
+  {
+   "text": " fatigue",
+   "timestamp": [
+    191.02,
+    191.58
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    191.58,
+    191.72
+   ]
+  },
+  {
+   "text": " LIA.",
+   "timestamp": [
+    191.72,
+    191.8
+   ]
+  },
+  {
+   "text": " Ah",
+   "timestamp": [
+    192.7,
+    192.88
+   ]
+  },
+  {
+   "text": " oui,",
+   "timestamp": [
+    192.88,
+    193.34
+   ]
+  },
+  {
+   "text": " le",
+   "timestamp": [
+    193.54,
+    193.7
+   ]
+  },
+  {
+   "text": " fait",
+   "timestamp": [
+    193.7,
+    193.86
+   ]
+  },
+  {
+   "text": " que",
+   "timestamp": [
+    193.86,
+    194.08
+   ]
+  },
+  {
+   "text": " les",
+   "timestamp": [
+    194.08,
+    194.42
+   ]
+  },
+  {
+   "text": " assistants",
+   "timestamp": [
+    194.42,
+    194.68
+   ]
+  },
+  {
+   "text": " virtuels",
+   "timestamp": [
+    194.68,
+    195.06
+   ]
+  },
+  {
+   "text": " s",
+   "timestamp": [
+    195.06,
+    195.08
+   ]
+  },
+  {
+   "text": "'arrêtent",
+   "timestamp": [
+    195.08,
+    195.38
+   ]
+  },
+  {
+   "text": " tout",
+   "timestamp": [
+    195.38,
+    195.48
+   ]
+  },
+  {
+   "text": " le",
+   "timestamp": [
+    195.48,
+    195.6
+   ]
+  },
+  {
+   "text": " temps",
+   "timestamp": [
+    195.6,
+    195.8
+   ]
+  },
+  {
+   "text": " pour",
+   "timestamp": [
+    195.8,
+    196.06
+   ]
+  },
+  {
+   "text": " demander",
+   "timestamp": [
+    196.06,
+    196.08
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    196.26,
+    196.44
+   ]
+  },
+  {
+   "text": " validations",
+   "timestamp": [
+    196.44,
+    196.96
+   ]
+  },
+  {
+   "text": " humaines",
+   "timestamp": [
+    196.96,
+    197.24
+   ]
+  },
+  {
+   "text": " avant",
+   "timestamp": [
+    197.24,
+    197.32
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    197.32,
+    197.42
+   ]
+  },
+  {
+   "text": " faire",
+   "timestamp": [
+    197.42,
+    197.5
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    197.5,
+    197.66
+   ]
+  },
+  {
+   "text": " truc.",
+   "timestamp": [
+    197.66,
+    197.72
+   ]
+  },
+  {
+   "text": " Exactement.",
+   "timestamp": [
+    198.16,
+    199.06
+   ]
+  },
+  {
+   "text": " Jif",
+   "timestamp": [
+    199.3,
+    199.5
+   ]
+  },
+  {
+   "text": " peut",
+   "timestamp": [
+    199.5,
+    199.7
+   ]
+  },
+  {
+   "text": " servir",
+   "timestamp": [
+    199.7,
+    199.94
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    199.94,
+    200.14
+   ]
+  },
+  {
+   "text": " filtres",
+   "timestamp": [
+    200.14,
+    200.6
+   ]
+  },
+  {
+   "text": " ultra",
+   "timestamp": [
+    200.6,
+    200.84
+   ]
+  },
+  {
+   "text": " rapides",
+   "timestamp": [
+    200.84,
+    201.56
+   ]
+  },
+  {
+   "text": " pour",
+   "timestamp": [
+    201.56,
+    201.76
+   ]
+  },
+  {
+   "text": " router",
+   "timestamp": [
+    201.76,
+    201.98
+   ]
+  },
+  {
+   "text": " ses",
+   "timestamp": [
+    201.98,
+    202.14
+   ]
+  },
+  {
+   "text": " tâches.",
+   "timestamp": [
+    202.14,
+    202.2
+   ]
+  },
+  {
+   "text": " Et",
+   "timestamp": [
+    203.04,
+    203.14
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    203.14,
+    203.3
+   ]
+  },
+  {
+   "text": " validés",
+   "timestamp": [
+    203.3,
+    203.48
+   ]
+  },
+  {
+   "text": " en",
+   "timestamp": [
+    203.48,
+    203.62
+   ]
+  },
+  {
+   "text": " coulisses,",
+   "timestamp": [
+    203.62,
+    204.3
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    204.5,
+    204.78
+   ]
+  },
+  {
+   "text": " machine",
+   "timestamp": [
+    204.78,
+    205.18
+   ]
+  },
+  {
+   "text": " à",
+   "timestamp": [
+    205.18,
+    205.4
+   ]
+  },
+  {
+   "text": " machine.",
+   "timestamp": [
+    205.4,
+    205.52
+   ]
+  },
+  {
+   "text": " Ce",
+   "timestamp": [
+    206.24,
+    206.34
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    206.34,
+    206.44
+   ]
+  },
+  {
+   "text": " nous",
+   "timestamp": [
+    206.44,
+    206.58
+   ]
+  },
+  {
+   "text": " amène",
+   "timestamp": [
+    206.58,
+    206.78
+   ]
+  },
+  {
+   "text": " d",
+   "timestamp": [
+    206.78,
+    206.88
+   ]
+  },
+  {
+   "text": "'ailleurs",
+   "timestamp": [
+    206.88,
+    207.3
+   ]
+  },
+  {
+   "text": " à",
+   "timestamp": [
+    207.3,
+    207.42
+   ]
+  },
+  {
+   "text": " l",
+   "timestamp": [
+    207.42,
+    207.48
+   ]
+  },
+  {
+   "text": "'impact",
+   "timestamp": [
+    207.48,
+    207.96
+   ]
+  },
+  {
+   "text": " économique.",
+   "timestamp": [
+    207.96,
+    208.24
+   ]
+  },
+  {
+   "text": " Nos",
+   "timestamp": [
+    208.84,
+    209.1
+   ]
+  },
+  {
+   "text": " notes",
+   "timestamp": [
+    209.1,
+    209.38
+   ]
+  },
+  {
+   "text": " parlent",
+   "timestamp": [
+    209.38,
+    209.5
+   ]
+  },
+  {
+   "text": " d",
+   "timestamp": [
+    209.5,
+    209.52
+   ]
+  },
+  {
+   "text": "'un",
+   "timestamp": [
+    209.52,
+    209.78
+   ]
+  },
+  {
+   "text": " concept",
+   "timestamp": [
+    209.78,
+    210.18
+   ]
+  },
+  {
+   "text": " clé",
+   "timestamp": [
+    210.18,
+    210.48
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    210.48,
+    210.58
+   ]
+  },
+  {
+   "text": " a",
+   "timestamp": [
+    210.58,
+    210.8
+   ]
+  },
+  {
+   "text": " inspiré",
+   "timestamp": [
+    210.8,
+    211.12
+   ]
+  },
+  {
+   "text": " le",
+   "timestamp": [
+    211.12,
+    211.36
+   ]
+  },
+  {
+   "text": " nom",
+   "timestamp": [
+    211.36,
+    211.48
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    211.48,
+    211.6
+   ]
+  },
+  {
+   "text": " LIA,",
+   "timestamp": [
+    211.6,
+    212.2
+   ]
+  },
+  {
+   "text": " le",
+   "timestamp": [
+    212.34,
+    212.76
+   ]
+  },
+  {
+   "text": " paradoxe",
+   "timestamp": [
+    212.76,
+    213.06
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    213.06,
+    213.26
+   ]
+  },
+  {
+   "text": " Gévan.",
+   "timestamp": [
+    213.26,
+    213.52
+   ]
+  },
+  {
+   "text": " Oui,",
+   "timestamp": [
+    213.94,
+    214.16
+   ]
+  },
+  {
+   "text": " ce",
+   "timestamp": [
+    214.26,
+    214.5
+   ]
+  },
+  {
+   "text": " paradoxe",
+   "timestamp": [
+    214.5,
+    214.78
+   ]
+  },
+  {
+   "text": " dit",
+   "timestamp": [
+    214.78,
+    214.94
+   ]
+  },
+  {
+   "text": " que",
+   "timestamp": [
+    214.94,
+    215.14
+   ]
+  },
+  {
+   "text": " plus",
+   "timestamp": [
+    215.14,
+    215.26
+   ]
+  },
+  {
+   "text": " une",
+   "timestamp": [
+    215.26,
+    215.42
+   ]
+  },
+  {
+   "text": " technologie",
+   "timestamp": [
+    215.42,
+    215.88
+   ]
+  },
+  {
+   "text": " est",
+   "timestamp": [
+    215.88,
+    216.14
+   ]
+  },
+  {
+   "text": " performante",
+   "timestamp": [
+    216.14,
+    216.44
+   ]
+  },
+  {
+   "text": " et",
+   "timestamp": [
+    216.44,
+    216.56
+   ]
+  },
+  {
+   "text": " pas",
+   "timestamp": [
+    216.56,
+    216.7
+   ]
+  },
+  {
+   "text": " chère,",
+   "timestamp": [
+    216.7,
+    217.2
+   ]
+  },
+  {
+   "text": " plus",
+   "timestamp": [
+    217.38,
+    217.56
+   ]
+  },
+  {
+   "text": " son",
+   "timestamp": [
+    217.56,
+    217.74
+   ]
+  },
+  {
+   "text": " utilisation",
+   "timestamp": [
+    217.74,
+    218.12
+   ]
+  },
+  {
+   "text": " explose.",
+   "timestamp": [
+    218.3,
+    218.72
+   ]
+  },
+  {
+   "text": " Donc",
+   "timestamp": [
+    218.92,
+    219.28
+   ]
+  },
+  {
+   "text": " analyser",
+   "timestamp": [
+    219.28,
+    219.56
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    219.56,
+    219.76
+   ]
+  },
+  {
+   "text": " millions",
+   "timestamp": [
+    219.76,
+    219.94
+   ]
+  },
+  {
+   "text": " d",
+   "timestamp": [
+    219.94,
+    219.94
+   ]
+  },
+  {
+   "text": "'avis",
+   "timestamp": [
+    219.94,
+    220.32
+   ]
+  },
+  {
+   "text": " clients,",
+   "timestamp": [
+    220.32,
+    220.68
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    220.8,
+    220.94
+   ]
+  },
+  {
+   "text": " fameuse",
+   "timestamp": [
+    220.94,
+    221.32
+   ]
+  },
+  {
+   "text": " dark",
+   "timestamp": [
+    221.32,
+    221.58
+   ]
+  },
+  {
+   "text": " data",
+   "timestamp": [
+    221.58,
+    221.8
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    221.8,
+    221.92
+   ]
+  },
+  {
+   "text": " coûtait",
+   "timestamp": [
+    221.92,
+    222.12
+   ]
+  },
+  {
+   "text": " une",
+   "timestamp": [
+    222.12,
+    222.38
+   ]
+  },
+  {
+   "text": " fortune,",
+   "timestamp": [
+    222.38,
+    223.12
+   ]
+  },
+  {
+   "text": " avec",
+   "timestamp": [
+    223.32,
+    223.48
+   ]
+  },
+  {
+   "text": " les",
+   "timestamp": [
+    223.48,
+    223.64
+   ]
+  },
+  {
+   "text": " hiages",
+   "timestamp": [
+    223.64,
+    223.98
+   ]
+  },
+  {
+   "text": " génératives,",
+   "timestamp": [
+    223.98,
+    224.34
+   ]
+  },
+  {
+   "text": " ça",
+   "timestamp": [
+    224.48,
+    224.68
+   ]
+  },
+  {
+   "text": " devient",
+   "timestamp": [
+    224.68,
+    224.86
+   ]
+  },
+  {
+   "text": " faisable.",
+   "timestamp": [
+    224.86,
+    225.34
+   ]
+  },
+  {
+   "text": " Voilà,",
+   "timestamp": [
+    225.72,
+    226.12
+   ]
+  },
+  {
+   "text": " avec",
+   "timestamp": [
+    226.24,
+    226.4
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    226.4,
+    226.58
+   ]
+  },
+  {
+   "text": " encodeur",
+   "timestamp": [
+    226.58,
+    227
+   ]
+  },
+  {
+   "text": " rapide,",
+   "timestamp": [
+    227,
+    227.44
+   ]
+  },
+  {
+   "text": " le",
+   "timestamp": [
+    227.6,
+    227.74
+   ]
+  },
+  {
+   "text": " coût",
+   "timestamp": [
+    227.74,
+    228.02
+   ]
+  },
+  {
+   "text": " tombe",
+   "timestamp": [
+    228.02,
+    228.16
+   ]
+  },
+  {
+   "text": " à",
+   "timestamp": [
+    228.28,
+    228.6
+   ]
+  },
+  {
+   "text": " une",
+   "timestamp": [
+    228.78,
+    228.98
+   ]
+  },
+  {
+   "text": " fraction",
+   "timestamp": [
+    228.98,
+    229.24
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    229.24,
+    229.36
+   ]
+  },
+  {
+   "text": " centime.",
+   "timestamp": [
+    229.36,
+    229.92
+   ]
+  },
+  {
+   "text": " Donc",
+   "timestamp": [
+    230.18,
+    230.32
+   ]
+  },
+  {
+   "text": " ça",
+   "timestamp": [
+    230.32,
+    230.46
+   ]
+  },
+  {
+   "text": " rend",
+   "timestamp": [
+    230.46,
+    230.8
+   ]
+  },
+  {
+   "text": " hyper",
+   "timestamp": [
+    230.8,
+    231.1
+   ]
+  },
+  {
+   "text": " rentable",
+   "timestamp": [
+    231.1,
+    231.38
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    231.38,
+    231.58
+   ]
+  },
+  {
+   "text": " milliards",
+   "timestamp": [
+    231.58,
+    231.8
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    231.82,
+    231.94
+   ]
+  },
+  {
+   "text": " micro",
+   "timestamp": [
+    232.08,
+    232.3
+   ]
+  },
+  {
+   "text": " décisions",
+   "timestamp": [
+    232.3,
+    232.74
+   ]
+  },
+  {
+   "text": " invisibles",
+   "timestamp": [
+    232.74,
+    233.02
+   ]
+  },
+  {
+   "text": " qu",
+   "timestamp": [
+    233.02,
+    233.06
+   ]
+  },
+  {
+   "text": "'on",
+   "timestamp": [
+    233.06,
+    233.26
+   ]
+  },
+  {
+   "text": " ignorait",
+   "timestamp": [
+    233.26,
+    233.5
+   ]
+  },
+  {
+   "text": " jusque",
+   "timestamp": [
+    233.5,
+    233.66
+   ]
+  },
+  {
+   "text": "-là?",
+   "timestamp": [
+    233.66,
+    234.22
+   ]
+  },
+  {
+   "text": " C",
+   "timestamp": [
+    234.38,
+    234.38
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    234.38,
+    234.54
+   ]
+  },
+  {
+   "text": " fou!",
+   "timestamp": [
+    234.54,
+    234.56
+   ]
+  },
+  {
+   "text": " C",
+   "timestamp": [
+    235.3,
+    235.3
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    235.3,
+    235.42
+   ]
+  },
+  {
+   "text": " une",
+   "timestamp": [
+    235.42,
+    235.5
+   ]
+  },
+  {
+   "text": " brique",
+   "timestamp": [
+    235.5,
+    235.72
+   ]
+  },
+  {
+   "text": " fondamentale",
+   "timestamp": [
+    235.72,
+    236.18
+   ]
+  },
+  {
+   "text": " pour",
+   "timestamp": [
+    236.18,
+    236.32
+   ]
+  },
+  {
+   "text": " nos",
+   "timestamp": [
+    236.32,
+    236.54
+   ]
+  },
+  {
+   "text": " applis,",
+   "timestamp": [
+    236.54,
+    236.84
+   ]
+  },
+  {
+   "text": " mais",
+   "timestamp": [
+    236.92,
+    237.2
+   ]
+  },
+  {
+   "text": " surtout,",
+   "timestamp": [
+    237.2,
+    237.4
+   ]
+  },
+  {
+   "text": " et",
+   "timestamp": [
+    237.46,
+    237.56
+   ]
+  },
+  {
+   "text": " ça",
+   "timestamp": [
+    237.56,
+    237.62
+   ]
+  },
+  {
+   "text": " c",
+   "timestamp": [
+    237.62,
+    237.68
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    237.68,
+    237.84
+   ]
+  },
+  {
+   "text": " crucial,",
+   "timestamp": [
+    237.84,
+    237.96
+   ]
+  },
+  {
+   "text": " c",
+   "timestamp": [
+    238.64,
+    238.64
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    238.64,
+    238.78
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    238.78,
+    238.9
+   ]
+  },
+  {
+   "text": " pièce",
+   "timestamp": [
+    238.9,
+    239.18
+   ]
+  },
+  {
+   "text": " manquante",
+   "timestamp": [
+    239.18,
+    239.66
+   ]
+  },
+  {
+   "text": " pour",
+   "timestamp": [
+    239.66,
+    239.78
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    239.78,
+    240.02
+   ]
+  },
+  {
+   "text": " robotique.",
+   "timestamp": [
+    240.02,
+    241.24
+   ]
+  },
+  {
+   "text": " Attends,",
+   "timestamp": [
+    241.3,
+    241.4
+   ]
+  },
+  {
+   "text": " on",
+   "timestamp": [
+    241.54,
+    241.64
+   ]
+  },
+  {
+   "text": " commence",
+   "timestamp": [
+    241.64,
+    241.78
+   ]
+  },
+  {
+   "text": " à",
+   "timestamp": [
+    241.78,
+    241.8
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    241.84,
+    241.88
+   ]
+  },
+  {
+   "text": " robotique.",
+   "timestamp": [
+    242,
+    242.6
+   ]
+  },
+  {
+   "text": " Oui,",
+   "timestamp": [
+    242.68,
+    242.84
+   ]
+  },
+  {
+   "text": " imagine",
+   "timestamp": [
+    243.16,
+    243.32
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    243.32,
+    243.46
+   ]
+  },
+  {
+   "text": " robot",
+   "timestamp": [
+    243.46,
+    243.78
+   ]
+  },
+  {
+   "text": " humanoïde",
+   "timestamp": [
+    243.78,
+    244.34
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    244.34,
+    244.44
+   ]
+  },
+  {
+   "text": " vaut",
+   "timestamp": [
+    244.44,
+    244.56
+   ]
+  },
+  {
+   "text": " une",
+   "timestamp": [
+    244.56,
+    244.7
+   ]
+  },
+  {
+   "text": " tas",
+   "timestamp": [
+    244.7,
+    244.76
+   ]
+  },
+  {
+   "text": " robot",
+   "timestamp": [
+    245.26,
+    245.26
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    245.26,
+    245.54
+   ]
+  },
+  {
+   "text": " vaudra,",
+   "timestamp": [
+    245.54,
+    245.54
+   ]
+  },
+  {
+   "text": " on",
+   "timestamp": [
+    245.54,
+    245.54
+   ]
+  },
+  {
+   "text": " a",
+   "timestamp": [
+    245.54,
+    245.54
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    245.54,
+    245.54
+   ]
+  },
+  {
+   "text": " robot",
+   "timestamp": [
+    245.54,
+    245.54
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    245.54,
+    245.54
+   ]
+  },
+  {
+   "text": " vaudra,",
+   "timestamp": [
+    245.54,
+    245.54
+   ]
+  },
+  {
+   "text": " on",
+   "timestamp": [
+    247.38,
+    247.38
+   ]
+  },
+  {
+   "text": " a",
+   "timestamp": [
+    247.38,
+    247.4
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    247.4,
+    247.78
+   ]
+  },
+  {
+   "text": " robot",
+   "timestamp": [
+    247.78,
+    247.8
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    247.8,
+    247.8
+   ]
+  },
+  {
+   "text": " vaudra,",
+   "timestamp": [
+    247.8,
+    248.8
+   ]
+  },
+  {
+   "text": " on",
+   "timestamp": [
+    248.8,
+    248.8
+   ]
+  },
+  {
+   "text": " a",
+   "timestamp": [
+    248.8,
+    249
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    249,
+    249
+   ]
+  },
+  {
+   "text": " robot",
+   "timestamp": [
+    249,
+    249
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    249,
+    249
+   ]
+  },
+  {
+   "text": " vaudra,",
+   "timestamp": [
+    249,
+    249.02
+   ]
+  },
+  {
+   "text": " on",
+   "timestamp": [
+    249.86,
+    249.86
+   ]
+  },
+  {
+   "text": " a",
+   "timestamp": [
+    249.86,
+    250.12
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    250.12,
+    250.22
+   ]
+  },
+  {
+   "text": " robot",
+   "timestamp": [
+    250.22,
+    251.32
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    251.32,
+    251.32
+   ]
+  },
+  {
+   "text": " vaudra,",
+   "timestamp": [
+    251.32,
+    251.62
+   ]
+  },
+  {
+   "text": " on",
+   "timestamp": [
+    251.62,
+    251.62
+   ]
+  },
+  {
+   "text": " a",
+   "timestamp": [
+    251.62,
+    252.1
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    252.1,
+    252.1
+   ]
+  },
+  {
+   "text": " robot",
+   "timestamp": [
+    254.14,
+    254.2
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    254.2,
+    254.2
+   ]
+  },
+  {
+   "text": " vaudra,",
+   "timestamp": [
+    254.2,
+    254.58
+   ]
+  },
+  {
+   "text": " on",
+   "timestamp": [
+    254.58,
+    254.58
+   ]
+  },
+  {
+   "text": " a",
+   "timestamp": [
+    254.58,
+    254.58
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    254.58,
+    254.58
+   ]
+  },
+  {
+   "text": " robot",
+   "timestamp": [
+    254.58,
+    254.58
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    254.58,
+    254.58
+   ]
+  },
+  {
+   "text": " vaudra,",
+   "timestamp": [
+    254.58,
+    256.04
+   ]
+  },
+  {
+   "text": " on",
+   "timestamp": [
+    256.04,
+    256.04
+   ]
+  },
+  {
+   "text": " a",
+   "timestamp": [
+    256.04,
+    256.4
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    256.4,
+    256.58
+   ]
+  },
+  {
+   "text": " robot",
+   "timestamp": [
+    256.58,
+    256.58
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    256.58,
+    256.58
+   ]
+  },
+  {
+   "text": " vaudra,",
+   "timestamp": [
+    256.58,
+    258.62
+   ]
+  },
+  {
+   "text": " on",
+   "timestamp": [
+    258.88,
+    258.88
+   ]
+  },
+  {
+   "text": " a",
+   "timestamp": [
+    258.88,
+    259.62
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    259.62,
+    259.94
+   ]
+  },
+  {
+   "text": " robot",
+   "timestamp": [
+    259.94,
+    260.14
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    260.14,
+    260.14
+   ]
+  },
+  {
+   "text": " vaudra,",
+   "timestamp": [
+    261.7,
+    264.04
+   ]
+  },
+  {
+   "text": " on",
+   "timestamp": [
+    264.04,
+    264.04
+   ]
+  },
+  {
+   "text": " a",
+   "timestamp": [
+    264.04,
+    264.48
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    264.48,
+    264.72
+   ]
+  },
+  {
+   "text": " robot",
+   "timestamp": [
+    264.72,
+    265.3
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    265.3,
+    265.3
+   ]
+  },
+  {
+   "text": " vaudra,",
+   "timestamp": [
+    265.3,
+    267
+   ]
+  },
+  {
+   "text": " on",
+   "timestamp": [
+    267.16,
+    267.16
+   ]
+  },
+  {
+   "text": " a",
+   "timestamp": [
+    267.16,
+    267.82
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    267.82,
+    267.82
+   ]
+  },
+  {
+   "text": " robot",
+   "timestamp": [
+    267.82,
+    267.82
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    267.82,
+    267.82
+   ]
+  },
+  {
+   "text": " vaud",
+   "timestamp": [
+    267.82,
+    267.82
+   ]
+  },
+  {
+   "text": " une",
+   "timestamp": [
+    264.48,
+    264.68
+   ]
+  },
+  {
+   "text": " sacrée",
+   "timestamp": [
+    264.68,
+    264.98
+   ]
+  },
+  {
+   "text": " réflexion",
+   "timestamp": [
+    264.98,
+    265.34
+   ]
+  },
+  {
+   "text": " en",
+   "timestamp": [
+    265.34,
+    265.5
+   ]
+  },
+  {
+   "text": " suspens",
+   "timestamp": [
+    265.5,
+    265.84
+   ]
+  },
+  {
+   "text": " pour",
+   "timestamp": [
+    265.84,
+    266
+   ]
+  },
+  {
+   "text": " ceux",
+   "timestamp": [
+    266,
+    266.14
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    266.14,
+    266.24
+   ]
+  },
+  {
+   "text": " nous",
+   "timestamp": [
+    266.24,
+    266.42
+   ]
+  },
+  {
+   "text": " écoutent",
+   "timestamp": [
+    266.42,
+    266.72
+   ]
+  },
+  {
+   "text": " aujourd",
+   "timestamp": [
+    266.72,
+    266.74
+   ]
+  },
+  {
+   "text": "'hui.",
+   "timestamp": [
+    266.74,
+    267
+   ]
+  },
+  {
+   "text": " Ah",
+   "timestamp": [
+    267.18,
+    267.28
+   ]
+  },
+  {
+   "text": " oui,",
+   "timestamp": [
+    267.28,
+    267.42
+   ]
+  },
+  {
+   "text": " laquelle?",
+   "timestamp": [
+    267.58,
+    267.96
+   ]
+  },
+  {
+   "text": " Si",
+   "timestamp": [
+    268.62,
+    268.8
+   ]
+  },
+  {
+   "text": " une",
+   "timestamp": [
+    268.8,
+    268.98
+   ]
+  },
+  {
+   "text": " IA",
+   "timestamp": [
+    268.98,
+    269.26
+   ]
+  },
+  {
+   "text": " a",
+   "timestamp": [
+    269.26,
+    269.38
+   ]
+  },
+  {
+   "text": " fini",
+   "timestamp": [
+    269.38,
+    269.62
+   ]
+  },
+  {
+   "text": " par",
+   "timestamp": [
+    269.62,
+    269.78
+   ]
+  },
+  {
+   "text": " agir",
+   "timestamp": [
+    269.78,
+    270.06
+   ]
+  },
+  {
+   "text": " comme",
+   "timestamp": [
+    270.06,
+    270.2
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    270.2,
+    270.5
+   ]
+  },
+  {
+   "text": " instinct",
+   "timestamp": [
+    270.5,
+    270.72
+   ]
+  },
+  {
+   "text": " numérique",
+   "timestamp": [
+    270.72,
+    271.12
+   ]
+  },
+  {
+   "text": " mondial,",
+   "timestamp": [
+    271.12,
+    271.8
+   ]
+  },
+  {
+   "text": " qu",
+   "timestamp": [
+    271.96,
+    272.02
+   ]
+  },
+  {
+   "text": "'elle",
+   "timestamp": [
+    272.02,
+    272.22
+   ]
+  },
+  {
+   "text": " prend",
+   "timestamp": [
+    272.22,
+    272.42
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    272.42,
+    272.78
+   ]
+  },
+  {
+   "text": " milliards",
+   "timestamp": [
+    272.78,
+    273
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    273,
+    273.2
+   ]
+  },
+  {
+   "text": " décisions",
+   "timestamp": [
+    273.2,
+    273.62
+   ]
+  },
+  {
+   "text": " éclaires",
+   "timestamp": [
+    273.62,
+    273.96
+   ]
+  },
+  {
+   "text": " et",
+   "timestamp": [
+    273.96,
+    274.14
+   ]
+  },
+  {
+   "text": " invisibles",
+   "timestamp": [
+    274.14,
+    274.68
+   ]
+  },
+  {
+   "text": " pour",
+   "timestamp": [
+    274.68,
+    274.92
+   ]
+  },
+  {
+   "text": " filtrer",
+   "timestamp": [
+    274.92,
+    275.3
+   ]
+  },
+  {
+   "text": " notre",
+   "timestamp": [
+    275.3,
+    275.76
+   ]
+  },
+  {
+   "text": " réalité.",
+   "timestamp": [
+    275.76,
+    276
+   ]
+  },
+  {
+   "text": " Oui.",
+   "timestamp": [
+    276.3,
+    276.52
+   ]
+  },
+  {
+   "text": " Au",
+   "timestamp": [
+    276.76,
+    276.96
+   ]
+  },
+  {
+   "text": " final,",
+   "timestamp": [
+    276.96,
+    277.26
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    277.54,
+    277.7
+   ]
+  },
+  {
+   "text": " détient",
+   "timestamp": [
+    277.7,
+    278.04
+   ]
+  },
+  {
+   "text": " vraiment",
+   "timestamp": [
+    278.04,
+    278.16
+   ]
+  },
+  {
+   "text": " le",
+   "timestamp": [
+    278.16,
+    278.32
+   ]
+  },
+  {
+   "text": " pouvoir?",
+   "timestamp": [
+    278.32,
+    279
+   ]
+  },
+  {
+   "text": " Celui",
+   "timestamp": [
+    279.08,
+    279.3
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    279.3,
+    279.6
+   ]
+  },
+  {
+   "text": " prend",
+   "timestamp": [
+    279.6,
+    279.8
+   ]
+  },
+  {
+   "text": " cette",
+   "timestamp": [
+    279.8,
+    280
+   ]
+  },
+  {
+   "text": " décision",
+   "timestamp": [
+    280,
+    280.36
+   ]
+  },
+  {
+   "text": " fulgure",
+   "timestamp": [
+    280.36,
+    280.74
+   ]
+  },
+  {
+   "text": " en",
+   "timestamp": [
+    280.74,
+    280.78
+   ]
+  },
+  {
+   "text": " tant",
+   "timestamp": [
+    280.78,
+    280.96
+   ]
+  },
+  {
+   "text": " bout",
+   "timestamp": [
+    280.96,
+    281.08
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    281.08,
+    281.24
+   ]
+  },
+  {
+   "text": " chaîne,",
+   "timestamp": [
+    281.24,
+    281.44
+   ]
+  },
+  {
+   "text": " ou",
+   "timestamp": [
+    281.88,
+    282.08
+   ]
+  },
+  {
+   "text": " celui",
+   "timestamp": [
+    282.08,
+    282.26
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    282.26,
+    282.36
+   ]
+  },
+  {
+   "text": " a",
+   "timestamp": [
+    282.36,
+    282.74
+   ]
+  },
+  {
+   "text": " discrètement",
+   "timestamp": [
+    282.74,
+    283.32
+   ]
+  },
+  {
+   "text": " défini",
+   "timestamp": [
+    283.32,
+    283.66
+   ]
+  },
+  {
+   "text": " les",
+   "timestamp": [
+    283.66,
+    283.92
+   ]
+  },
+  {
+   "text": " cases",
+   "timestamp": [
+    283.92,
+    284.12
+   ]
+  },
+  {
+   "text": " du",
+   "timestamp": [
+    284.12,
+    284.28
+   ]
+  },
+  {
+   "text": " QCM",
+   "timestamp": [
+    284.28,
+    284.66
+   ]
+  },
+  {
+   "text": " à",
+   "timestamp": [
+    284.66,
+    284.76
+   ]
+  },
+  {
+   "text": " l",
+   "timestamp": [
+    284.76,
+    285.02
+   ]
+  },
+  {
+   "text": "'origine?",
+   "timestamp": [
+    285.02,
+    286
+   ]
+  }
+ ]
+}

@@ -10,14 +10,12 @@ const Blob: React.FC<{color: string; x: number; y: number; r: number; phase: num
     <div
       style={{
         position: 'absolute',
-        left: x + dx - r,
-        top: y + dy - r,
-        width: r * 2,
-        height: r * 2,
-        borderRadius: '50%',
-        background: color,
-        filter: 'blur(140px)',
-        opacity: 0.55,
+        left: x + dx - r * 1.3,
+        top: y + dy - r * 1.3,
+        width: r * 2.6,
+        height: r * 2.6,
+        // radial gradient instead of a CSS blur: same glow, far cheaper to render
+        background: `radial-gradient(circle, ${color}99 0%, ${color}33 40%, transparent 70%)`,
       }}
     />
   );

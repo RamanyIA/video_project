@@ -1,5 +1,6 @@
 import React from 'react';
 import {AbsoluteFill, Audio, interpolate, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
+import {DreamDancers, DreamMood} from './components/Dream';
 import {Lens} from './components/Lens';
 import {Lyrics} from './components/Lyrics';
 import {PowderBackground} from './components/PowderBackground';
@@ -26,8 +27,8 @@ const TitleCard: React.FC<{opacity: number; t: number}> = ({opacity, t}) => (
     >
       Mille poèmes
     </div>
-    <div style={{fontFamily: SANS, fontWeight: 600, fontSize: 38, letterSpacing: 18, color: P.inkSoft, marginTop: 10}}>
-      RAMANY
+    <div style={{fontFamily: SANS, fontWeight: 600, fontSize: 38, letterSpacing: 12, color: P.inkSoft, marginTop: 10}}>
+      DJ RAMZY-AI
     </div>
   </div>
 );
@@ -52,10 +53,13 @@ export const MillePoemes: React.FC = () => {
         <div style={{position: 'absolute', top: 120, left: 0, right: 0, textAlign: 'center', opacity: header}}>
           <span style={{fontFamily: SERIF, fontStyle: 'italic', fontSize: 46, color: P.ink}}>Mille poèmes</span>
           <span style={{fontFamily: SANS, fontWeight: 600, fontSize: 26, letterSpacing: 10, color: P.inkSoft, marginLeft: 22}}>
-            RAMANY
+            DJ RAMZY-AI
           </span>
         </div>
+        <DreamDancers cx={540} cy={790} layer="back" />
         <Lens shots={SHOTS} cx={540} cy={790} size={interpolate(intro, [0, 1], [780, 820])} bloom={bloom} />
+        <DreamDancers cx={540} cy={790} layer="front" />
+        <DreamMood />
         <TitleCard opacity={Math.max(intro, outro)} t={t} />
         <Lyrics top={1300} />
         <Spectrum top={1690} />

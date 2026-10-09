@@ -1,1 +1,26 @@
-{"lines": [{"start": 0, "end": 0, "section": "verse", "words": [{"w": "", "s": 0, "e": 0, "k": false}]}]}
+{
+ "note": "Only phrases recognised with confidence are shown; replace with the full lyrics when available.",
+ "lines": [
+  {"start": 47.6, "end": 52.2, "text": "Quand vient le soir, je compte les heures"},
+  {"start": 52.6, "end": 57.2, "text": "Le vent parle de toi, je te serre contre mon cœur"},
+  {"start": 57.6, "end": 60.0, "text": "Oh, give me, I say give me"},
+  {"start": 60.0, "end": 64.0, "text": "Give it to me, what I want to be"},
+  {"start": 68.0, "end": 71.0, "text": "Give me, give me, I say give me"},
+  {"start": 71.2, "end": 75.5, "text": "And then you love me"},
+  {"start": 86.0, "end": 88.0, "text": "I need you"},
+  {"start": 88.0, "end": 90.0, "text": "Cause you need me"},
+  {"start": 90.0, "end": 94.0, "text": "I need you"},
+  {"start": 100.0, "end": 103.5, "text": "I wrote them all"},
+  {"start": 103.5, "end": 108.5, "text": "I wrote them all for you"},
+  {"start": 129.2, "end": 132.0, "text": "Mon Dieu que je t'aime"},
+  {"start": 132.0, "end": 137.0, "text": "Même si tu es loin…"},
+  {"start": 151.0, "end": 156.0, "text": "Mille poèmes", "big": true},
+  {"start": 156.0, "end": 161.5, "text": "Mille poèmes pour toi", "big": true},
+  {"start": 177.2, "end": 181.6, "text": "Mille poèmes", "big": true},
+  {"start": 256.5, "end": 260.0, "text": "Oh, give me, I say give me"},
+  {"start": 267.0, "end": 270.0, "text": "Give me, give me, I say give me"},
+  {"start": 270.0, "end": 273.0, "text": "And then you love me"},
+  {"start": 276.0, "end": 281.0, "text": "Mille poèmes", "big": true},
+  {"start": 281.0, "end": 284.0, "text": "Cause you need me"}
+ ]
+}

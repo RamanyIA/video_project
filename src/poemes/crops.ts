@@ -6,7 +6,7 @@ const P2 = 'photos/photo2.jpg';
 const P3 = 'photos/photo3.jpg';
 const P4 = 'photos/photo4.jpg';
 
-export type Crop = {src: string; box: Box};
+export type Crop = {src: string; box: Box; srcW?: number; srcH?: number};
 
 export const PC = {
   smile1: {src: P1, box: {x: 600, y: 120, w: 520, h: 520}},
@@ -22,5 +22,5 @@ export const PC = {
   explain: {src: P4, box: {x: 60, y: 0, w: 350, h: 340}},
   dev: {src: P4, box: {x: 335, y: 668, w: 290, h: 300}},
   present: {src: P4, box: {x: 1190, y: 668, w: 346, h: 330}},
-  cover: {src: 'photos/mille-poemes-cover.jpg', box: {x: 0, y: 0, w: 360, h: 360}},
+  cover: {src: 'photos/mille-poemes-cover.jpg', box: {x: 40, y: 40, w: 280, h: 280}, srcW: 360, srcH: 360},
 } satisfies Record<string, Crop>;

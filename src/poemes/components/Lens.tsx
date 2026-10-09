@@ -22,8 +22,8 @@ const ShotImg: React.FC<{shot: Shot; size: number; t: number; seed: number}> = (
         position: 'absolute',
         left: size / 2 - cx * s + pan,
         top: size / 2 - cy * s,
-        width: SRC.w * s,
-        height: SRC.h * s,
+        width: (shot.srcW ?? SRC.w) * s,
+        height: (shot.srcH ?? SRC.h) * s,
         maxWidth: 'none',
         transform: `scale(${zoom})`,
         transformOrigin: `${cx * s}px ${cy * s}px`,
@@ -38,11 +38,13 @@ const ShotImg: React.FC<{shot: Shot; size: number; t: number; seed: number}> = (
 const Splash: React.FC<{r: number; color: string; seed: string; rot: number; scale: number; opacity: number}> = ({
   r, color, seed, rot, scale, opacity,
 }) => {
-  const n = 46;
+  // irregular powder burst: uneven spike lengths and spacing
+  const n = 110;
   const pts: string[] = [];
   for (let i = 0; i < n; i++) {
-    const a = (i / n) * Math.PI * 2;
-    const spike = i % 2 === 0 ? 1 + random(`${seed}${i}`) * 0.55 : 0.78 + random(`${seed}b${i}`) * 0.1;
+    const a = ((i + random(`${seed}j${i}`) * 0.8) / n) * Math.PI * 2;
+    const big = random(`${seed}g${i}`) > 0.7;
+    const spike = i % 2 === 0 ? 0.95 + random(`${seed}${i}`) * (big ? 0.75 : 0.3) : 0.8 + random(`${seed}b${i}`) * 0.12;
     pts.push(`${Math.cos(a) * r * spike},${Math.sin(a) * r * spike}`);
   }
   const id = `g${seed}`;
@@ -55,8 +57,8 @@ const Splash: React.FC<{r: number; color: string; seed: string; rot: number; sca
     >
       <defs>
         <radialGradient id={id}>
-          <stop offset="45%" stopColor={color} stopOpacity={0.95} />
-          <stop offset="80%" stopColor={color} stopOpacity={0.45} />
+          <stop offset="40%" stopColor={color} stopOpacity={0.85} />
+          <stop offset="72%" stopColor={color} stopOpacity={0.35} />
           <stop offset="100%" stopColor={color} stopOpacity={0} />
         </radialGradient>
       </defs>

@@ -1,26 +1,430 @@
 {
- "note": "Only phrases recognised with confidence are shown; replace with the full lyrics when available.",
  "lines": [
-  {"start": 47.6, "end": 52.2, "text": "Quand vient le soir, je compte les heures"},
-  {"start": 52.6, "end": 57.2, "text": "Le vent parle de toi, je te serre contre mon cœur"},
-  {"start": 57.6, "end": 60.0, "text": "Oh, give me, I say give me"},
-  {"start": 60.0, "end": 64.0, "text": "Give it to me, what I want to be"},
-  {"start": 68.0, "end": 71.0, "text": "Give me, give me, I say give me"},
-  {"start": 71.2, "end": 75.5, "text": "And then you love me"},
-  {"start": 86.0, "end": 88.0, "text": "I need you"},
-  {"start": 88.0, "end": 90.0, "text": "Cause you need me"},
-  {"start": 90.0, "end": 94.0, "text": "I need you"},
-  {"start": 100.0, "end": 103.5, "text": "I wrote them all"},
-  {"start": 103.5, "end": 108.5, "text": "I wrote them all for you"},
-  {"start": 129.2, "end": 132.0, "text": "Mon Dieu que je t'aime"},
-  {"start": 132.0, "end": 137.0, "text": "Même si tu es loin…"},
-  {"start": 151.0, "end": 156.0, "text": "Mille poèmes", "big": true},
-  {"start": 156.0, "end": 161.5, "text": "Mille poèmes pour toi", "big": true},
-  {"start": 177.2, "end": 181.6, "text": "Mille poèmes", "big": true},
-  {"start": 256.5, "end": 260.0, "text": "Oh, give me, I say give me"},
-  {"start": 267.0, "end": 270.0, "text": "Give me, give me, I say give me"},
-  {"start": 270.0, "end": 273.0, "text": "And then you love me"},
-  {"start": 276.0, "end": 281.0, "text": "Mille poèmes", "big": true},
-  {"start": 281.0, "end": 284.0, "text": "Cause you need me"}
+  {
+   "start": 25.8,
+   "end": 30.4,
+   "text": "மாலை வரும்போது, உன்னை நினைக்கிறேன்,",
+   "big": false
+  },
+  {
+   "start": 30.4,
+   "end": 35.4,
+   "text": "மணிநேரங்களை எண்ணிய பின்னும்.",
+   "big": false
+  },
+  {
+   "start": 35.4,
+   "end": 41.4,
+   "text": "மாலைக் காற்று உன்னைப் பற்றிப் பேசுகிறது,",
+   "big": false
+  },
+  {
+   "start": 41.4,
+   "end": 47.0,
+   "text": "நான் உன்னை என் இதயத்தோடு அணைத்துக்கொள்கிறேன்.",
+   "big": false
+  },
+  {
+   "start": 47.5,
+   "end": 52.3,
+   "text": "Quand vient le soir, je compte les heures,",
+   "big": false
+  },
+  {
+   "start": 52.5,
+   "end": 57.3,
+   "text": "Le vent me parle de toi, je te serre contre mon cœur",
+   "big": false
+  },
+  {
+   "start": 57.5,
+   "end": 60.0,
+   "text": "Ohhh — give me, I say give me",
+   "big": false
+  },
+  {
+   "start": 60.0,
+   "end": 64.0,
+   "text": "What I want, gi-i-i-ive (give it to me…)",
+   "big": false
+  },
+  {
+   "start": 64.0,
+   "end": 68.0,
+   "text": "Me, me, me, me, me, me (yeah, yeah)",
+   "big": false
+  },
+  {
+   "start": 68.0,
+   "end": 71.0,
+   "text": "Give me, I say give me",
+   "big": false
+  },
+  {
+   "start": 71.0,
+   "end": 74.0,
+   "text": "And then you love me (love me, love me…)",
+   "big": false
+  },
+  {
+   "start": 74.0,
+   "end": 78.0,
+   "text": "Me, me, me, me, me, me",
+   "big": false
+  },
+  {
+   "start": 78.0,
+   "end": 82.8,
+   "text": "This love devient mille poèmes",
+   "big": false
+  },
+  {
+   "start": 83.0,
+   "end": 86.0,
+   "text": "That I ne-e-e-e-ed (I need it too…)",
+   "big": false
+  },
+  {
+   "start": 86.0,
+   "end": 88.0,
+   "text": "Nee, nee, nee, nee",
+   "big": false
+  },
+  {
+   "start": 88.0,
+   "end": 90.5,
+   "text": "'Cause you need me (you need me)",
+   "big": false
+  },
+  {
+   "start": 90.5,
+   "end": 93.0,
+   "text": "(I need you…)",
+   "big": false
+  },
+  {
+   "start": 93.0,
+   "end": 98.5,
+   "text": "Give me (ohhhh)",
+   "big": false
+  },
+  {
+   "start": 99.0,
+   "end": 101.0,
+   "text": "Mille poèmes",
+   "big": true
+  },
+  {
+   "start": 101.0,
+   "end": 105.5,
+   "text": "Mmm — I wrote them all for you (for me…)",
+   "big": false
+  },
+  {
+   "start": 105.5,
+   "end": 109.6,
+   "text": "Mille poèmes… just to get to you",
+   "big": false
+  },
+  {
+   "start": 110.0,
+   "end": 114.8,
+   "text": "மாலை வரும்போது, இறைவா, நான் உன்னை எவ்வளவு நேசிக்கிறேன்,",
+   "big": false
+  },
+  {
+   "start": 115.0,
+   "end": 119.6,
+   "text": "நான் உன்னுடன் மட்டுமே இருக்கிறேன்.",
+   "big": false
+  },
+  {
+   "start": 120.0,
+   "end": 125.0,
+   "text": "நீ தூரத்தில் இருந்தாலும், உன்னை எனக்குள் வைத்திருக்கிறேன்,",
+   "big": false
+  },
+  {
+   "start": 125.0,
+   "end": 129.0,
+   "text": "உனக்காகக் காத்திருக்கிறேன், எப்போதும் காத்திருக்கிறேன்.",
+   "big": false
+  },
+  {
+   "start": 129.1,
+   "end": 132.0,
+   "text": "Mon Dieu, que je t'aime, seul avec toi,",
+   "big": false
+  },
+  {
+   "start": 132.0,
+   "end": 135.0,
+   "text": "Même si tu es loin, je te garde en moi,",
+   "big": false
+  },
+  {
+   "start": 135.0,
+   "end": 141.0,
+   "text": "Pour l'éternité je t'attendrai (for youuu)",
+   "big": false
+  },
+  {
+   "start": 141.0,
+   "end": 145.5,
+   "text": "உனக்காக ஆயிரம் பிரச்சினைகள்,",
+   "big": false
+  },
+  {
+   "start": 145.5,
+   "end": 151.0,
+   "text": "எனக்காக ஆயிரம் பிரச்சினைகள்,",
+   "big": false
+  },
+  {
+   "start": 151.0,
+   "end": 156.0,
+   "text": "Mille problèmes pour toi, mille problèmes pour moi,",
+   "big": false
+  },
+  {
+   "start": 156.0,
+   "end": 162.0,
+   "text": "Mais quand tu dis « je t'aime »… ils deviennent mille poèmes",
+   "big": false
+  },
+  {
+   "start": 162.2,
+   "end": 167.0,
+   "text": "நீ சென்றாலும், என் இதயம் உன்னுடன் இருக்கும்.",
+   "big": false
+  },
+  {
+   "start": 167.0,
+   "end": 169.2,
+   "text": "காற்றில் ஆயிரம் பிரச்சினைகள்,",
+   "big": false
+  },
+  {
+   "start": 169.2,
+   "end": 172.0,
+   "text": "வசந்த காலத்தில் ஆயிரம் பிரச்சினைகள்,",
+   "big": false
+  },
+  {
+   "start": 172.0,
+   "end": 173.7,
+   "text": "உன் பெயரை, உன் பெயரை,",
+   "big": false
+  },
+  {
+   "start": 173.7,
+   "end": 177.0,
+   "text": "Même si tu t'en vas, mon cœur reste avec toi,",
+   "big": false
+  },
+  {
+   "start": 177.0,
+   "end": 179.0,
+   "text": "Mille poèmes dans le vent,",
+   "big": false
+  },
+  {
+   "start": 179.0,
+   "end": 182.0,
+   "text": "mille poèmes au printemps,",
+   "big": false
+  },
+  {
+   "start": 182.0,
+   "end": 190.0,
+   "text": "Et ton nom, et ton nom…",
+   "big": false
+  },
+  {
+   "start": 198.0,
+   "end": 201.5,
+   "text": "ஒவ்வொரு பருவத்திலும் நான் பாடுகிறேன்.",
+   "big": false
+  },
+  {
+   "start": 201.5,
+   "end": 204.5,
+   "text": "உனக்காக ஆயிரம் பிரச்சினைகள்,",
+   "big": false
+  },
+  {
+   "start": 204.5,
+   "end": 207.0,
+   "text": "ஓ-ஓ… உனக்காக மட்டுமே,",
+   "big": false
+  },
+  {
+   "start": 207.0,
+   "end": 209.0,
+   "text": "உன் பெயரை, உன் பெயரை,",
+   "big": false
+  },
+  {
+   "start": 209.0,
+   "end": 211.0,
+   "text": "என் பாடலில் மீண்டும் வாழும்.",
+   "big": false
+  },
+  {
+   "start": 211.0,
+   "end": 215.0,
+   "text": "Je le chante à chaque saison,",
+   "big": false
+  },
+  {
+   "start": 215.0,
+   "end": 218.0,
+   "text": "Oh-oh… rien que pour toi,",
+   "big": false
+  },
+  {
+   "start": 218.0,
+   "end": 221.5,
+   "text": "Et ton nom, et ton nom",
+   "big": false
+  },
+  {
+   "start": 221.5,
+   "end": 225.0,
+   "text": "Refleurira dans ma chanson",
+   "big": false
+  },
+  {
+   "start": 225.0,
+   "end": 229.0,
+   "text": "காலை வரும்போது, உன்னை நினைக்கிறேன்,",
+   "big": false
+  },
+  {
+   "start": 229.0,
+   "end": 234.0,
+   "text": "உன் திரும்பி வருகையை கனவில் கண்ட பின்னும்.",
+   "big": false
+  },
+  {
+   "start": 234.0,
+   "end": 239.0,
+   "text": "வழியெங்கும் மலர்களை விதைக்கிறேன்,",
+   "big": false
+  },
+  {
+   "start": 239.0,
+   "end": 245.0,
+   "text": "நீ திரும்பி வரும்போது அவற்றைக் காண்பதற்காக.",
+   "big": false
+  },
+  {
+   "start": 245.5,
+   "end": 249.0,
+   "text": "Quand vient le matin, je pense à toi,",
+   "big": false
+  },
+  {
+   "start": 249.0,
+   "end": 252.0,
+   "text": "again and again, je pense à toi",
+   "big": false
+  },
+  {
+   "start": 252.0,
+   "end": 254.2,
+   "text": "Je ne compte plus les heures,",
+   "big": false
+  },
+  {
+   "start": 254.2,
+   "end": 256.6,
+   "text": "sur ton chemin, je sème des fleurs",
+   "big": false
+  },
+  {
+   "start": 256.6,
+   "end": 258.0,
+   "text": "and then I say",
+   "big": false
+  },
+  {
+   "start": 258.0,
+   "end": 260.0,
+   "text": "(ohhhh) give me, I say give me",
+   "big": false
+  },
+  {
+   "start": 260.0,
+   "end": 264.0,
+   "text": "what I want, giiiiive",
+   "big": false
+  },
+  {
+   "start": 264.0,
+   "end": 267.0,
+   "text": "me, me, me, me, me, me",
+   "big": false
+  },
+  {
+   "start": 267.0,
+   "end": 270.0,
+   "text": "give me, I say give me",
+   "big": false
+  },
+  {
+   "start": 270.0,
+   "end": 272.0,
+   "text": "and then you love me",
+   "big": false
+  },
+  {
+   "start": 272.0,
+   "end": 276.0,
+   "text": "me, me, me, me, me, me",
+   "big": false
+  },
+  {
+   "start": 276.0,
+   "end": 281.0,
+   "text": "this love devient mille poèmes",
+   "big": false
+  },
+  {
+   "start": 281.0,
+   "end": 284.0,
+   "text": "that I neeeeed",
+   "big": false
+  },
+  {
+   "start": 284.0,
+   "end": 286.0,
+   "text": "nee, nee, nee, nee",
+   "big": false
+  },
+  {
+   "start": 286.0,
+   "end": 290.0,
+   "text": "'cause you need me (you need me)",
+   "big": false
+  },
+  {
+   "start": 290.0,
+   "end": 294.0,
+   "text": "give me (ohhhh)",
+   "big": false
+  },
+  {
+   "start": 294.0,
+   "end": 297.0,
+   "text": "Mille poèmes",
+   "big": true
+  },
+  {
+   "start": 297.0,
+   "end": 301.0,
+   "text": "mmmmmm…",
+   "big": false
+  }
  ]
 }

@@ -17,11 +17,13 @@ export const P = {
 
 export const SERIF = '"Playfair Display", Georgia, serif';
 export const SANS = 'Montserrat, Inter, sans-serif';
+export const TAMIL = '"Noto Serif Tamil", serif';
 
 const faces = [
   {family: 'Playfair Display', file: 'fonts/playfair-latin.woff2', style: 'normal'},
   {family: 'Playfair Display', file: 'fonts/playfair-italic-latin.woff2', style: 'italic'},
   {family: 'Montserrat', file: 'fonts/montserrat-latin.woff2', style: 'normal'},
+  {family: 'Noto Serif Tamil', file: 'fonts/noto-serif-tamil-italic.woff2', style: 'italic'},
 ];
 
 if (typeof document !== 'undefined') {

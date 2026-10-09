@@ -4,7 +4,7 @@ import {music} from './music';
 
 export type Shot = Crop & {start: number};
 
-export const INTRO_END = 26; // title card over the cover until the first vocals
+export const INTRO_END = 25.5; // title card over the cover until the first vocals
 export const OUTRO_START = 294;
 
 // Photo order: warm / personal moments first, the studio smiles in between.

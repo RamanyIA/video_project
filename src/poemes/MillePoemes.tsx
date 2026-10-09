@@ -57,7 +57,7 @@ export const MillePoemes: React.FC = () => {
         </div>
         <Lens shots={SHOTS} cx={540} cy={790} size={interpolate(intro, [0, 1], [780, 820])} bloom={bloom} />
         <TitleCard opacity={Math.max(intro, outro)} t={t} />
-        <Lyrics top={1340} />
+        <Lyrics top={1300} />
         <Spectrum top={1690} />
       </AbsoluteFill>
       <Audio src={staticFile('audio/mille-poemes.mp3')} />

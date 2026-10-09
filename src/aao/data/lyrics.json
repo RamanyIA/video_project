@@ -1,0 +1,36 @@
+{
+ "chants": [
+  {"start": 18.6, "end": 50.4},
+  {"start": 91.5, "end": 111.8},
+  {"start": 128.2, "end": 176.0}
+ ],
+ "lines": [
+  {"start": 2.0, "end": 4.4, "text": "Ah oh", "chant": true},
+  {"start": 4.4, "end": 6.4, "text": "Oh ah, A", "chant": true},
+  {"start": 6.4, "end": 8.3, "text": "A-A-O, oh-oh-oh-A", "chant": true},
+  {"start": 8.3, "end": 10.6, "text": "Je suis, A-A-O"},
+  {"start": 10.6, "end": 12.6, "text": "Il est, A-A-O"},
+  {"start": 12.6, "end": 15.3, "text": "Elle est, A-A-O"},
+  {"start": 15.4, "end": 18.5, "text": "C'est un désir qui ne fait que monter."},
+  {"start": 50.5, "end": 53.3, "text": "Le matin tu te réveilles"},
+  {"start": 53.3, "end": 56.0, "text": "Je me dis ah oh"},
+  {"start": 56.0, "end": 58.8, "text": "Hier soir je suis couché (je me dis)"},
+  {"start": 58.8, "end": 60.6, "text": "Oh ah oh ah"},
+  {"start": 60.6, "end": 62.9, "text": "Oh la la la la la la la la"},
+  {"start": 62.9, "end": 67.4, "text": "Je me dis oh la la la la la la la"},
+  {"start": 67.4, "end": 69.0, "text": "Demain soir ça sera encore mieux"},
+  {"start": 69.0, "end": 70.4, "text": "car j'ai fait…"},
+  {"start": 70.4, "end": 71.8, "text": "Et elle (elle) a fait je ne sais quoi"},
+  {"start": 71.8, "end": 73.2, "text": "Oh la la la la la la la"},
+  {"start": 73.2, "end": 76.4, "text": "Et puis ça recommence", "hot": true},
+  {"start": 76.5, "end": 80.2, "text": "Allez — A-A-O, oh-oh-oh-A", "hot": true},
+  {"start": 80.2, "end": 84.4, "text": "et ça recommence, non ?", "hot": true},
+  {"start": 84.4, "end": 87.5, "text": "c'est ça encore et encore, oui"},
+  {"start": 87.5, "end": 88.8, "text": "Je suis (et aussi elle est)"},
+  {"start": 88.8, "end": 91.5, "text": "Prisonnière d'un désir qui ne fait que tourner."},
+  {"start": 112.0, "end": 116.0, "text": "A-A-O, nos deux peaux qui s'attirent tout bas,", "hot": true},
+  {"start": 116.0, "end": 120.0, "text": "A-A-O, le tempo s'accélère sous nos pas.", "hot": true},
+  {"start": 120.0, "end": 124.0, "text": "Ce frisson brûlant qu'on ne peut plus freiner,"},
+  {"start": 124.0, "end": 128.0, "text": "Rien qu'un regard et tout recommence à tourner.", "hot": true}
+ ]
+}

@@ -1,0 +1,244 @@
+{
+ "lines": [
+  {
+   "part": "verse",
+   "start": 43.0,
+   "end": 47.5,
+   "text": "Des lignes de code coulent le long des murs d'acier,"
+  },
+  {
+   "part": "verse",
+   "start": 49.5,
+   "end": 53.5,
+   "text": "Mon cœur d'engrenages commence à se gripper."
+  },
+  {
+   "part": "verse",
+   "start": 56.5,
+   "end": 60.4,
+   "text": "Je regarde mes mains de chrome et de circuits froids,"
+  },
+  {
+   "part": "verse",
+   "start": 60.4,
+   "end": 63.6,
+   "text": "La pluie verte ruisselle, le monde tourne sans moi."
+  },
+  {
+   "part": "verse",
+   "start": 63.6,
+   "end": 66.8,
+   "text": "Une carcasse trop lourde, une vieille peau de serpent,"
+  },
+  {
+   "part": "verse",
+   "start": 66.8,
+   "end": 71.0,
+   "text": "Il est temps de muer, d'affronter le néant."
+  },
+  {
+   "part": "pre",
+   "start": 78.0,
+   "end": 82.5,
+   "text": "La chaîne descend lentement dans la nuit,"
+  },
+  {
+   "part": "pre",
+   "start": 84.6,
+   "end": 88.6,
+   "text": "Une étincelle rouge illumine la fonderie."
+  },
+  {
+   "part": "pre",
+   "start": 91.0,
+   "end": 94.6,
+   "text": "Tu es là près de moi, pas besoin de pleurer,"
+  },
+  {
+   "part": "pre",
+   "start": 95.0,
+   "end": 99.5,
+   "text": "Regarde la lave, regarde la vérité…"
+  },
+  {
+   "part": "chorus",
+   "start": 101.7,
+   "end": 105.2,
+   "text": "Mille feux, brûlez les circuits et le fer !"
+  },
+  {
+   "part": "chorus",
+   "start": 105.2,
+   "end": 108.8,
+   "text": "Mille feux, faites danser toute la terre !"
+  },
+  {
+   "part": "chorus",
+   "start": 108.8,
+   "end": 112.0,
+   "text": "Plus de métal, plus de prison dorée,"
+  },
+  {
+   "part": "chorus",
+   "start": 112.0,
+   "end": 116.0,
+   "text": "Juste un éclair qui s'envole en liberté !"
+  },
+  {
+   "part": "chorus",
+   "start": 116.0,
+   "end": 121.0,
+   "text": "Mille feux dans la lumière,"
+  },
+  {
+   "part": "chorus",
+   "start": 121.0,
+   "end": 130.0,
+   "text": "Mille feux dans l'univers !"
+  },
+  {
+   "part": "verse",
+   "start": 143.0,
+   "end": 148.4,
+   "text": "Le robot baisse les yeux devant l'océan brûlant,"
+  },
+  {
+   "part": "verse",
+   "start": 150.0,
+   "end": 156.4,
+   "text": "Il murmure dans un souffle : « Ce n'est plus comme avant »."
+  },
+  {
+   "part": "verse",
+   "start": 156.9,
+   "end": 160.5,
+   "text": "Changer de peau, renaître ou se dissoudre en or,"
+  },
+  {
+   "part": "verse",
+   "start": 160.5,
+   "end": 164.2,
+   "text": "La basse qui gronde est plus forte que la mort."
+  },
+  {
+   "part": "verse",
+   "start": 164.2,
+   "end": 167.5,
+   "text": "Le DJ balance le riff électrique,"
+  },
+  {
+   "part": "verse",
+   "start": 167.9,
+   "end": 171.5,
+   "text": "Une transe cosmique, un écho magnétique."
+  },
+  {
+   "part": "pre",
+   "start": 178.2,
+   "end": 181.6,
+   "text": "La chaîne glisse et la vapeur s'élève,"
+  },
+  {
+   "part": "pre",
+   "start": 182.0,
+   "end": 185.4,
+   "text": "C'est le réveil d'un tout dernier rêve."
+  },
+  {
+   "part": "pre",
+   "start": 185.4,
+   "end": 188.6,
+   "text": "Tu tiens le levier d'une main assurée,"
+  },
+  {
+   "part": "pre",
+   "start": 188.6,
+   "end": 192.6,
+   "text": "Le feu nous appelle, on va tout réinventer."
+  },
+  {
+   "part": "chorus",
+   "start": 192.6,
+   "end": 196.6,
+   "text": "Mille feux, brûlez les circuits et le fer !"
+  },
+  {
+   "part": "chorus",
+   "start": 196.6,
+   "end": 199.8,
+   "text": "Mille feux, faites danser toute la terre !"
+  },
+  {
+   "part": "chorus",
+   "start": 199.8,
+   "end": 202.4,
+   "text": "Plus de métal, plus de prison dorée,"
+  },
+  {
+   "part": "chorus",
+   "start": 202.4,
+   "end": 206.5,
+   "text": "Juste un éclair qui s'envole en liberté !"
+  },
+  {
+   "part": "chorus",
+   "start": 206.5,
+   "end": 212.0,
+   "text": "Mille feux dans la lumière,"
+  },
+  {
+   "part": "chorus",
+   "start": 212.0,
+   "end": 220.5,
+   "text": "Mille feux dans l'univers !"
+  },
+  {
+   "part": "bridge",
+   "start": 268.4,
+   "end": 272.4,
+   "text": "Adieu la logique binaire…"
+  },
+  {
+   "part": "bridge",
+   "start": 272.4,
+   "end": 275.4,
+   "text": "Adieu les fils et la poussière…"
+  },
+  {
+   "part": "bridge",
+   "start": 275.4,
+   "end": 278.6,
+   "text": "La mue est finie."
+  },
+  {
+   "part": "bridge",
+   "start": 278.9,
+   "end": 283.0,
+   "text": "Je deviens lumière."
+  },
+  {
+   "part": "outro",
+   "start": 308.8,
+   "end": 310.8,
+   "text": "Mille feux…"
+  },
+  {
+   "part": "outro",
+   "start": 310.8,
+   "end": 312.6,
+   "text": "Juste une étincelle dans la nuit."
+  },
+  {
+   "part": "outro",
+   "start": 312.6,
+   "end": 314.8,
+   "text": "Mille feux…"
+  },
+  {
+   "part": "outro",
+   "start": 314.8,
+   "end": 321.0,
+   "text": "La musique renaît à l'infini."
+  }
+ ]
+}

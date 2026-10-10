@@ -3,6 +3,8 @@ import {Composition} from 'remotion';
 import captions from './data/captions.json';
 import {CaRecommence} from './aao/CaRecommence';
 import aaoMusic from './aao/data/music.json';
+import feuxMusic from './feux/data/music.json';
+import {MilleFeux} from './feux/MilleFeux';
 import {MillePoemes} from './poemes/MillePoemes';
 import music from './poemes/data/music.json';
 import {OUTRO_TAIL} from './scenes';
@@ -35,6 +37,14 @@ export const Root: React.FC = () => (
       height={1920}
       fps={FPS}
       durationInFrames={Math.floor(aaoMusic.duration * FPS)}
+    />
+    <Composition
+      id="MilleFeux"
+      component={MilleFeux}
+      width={1080}
+      height={1920}
+      fps={FPS}
+      durationInFrames={Math.floor(feuxMusic.duration * FPS)}
     />
   </>
 );

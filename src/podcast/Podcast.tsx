@@ -124,12 +124,6 @@ export const Podcast: React.FC = () => {
   const h1 = head(m1, 1);
   const end = durationInFrames / fps;
   const outroOp = interpolate(f / fps, [end - OUTRO, end - OUTRO + 1], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
-  // music: loud intro/outro, ducked under the voices
-  const musicVol = (fr: number) => {
-    const s = fr / fps;
-    return interpolate(s, [0, 1, INTRO - 0.5, INTRO + 0.5, end - OUTRO, end - OUTRO + 1, end - 0.5, end], [0, 0.45, 0.45, 0.07, 0.07, 0.45, 0.45, 0],
-      {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
-  };
   return (
     <AbsoluteFill style={{background: PC.navy}}>
       <Studio />
@@ -155,7 +149,6 @@ export const Podcast: React.FC = () => {
           <div style={{fontFamily: SANS, fontWeight: 800, fontSize: 40, letterSpacing: 8, color: PC.gold, marginTop: 40}}>⚓ À BIENTÔT ✈</div>
         </AbsoluteFill>
       )}
-      <Audio src={staticFile('audio/bagad.m4a')} volume={musicVol} />
       <Sequence from={INTRO * fps}>
         <Audio src={staticFile('audio/mistral.m4a')} />
       </Sequence>

@@ -11,6 +11,6 @@ const composition = await selectComposition({serveUrl, id, browserExecutable});
 for (const t of times) {
   const frame = Math.min(composition.durationInFrames - 1, Math.round(t * composition.fps));
   const output = `out/stills/${id}-t${String(t).padStart(5, '0')}.jpg`;
-  await renderStill({composition, serveUrl, output, frame, imageFormat: 'jpeg', browserExecutable, scale: 0.5});
+  await renderStill({composition, serveUrl, output, frame, imageFormat: 'jpeg', browserExecutable, scale: Number(process.env.SCALE || 0.5)});
   console.log(output);
 }

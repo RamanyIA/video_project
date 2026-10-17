@@ -5,6 +5,7 @@ import {CaRecommence} from './aao/CaRecommence';
 import aaoMusic from './aao/data/music.json';
 import feuxMusic from './feux/data/music.json';
 import {MilleFeux} from './feux/MilleFeux';
+import {TitleSequence} from './chaines/TitleSequence';
 import {MillePoemes} from './poemes/MillePoemes';
 import {Podcast, podcastDuration} from './podcast/Podcast';
 import music from './poemes/data/music.json';
@@ -48,5 +49,6 @@ export const Root: React.FC = () => (
       durationInFrames={Math.floor(feuxMusic.duration * FPS)}
     />
     <Composition id="Podcast" component={Podcast} width={1080} height={1920} fps={FPS} durationInFrames={podcastDuration(FPS)} />
+    <Composition id="MilleChaines" component={TitleSequence} width={1920} height={1080} fps={FPS} durationInFrames={FPS * 22} />
   </>
 );

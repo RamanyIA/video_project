@@ -184,6 +184,10 @@ FIX = [
     ("Mille promesses en carton…", 4, 369.22, 370.9),
     ("Sé la pwomès-la ki an carton !", 0, 373.8, 376.6),
 ]
+# Single words: (line text, occurrence, word index, start, end)
+WORD_FIX = [
+    ("La poudre de perlimpinpin,", 0, 3, 160.86, 161.88),
+]
 # Choir answers: (line text, occurrence, answer index, start)
 RESP_FIX = [
     ("Éh Tonton !", 0, 0, 16.2),
@@ -218,6 +222,11 @@ def apply_fixes(out):
         for r in l["resp"]:
             if r["start"] < b:
                 r["start"], r["end"] = round(b + 0.05, 2), round(b + 0.7, 2)
+    for text, occ, wi, a, b in WORD_FIX:
+        l = find(text, occ)
+        l["words"][wi].update(s=a, e=b)
+        l["words"][wi].pop("i", None)
+        l["end"] = max(l["end"], b)
     for text, occ, ri, a in RESP_FIX:
         r = find(text, occ)["resp"][ri]
         r["start"], r["end"] = a, round(a + 0.6, 2)

@@ -1,18 +1,23 @@
 import React from 'react';
 import {AbsoluteFill, Audio, Img, interpolate, random, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
-import {cardboardBg, quadMatrix, tornClip} from '../components/Cardboard';
+import {cardboardBg} from '../components/Cardboard';
 import {Placard} from '../components/Gfx';
-import {Lyrics, Responses} from '../components/Lyrics';
+import {Lyrics} from '../components/Lyrics';
 import {FilmLook} from '../components/Shot';
-import {beatPulse, downbeatPulse} from '../music';
+import {downbeatPulse} from '../music';
 import {QUADS} from '../storyboard';
 import {C, DISPLAY, MARKER, SANS, STENCIL} from '../theme';
 
-// Vertical teaser for the main clip: song excerpt 109.2 s -> 147.5 s ("Qui fait les lois ?" + chorus 2),
-// each sung line re-headlined with the 2027 presidential campaign, then an end card pointing to the clip.
-// Everything below runs in SONG time (the Sequence is shifted), so lyrics/beat data are reused as-is.
-export const SHORT_FROM = 109.2;
-export const SHORT_TO = 147.5;
+// Sober vertical teaser, built for the scroll:
+//   A  0-8.7 s   song 159.684 -> 168.414  magic trick on "La poudre de perlimpinpin", then "18 avril 2027"
+//   B  8.7 s ->  song 122.044 -> 146.6    "Éh Tonton ! Pa pran nou pou kouyon !" + chorus 2, end card
+// Both cuts sit on beats (same tempo), so the splice is seamless. Visuals run in SONG time.
+export const A0 = 159.684;
+export const A1 = 168.414;
+export const B0 = 122.044;
+export const B1 = 146.6;
+export const shortDuration = (fps: number) => Math.round((A1 - A0) * fps) + Math.round((B1 - B0) * fps);
+
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const useSongT = () => {
   const f = useCurrentFrame();
@@ -20,52 +25,40 @@ const useSongT = () => {
   return {f, fps, t: f / fps};
 };
 const sp = (f: number, fps: number, at: number, cfg = {damping: 12, stiffness: 200}) => spring({frame: f - Math.round(at * fps), fps, config: cfg});
+const ease = (p: number) => 0.5 - Math.cos(Math.PI * Math.min(1, Math.max(0, p))) / 2;
 
-type VShot = {t: number; img?: string; gfx?: 'ballot' | 'boxes' | 'end'; fx?: number; s0?: number; s1?: number; placard?: 'p22' | 'p29'; slogan?: string[]};
+type VShot = {t: number; img?: string; gfx?: 'magic' | 'date' | 'end'; fx?: number; s0?: number; s1?: number; placard?: 'p22'; slogan?: string[]; caption?: string};
 const SHOTS: VShot[] = [
-  {t: 109.2, gfx: 'ballot'},
-  {t: 112.28, img: '21', fx: 0.45, s0: 1.0, s1: 1.12},
-  {t: 114.42, img: '23', fx: 0.62, s0: 1.12, s1: 1.0},
-  {t: 116.22, img: '34', fx: 0.5, s0: 1.0, s1: 1.15},
-  {t: 118.4, img: '61', fx: 0.3, s0: 1.1, s1: 1.0},
-  {t: 122.1, img: '31', fx: 0.36, s0: 1.15, s1: 1.0},
-  {t: 125.48, gfx: 'boxes'},
-  {t: 129.88, img: '28', fx: 0.55, s0: 1.0, s1: 1.12},
-  {t: 131.4, img: '09', fx: 0.4, s0: 1.1, s1: 1.0},
-  {t: 133.72, img: '36', fx: 0.55, s0: 1.0, s1: 1.15},
-  {t: 135.78, img: '41', fx: 0.5, s0: 1.12, s1: 1.0},
-  {t: 138.14, img: '39', fx: 0.5, s0: 1.0, s1: 1.12},
-  {t: 140.3, img: '22', fx: 0.49, s0: 0.98, s1: 1.04, placard: 'p22', slogan: ['18 AVRIL :', 'PAS EN CARTON !']},
+  // part B (earlier in the song)
+  {t: 122.044, img: '22', fx: 0.49, s0: 0.98, s1: 1.04, placard: 'p22', slogan: ['PA PRAN NOU', 'POU KOUYON !']},
+  {t: 125.48, img: '24', fx: 0.5},
+  {t: 127.68, img: '23', fx: 0.62},
+  {t: 129.88, img: '28', fx: 0.55},
+  {t: 131.4, img: '26', fx: 0.45},
+  {t: 133.72, img: '65', fx: 0.4},
+  {t: 135.78, img: '68', fx: 0.45},
+  {t: 138.14, img: '39', fx: 0.5},
+  {t: 140.3, img: '67', fx: 0.5},
   {t: 142.5, gfx: 'end'},
+  // part A (the hook)
+  {t: A0, gfx: 'magic'},
+  {t: 164.12, gfx: 'date'},
+  {t: 166.42, img: '36', fx: 0.55, s0: 1.0, s1: 1.12, caption: 'Les promesses reviennent.'},
 ];
-
-// "Version 2027": every sung line gets its campaign headline.
-const HEADLINES: {at: number; kicker: string; text: string}[] = [
-  {at: 112.28, kicker: 'VERSION 2027', text: 'Qui fera les lois après le 2 mai ?'},
-  {at: 114.42, kicker: 'VIE CHÈRE · MANIFS', text: 'Qui paie la note ?'},
-  {at: 116.22, kicker: 'ÉLYSÉE', text: 'Un seul fauteuil, beaucoup d’appétits'},
-  {at: 118.4, kicker: 'ET NOUS ?', text: 'Les miettes, comme d’hab'},
-  {at: 122.1, kicker: 'FIN DE MANDAT', text: 'Tonton ne peut pas se représenter… ses promesses, si'},
-  {at: 129.88, kicker: 'À DROITE · À GAUCHE', text: 'Primaire ? Union ? Coalition ? Pani pwoblèm !'},
-  {at: 133.72, kicker: 'COÛT DE LA VIE', text: 'Toujours la première question'},
-  {at: 135.78, kicker: 'CAMPAGNE', text: 'Meetings, plateaux, pubs ciblées…'},
-  {at: 138.14, kicker: '1ER TOUR · 18 AVRIL 2027', text: 'Mille tons. Un seul bulletin.'},
-  {at: 140.3, kicker: '', text: ''}, // let the placard speak
-];
+const POOF = 161.4; // "...pin" of perlimpinpin
 
 const VPhoto: React.FC<{shot: VShot; end: number}> = ({shot, end}) => {
   const {t} = useSongT();
-  const p = Math.min(1, Math.max(0, (t - shot.t) / (end - shot.t)));
-  const k = 0.5 - Math.cos(Math.PI * p) / 2;
-  const s = interpolate(k, [0, 1], [shot.s0 ?? 1, shot.s1 ?? 1.1]);
-  const W = 3413; // 1920x1080 still scaled to 1920 high
+  const k = ease((t - shot.t) / (end - shot.t));
+  const s = interpolate(k, [0, 1], [shot.s0 ?? 1.0, shot.s1 ?? 1.08]);
+  const W = 3413; // 1920x1080 still at 1920 px high
   const left = -(W - 1080) * (shot.fx ?? 0.5);
   const slogan = shot.placard && shot.slogan;
   const maxLen = slogan ? Math.max(...slogan.map((x) => x.length)) : 1;
   return (
     <AbsoluteFill style={{overflow: 'hidden', background: '#000'}}>
       <div style={{position: 'absolute', left, top: 0, width: W, height: 1920, transform: `scale(${s})`, transformOrigin: `${-left + 540}px 50%`}}>
-        <Img src={staticFile(`carton/${shot.img}.jpg`)} style={{width: '100%', height: '100%', filter: 'contrast(1.12) saturate(0.92)'}} />
+        <Img src={staticFile(`carton/${shot.img}.jpg`)} style={{width: '100%', height: '100%'}} />
         {slogan && (
           <div style={{position: 'absolute', left: 0, top: 0, width: 1920, height: 1080, transform: 'scale(1.7778)', transformOrigin: '0 0'}}>
             <Placard quad={QUADS[shot.placard!]} lines={slogan} at={shot.t + 0.1} size={Math.min(150, 1000 / (maxLen * 0.6))} />
@@ -76,173 +69,195 @@ const VPhoto: React.FC<{shot: VShot; end: number}> = ({shot, end}) => {
   );
 };
 
-// Hook: a cardboard ballot box swallowing the envelopes.
-const Ballot: React.FC<{at: number}> = ({at}) => {
+// ---------------------------------------------------------------- the hook: a magic trick
+const Hat: React.FC = () => (
+  <svg width={520} height={480} viewBox="0 0 520 480">
+    <defs>
+      <linearGradient id="hatbody" x1="0" x2="1">
+        <stop offset="0" stopColor="#7a532b" />
+        <stop offset="0.45" stopColor="#c9975c" />
+        <stop offset="1" stopColor="#6d4824" />
+      </linearGradient>
+      <pattern id="flute" width="12" height="10" patternUnits="userSpaceOnUse">
+        <rect width="2" height="10" fill="rgba(70,40,10,0.18)" />
+      </pattern>
+    </defs>
+    <ellipse cx={260} cy={410} rx={250} ry={60} fill="#8a5f33" />
+    <ellipse cx={260} cy={400} rx={250} ry={58} fill="#b9874f" />
+    <path d="M90 120 L90 400 Q260 450 430 400 L430 120 Z" fill="url(#hatbody)" />
+    <path d="M90 120 L90 400 Q260 450 430 400 L430 120 Z" fill="url(#flute)" />
+    <rect x={90} y={330} width={340} height={44} fill={C.hibiscus} />
+    <ellipse cx={260} cy={120} rx={170} ry={46} fill="#140c05" />
+    <ellipse cx={260} cy={120} rx={170} ry={46} fill="none" stroke="#e2bc86" strokeWidth={6} />
+  </svg>
+);
+
+const Magic: React.FC<{at: number}> = ({at}) => {
   const {f, fps, t} = useSongT();
-  const k = sp(f, fps, at, {damping: 10, stiffness: 160});
-  const d = downbeatPulse(t);
+  const lt = t - at;
+  const tap = Math.max(0, 1 - Math.abs(lt - 0.12) / 0.12);
+  const rise = ease((t - 160.0) / 1.0);
+  const poofK = t >= POOF ? sp(f, fps, POOF, {damping: 10, stiffness: 220}) : 0;
+  const card = t < POOF ? 1 : Math.max(0, 1 - (t - POOF) * 9);
+  const wandIn = sp(f, fps, at - 0.25, {damping: 14, stiffness: 160});
+  const spot = 0.85 + Math.sin(lt * 3) * 0.05;
+  const cols = [C.hibiscus, C.mango, C.turquoise, '#b44cff', C.madrasGreen, '#ff7ac8'];
+  const sinceP = t - POOF;
   return (
-    <AbsoluteFill style={{background: `radial-gradient(ellipse at 50% 45%, #3a2412 0%, ${C.night} 70%)`, alignItems: 'center'}}>
-      <div style={{position: 'absolute', top: 170, width: '100%', textAlign: 'center', transform: `scale(${sp(f, fps, at + 0.15, {damping: 9, stiffness: 300})})`}}>
-        <div style={{fontFamily: SANS, fontWeight: 900, fontSize: 40, letterSpacing: 12, color: C.mango}}>PRÉSIDENTIELLE</div>
-        <div style={{fontFamily: STENCIL, fontSize: 230, lineHeight: 0.95, color: C.cream, textShadow: '0 10px 0 #000'}}>2027</div>
-      </div>
-      {[0, 1, 2, 3, 4].map((i) => {
-        const lt = (t - at - 0.5 - i * 0.45) / 0.7;
-        if (lt < 0 || lt > 1) return null;
-        return <div key={i} style={{position: 'absolute', left: 540 - 110 + (random(`e${i}`) - 0.5) * 120, top: 420 + lt * 330, width: 220, height: 140, background: '#f2ead8',
-          transform: `rotate(${(random(`er${i}`) - 0.5) * 50 * (1 - lt)}deg)`, boxShadow: '0 10px 20px rgba(0,0,0,0.5)', clipPath: 'polygon(0 0,100% 0,100% 100%,0 100%)',
-          backgroundImage: 'linear-gradient(155deg, transparent 49%, #d8cdb6 50%, transparent 51%), linear-gradient(25deg, transparent 49%, #d8cdb6 50%, transparent 51%)'}} />;
-      })}
-      <div style={{position: 'absolute', top: 700, left: 140, width: 800, height: 560, ...cardboardBg(C.carton, 18), boxShadow: '0 50px 90px rgba(0,0,0,0.8), inset 0 0 80px rgba(60,30,8,0.7)',
-        transform: `translateY(${(1 - k) * 1200}px) scale(${1 + d * 0.02})`, borderRadius: 8}}>
-        <div style={{position: 'absolute', left: 230, right: 230, top: 40, height: 26, background: '#140c05', borderRadius: 13}} />
-        <div style={{position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', paddingTop: 40}}>
-          <div style={{fontFamily: STENCIL, fontSize: 130, color: C.ink}}>URNE</div>
-          <div style={{fontFamily: MARKER, fontSize: 64, color: C.hibiscus, transform: 'rotate(-5deg)'}}>en carton</div>
-          <div style={{fontFamily: SANS, fontWeight: 800, fontSize: 30, letterSpacing: 4, color: C.ink, marginTop: 24}}>18 AVRIL · 2 MAI 2027</div>
+    <AbsoluteFill style={{background: '#08060a'}}>
+      {/* curtains */}
+      <AbsoluteFill style={{background: 'repeating-linear-gradient(90deg, #3a0910 0 70px, #5c0f19 70px 120px, #2a060b 120px 160px)', opacity: 0.55}} />
+      {/* spotlight */}
+      <AbsoluteFill style={{background: `radial-gradient(ellipse 520px 1100px at 50% 18%, rgba(255,238,200,${0.33 * spot}), transparent 70%)`}} />
+      <div style={{position: 'absolute', left: 140, right: 140, top: 1160, height: 120, borderRadius: '50%', background: 'radial-gradient(ellipse, rgba(255,230,180,0.35), transparent 70%)'}} />
+      {/* rising promise card */}
+      {card > 0 && (
+        <div style={{position: 'absolute', left: 540 - 210, top: interpolate(rise, [0, 1], [900, 330]) + Math.sin(lt * 4) * 10 * rise, width: 420, height: 270,
+          transform: `rotate(${interpolate(rise, [0, 1], [0, -4])}deg) scale(${card * interpolate(rise, [0, 1], [0.6, 1])})`, opacity: rise > 0 ? 1 : 0,
+          background: 'linear-gradient(135deg, #fff1b8, #f2c14e 45%, #c98a1a)', borderRadius: 18, boxShadow: `0 0 ${60 + rise * 60}px rgba(255,200,80,0.8)`,
+          display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', border: '6px solid #fff6d0'}}>
+          <div style={{fontFamily: STENCIL, fontSize: 82, color: '#5a3a08', letterSpacing: 3}}>PROMESSE</div>
+          <div style={{fontFamily: MARKER, fontSize: 40, color: '#8a1520'}}>garantie à vie</div>
         </div>
+      )}
+      {/* hat */}
+      <div style={{position: 'absolute', left: 540 - 260, top: 800, transform: `scale(${1 + tap * 0.04 + poofK * 0.03 * Math.max(0, 1 - sinceP * 2)})`, transformOrigin: '50% 90%'}}>
+        <Hat />
       </div>
-    </AbsoluteFill>
-  );
-};
-
-// Chorus: the candidates' boxes are delivered (alphabetical, declared or expected).
-const NAMES = ['ATTAL', 'GLUCKSMANN', 'LE PEN', 'MÉLENCHON', 'PHILIPPE', 'RETAILLEAU', 'ROUSSEL', 'TONDELIER'];
-const Boxes: React.FC<{at: number}> = ({at}) => {
-  const {f, fps, t} = useSongT();
-  const b = beatPulse(t);
-  return (
-    <AbsoluteFill style={{background: `linear-gradient(180deg, #1a120b 0%, #2c1d10 60%, #120c07 100%)`}}>
-      <div style={{position: 'absolute', top: 190, width: '100%', textAlign: 'center', opacity: sp(f, fps, at)}}>
-        <div style={{fontFamily: SANS, fontWeight: 900, fontSize: 32, letterSpacing: 8, color: C.mango}}>CANDIDATS DÉCLARÉS OU PRESSENTIS</div>
-        <div style={{fontFamily: DISPLAY, fontSize: 92, color: C.cream, lineHeight: 1.05, marginTop: 8}}>LIVRAISON DES PROMESSES</div>
+      {/* wand + gloved hand */}
+      <div style={{position: 'absolute', left: 640, top: 620, transformOrigin: '90% 90%', transform: `translate(${(1 - wandIn) * 500}px, ${(1 - wandIn) * 200}px) rotate(${-28 - tap * 18 + (t > POOF ? -10 : 0)}deg)`}}>
+        <div style={{position: 'absolute', left: 0, top: 120, width: 330, height: 18, background: '#111', borderRadius: 9, transform: 'rotate(-10deg)'}}>
+          <div style={{position: 'absolute', left: 0, top: 0, width: 40, height: 18, background: '#f5f5f5', borderRadius: 9}} />
+        </div>
+        <div style={{position: 'absolute', left: 300, top: 100, width: 110, height: 90, background: '#fafafa', borderRadius: '45% 45% 40% 40%', boxShadow: 'inset -10px -8px 0 #dcdcdc'}} />
       </div>
-      {NAMES.map((n, i) => {
-        const col = i % 2;
-        const row = Math.floor(i / 2);
-        const k = sp(f, fps, at + 0.15 + i * 0.32, {damping: 11, stiffness: 180});
-        const rot = (random(`bx${i}`) - 0.5) * 8;
-        return (
-          <div key={n} style={{position: 'absolute', left: 70 + col * 480, top: 380 + row * 172, width: 460, height: 156, ...cardboardBg(i % 3 === 0 ? C.cartonLight : C.carton, 14),
-            boxShadow: '0 20px 40px rgba(0,0,0,0.6), inset 0 0 50px rgba(60,30,8,0.6)', transform: `translateY(${(1 - k) * -1500}px) rotate(${rot + (row % 2 ? b * 1.5 : -b * 1.5)}deg)`,
-            display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
-            <div style={{position: 'absolute', top: 0, bottom: 0, left: 205, width: 50, background: 'rgba(200,170,120,0.55)'}} />
-            <div style={{position: 'relative', fontFamily: STENCIL, fontSize: n.length > 9 ? 52 : 64, color: C.ink}}>{n}</div>
-            <div style={{position: 'relative', fontFamily: MARKER, fontSize: 30, color: C.hibiscus, transform: 'rotate(-4deg)'}}>promesses · fragile</div>
-          </div>
-        );
+      {/* sparkles while the card rises */}
+      {new Array(26).fill(0).map((_, i) => {
+        const life = ((lt * 1.4 + random(`sp${i}`)) % 1);
+        const show = t > 159.8 && t < POOF + 0.2;
+        const x = 540 + (random(`sx${i}`) - 0.5) * 520;
+        const y = 870 - life * 600 - random(`sy${i}`) * 100;
+        return show ? <div key={i} style={{position: 'absolute', left: x, top: y, width: 14, height: 14, transform: `rotate(45deg) scale(${1 - life})`,
+          background: '#fff6c8', boxShadow: '0 0 16px #ffd36b', opacity: 1 - life}} /> : null;
       })}
+      {/* powder poof */}
+      {sinceP > 0 && sinceP < 3 && (
+        <AbsoluteFill style={{mixBlendMode: 'screen'}}>
+          {new Array(60).fill(0).map((_, i) => {
+            const a = random(`pa${i}`) * Math.PI * 2;
+            const v = 180 + random(`pv${i}`) * 560;
+            const d = (1 - Math.exp(-sinceP * 3)) * v;
+            const s = 50 + random(`ps${i}`) * 150 + sinceP * 90;
+            return <div key={i} style={{position: 'absolute', left: 540 + Math.cos(a) * d - s / 2, top: 450 + Math.sin(a) * d - s / 2 - sinceP * 60, width: s, height: s, borderRadius: '50%',
+              background: cols[i % cols.length], filter: `blur(${14 + sinceP * 12}px)`, opacity: Math.max(0, 0.8 - sinceP * 0.3)}} />;
+          })}
+        </AbsoluteFill>
+      )}
+      <AbsoluteFill style={{background: '#fff', opacity: sinceP > 0 ? Math.max(0, 0.6 - sinceP * 3) : 0}} />
     </AbsoluteFill>
   );
 };
 
-// End card: push to the full clip.
+// ---------------------------------------------------------------- the switch: the real subject
+const DateCard: React.FC<{at: number}> = ({at}) => {
+  const {f, fps} = useSongT();
+  const a = sp(f, fps, at + 0.05, {damping: 16, stiffness: 140});
+  const b = sp(f, fps, at + 0.75, {damping: 16, stiffness: 140});
+  return (
+    <AbsoluteFill style={{background: '#0b0907', alignItems: 'center', justifyContent: 'center'}}>
+      <div style={{textAlign: 'center', marginTop: -300}}>
+        <div style={{fontFamily: STENCIL, fontSize: 150, lineHeight: 1, color: C.cream, opacity: a, transform: `translateY(${(1 - a) * 40}px)`}}>18 AVRIL</div>
+        <div style={{fontFamily: STENCIL, fontSize: 210, lineHeight: 1, color: C.cream, opacity: a, transform: `translateY(${(1 - a) * 40}px)`}}>2027</div>
+        <div style={{width: 140, height: 6, background: C.hibiscus, margin: '40px auto', opacity: b}} />
+        <div style={{fontFamily: SANS, fontWeight: 800, fontSize: 46, letterSpacing: 6, color: C.mango, opacity: b}}>PRÉSIDENTIELLE</div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+const Caption: React.FC<{text: string; at: number}> = ({text, at}) => {
+  const {f, fps} = useSongT();
+  const k = sp(f, fps, at + 0.15, {damping: 16, stiffness: 140});
+  return (
+    <div style={{position: 'absolute', top: 330, left: 70, right: 70, textAlign: 'center', fontFamily: DISPLAY, fontSize: 104, lineHeight: 1.05, color: C.cream,
+      textTransform: 'uppercase', textShadow: '0 6px 0 #000, 0 0 40px rgba(0,0,0,0.9)', opacity: k, transform: `translateY(${(1 - k) * 30}px)`}}>{text}</div>
+  );
+};
+
+// ---------------------------------------------------------------- end card
 const EndCard: React.FC<{at: number}> = ({at}) => {
   const {f, fps, t} = useSongT();
-  const k = sp(f, fps, at, {damping: 12, stiffness: 140});
-  const arrow = Math.sin((t - at) * 8) * 18;
+  const k = sp(f, fps, at, {damping: 14, stiffness: 120});
+  const k2 = sp(f, fps, at + 0.7, {damping: 14, stiffness: 120});
   return (
-    <AbsoluteFill style={{background: `radial-gradient(ellipse at 50% 40%, #3b2412, ${C.night} 72%)`, alignItems: 'center'}}>
-      <div style={{position: 'absolute', top: 300, width: 900, padding: '50px 40px', ...cardboardBg(C.carton, 18), boxShadow: '0 40px 80px rgba(0,0,0,0.8), inset 0 0 70px rgba(60,30,8,0.6)',
+    <AbsoluteFill style={{background: '#0b0907', alignItems: 'center'}}>
+      <div style={{position: 'absolute', top: 420, width: 860, padding: '50px 40px', ...cardboardBg(C.carton, 18), boxShadow: '0 40px 80px rgba(0,0,0,0.8), inset 0 0 70px rgba(60,30,8,0.6)',
         transform: `scale(${k}) rotate(-2deg)`, textAlign: 'center'}}>
-        <div style={{fontFamily: STENCIL, fontSize: 210, lineHeight: 0.9, color: C.ink}}>1000</div>
-        <div style={{fontFamily: STENCIL, fontSize: 96, color: C.ink, letterSpacing: 4}}>PROMESSES</div>
-        <div style={{fontFamily: MARKER, fontSize: 96, color: C.hibiscus, transform: 'rotate(-6deg)'}}>en carton</div>
+        <div style={{fontFamily: STENCIL, fontSize: 200, lineHeight: 0.9, color: C.ink}}>1000</div>
+        <div style={{fontFamily: STENCIL, fontSize: 92, color: C.ink, letterSpacing: 4}}>PROMESSES</div>
+        <div style={{fontFamily: MARKER, fontSize: 92, color: C.hibiscus, transform: 'rotate(-6deg)'}}>en carton</div>
       </div>
-      <div style={{position: 'absolute', top: 1010, width: '100%', textAlign: 'center', opacity: sp(f, fps, at + 0.6)}}>
-        <div style={{display: 'inline-block', background: C.red, color: '#fff', fontFamily: DISPLAY, fontSize: 84, padding: '10px 44px', borderRadius: 16, letterSpacing: 3,
-          boxShadow: '0 12px 30px rgba(0,0,0,0.6)'}}>▶ LE CLIP COMPLET</div>
-        <div style={{fontFamily: SANS, fontWeight: 900, fontSize: 46, color: C.cream, marginTop: 26, letterSpacing: 4}}>SUR LA CHAÎNE</div>
-        <div style={{fontSize: 90, color: C.mango, transform: `translateY(${arrow}px)`, marginTop: 6}}>⬇</div>
-      </div>
-      <div style={{position: 'absolute', top: 1390, left: 90, right: 90, textAlign: 'center', fontFamily: MARKER, fontSize: 50, color: C.cream, opacity: sp(f, fps, at + 1.4),
-        transform: 'rotate(-2deg)'}}>
-        Qui va livrer ses promesses ? Dis-le en commentaire
+      <div style={{position: 'absolute', top: 1110, width: '100%', textAlign: 'center', opacity: k2, transform: `translateY(${(1 - k2) * 30}px)`}}>
+        <div style={{fontFamily: SANS, fontWeight: 900, fontSize: 52, color: C.cream, letterSpacing: 4}}>LE CLIP COMPLET</div>
+        <div style={{fontFamily: SANS, fontWeight: 600, fontSize: 40, color: C.mango, marginTop: 14, letterSpacing: 3}}>sur la chaîne ▶</div>
       </div>
     </AbsoluteFill>
   );
 };
 
-const Headline: React.FC = () => {
-  const {f, fps, t} = useSongT();
-  let h: (typeof HEADLINES)[number] | undefined;
-  let next = Infinity;
-  HEADLINES.forEach((x, i) => {
-    if (x.at <= t) {
-      h = x;
-      next = HEADLINES[i + 1]?.at ?? Infinity;
-    }
-  });
-  const shotChange = SHOTS.find((s) => s.gfx && s.t > (h?.at ?? 0))?.t ?? Infinity;
-  if (!h || !h.text || t >= Math.min(next, shotChange)) return null;
-  const words = h.text.split(' ');
-  const kick = sp(f, fps, h.at, {damping: 10, stiffness: 260});
-  return (
-    <div style={{position: 'absolute', top: 230, left: 60, right: 60}}>
-      <div style={{display: 'inline-block', background: C.red, color: '#fff', fontFamily: SANS, fontWeight: 900, fontSize: 34, letterSpacing: 6, padding: '8px 22px',
-        transform: `translateX(${(1 - kick) * -700}px) rotate(-2deg)`, boxShadow: '0 8px 20px rgba(0,0,0,0.5)'}}>{h.kicker}</div>
-      <div style={{marginTop: 18, display: 'flex', flexWrap: 'wrap', gap: '0 22px', fontFamily: DISPLAY, fontSize: h.text.length > 34 ? 84 : 100, lineHeight: 1.05,
-        textTransform: 'uppercase', color: C.cream, textShadow: '0 8px 0 #000, 0 0 30px rgba(0,0,0,0.8)'}}>
-        {words.map((w, i) => {
-          const k = sp(f, fps, h!.at + 0.12 + i * 0.07, {damping: 9, stiffness: 320});
-          return <span key={i} style={{display: 'inline-block', transform: `scale(${interpolate(k, [0, 1], [1.8, 1])})`, opacity: Math.min(1, k * 2)}}>{w}</span>;
-        })}
-      </div>
-    </div>
-  );
-};
-
-const Stage: React.FC = () => {
-  const {f, t} = useSongT();
+const Stage: React.FC<{rangeEnd: number}> = ({rangeEnd}) => {
+  const {t} = useSongT();
   let i = 0;
   SHOTS.forEach((s, k) => {
     if (s.t <= t) i = k;
   });
   const shot = SHOTS[i];
-  const end = SHOTS[i + 1]?.t ?? SHORT_TO;
-  const hotT = t >= 125.48 && t < 142.5;
+  const end = shot.t < A0 ? (SHOTS[i + 1]?.t ?? rangeEnd) : (SHOTS[i + 1]?.t ?? A1);
   const d = downbeatPulse(t);
-  const punch = hotT ? 1 + d * 0.04 : 1 + d * 0.012;
-  const flash = interpolate(t, [shot.t, shot.t + 0.12], [shot.gfx ? 0.6 : 0.25, 0], clamp);
-  const isEnd = shot.gfx === 'end';
+  const chorus = t >= 125.48 && t < 142.5;
   return (
-    <AbsoluteFill style={{background: C.night}}>
-      <AbsoluteFill style={{transform: `scale(${punch}) translate(${Math.sin(f * 2.3) * d * (hotT ? 6 : 0)}px, 0)`}}>
-        {shot.gfx === 'ballot' && <Ballot at={shot.t} />}
-        {shot.gfx === 'boxes' && <Boxes at={shot.t} />}
-        {isEnd && <EndCard at={shot.t} />}
+    <AbsoluteFill style={{background: '#000'}}>
+      <AbsoluteFill style={{transform: `scale(${chorus ? 1 + d * 0.015 : 1})`}}>
+        {shot.gfx === 'magic' && <Magic at={shot.t} />}
+        {shot.gfx === 'date' && <DateCard at={shot.t} />}
+        {shot.gfx === 'end' && <EndCard at={shot.t} />}
         {shot.img && <VPhoto shot={shot} end={end} />}
       </AbsoluteFill>
-      {shot.img && <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(10,6,3,0.85) 0%, rgba(10,6,3,0.2) 32%, transparent 55%, rgba(10,6,3,0.55) 100%)'}} />}
-      <FilmLook vignette={0.5} />
-      <Headline />
-      {!isEnd && <Responses top={shot.gfx === 'boxes' ? 1000 : 820} />}
-      {/* top badge */}
-      {!isEnd && (
-        <div style={{position: 'absolute', top: 90, left: 60, ...cardboardBg(C.carton), clipPath: tornClip('badge', 6, 10), padding: '10px 26px',
-          fontFamily: STENCIL, fontSize: 34, color: C.ink, letterSpacing: 2}}>
-          1000 PROMESSES EN CARTON
-        </div>
-      )}
-      <Lyrics hidden={isEnd} bottom={430} maxWidth={1000} scale={0.95} />
-      <AbsoluteFill style={{background: C.cream, opacity: flash, mixBlendMode: 'screen'}} />
+      {shot.img && <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(0,0,0,0.45) 0%, transparent 30%, transparent 60%, rgba(0,0,0,0.5) 100%)'}} />}
+      {shot.caption && <Caption text={shot.caption} at={shot.t} />}
+      <FilmLook vignette={0.45} />
+      <Lyrics hidden={shot.gfx === 'end'} bottom={440} maxWidth={1000} scale={0.95} />
     </AbsoluteFill>
   );
 };
 
 export const ShortCarton: React.FC = () => {
   const {fps, durationInFrames} = useVideoConfig();
-  const off = Math.round(SHORT_FROM * fps);
+  const fA = Math.round((A1 - A0) * fps);
+  const a0 = Math.round(A0 * fps);
+  const b0 = Math.round(B0 * fps);
+  const X = 3; // crossfade frames at the splice
   return (
-    <AbsoluteFill style={{background: C.night}}>
-      <Sequence from={-off} layout="none">
-        <Stage />
+    <AbsoluteFill style={{background: '#000'}}>
+      <Sequence durationInFrames={fA}>
+        <Sequence from={-a0} layout="none">
+          <Stage rangeEnd={A1} />
+        </Sequence>
       </Sequence>
-      <Audio src={staticFile('audio/promesses-carton.mp3')} startFrom={off}
-        volume={(fr) => interpolate(fr, [0, 8, durationInFrames - 60, durationInFrames], [0, 1, 1, 0], clamp)} />
+      <Sequence from={fA}>
+        <Sequence from={-b0} layout="none">
+          <Stage rangeEnd={B1} />
+        </Sequence>
+      </Sequence>
+      <Sequence durationInFrames={fA + X}>
+        <Audio src={staticFile('audio/promesses-carton.mp3')} startFrom={a0}
+          volume={(fr) => interpolate(fr, [0, 4, fA - 1, fA + X], [0, 1, 1, 0], clamp)} />
+      </Sequence>
+      <Sequence from={fA - 1}>
+        <Audio src={staticFile('audio/promesses-carton.mp3')} startFrom={b0 - 1}
+          volume={(fr) => interpolate(fr, [0, X, durationInFrames - fA - 50, durationInFrames - fA + 1], [0, 1, 1, 0], clamp)} />
+      </Sequence>
+      <Audio src={staticFile('audio/sfx-magic.wav')} volume={0.55} />
     </AbsoluteFill>
   );
 };
-
-export {quadMatrix};

@@ -57,9 +57,10 @@ COMP=PromessesCarton node scripts/stills.mjs 35 123.8 299
 npx remotion render src/index.ts PromessesCarton out/promesses-carton.mp4 --crf=20
 ```
 
-## Short « Présidentielle 2027 » (9:16)
+## Short « Présidentielle 2027 » (9:16), v2 sobre
 
-`ShortCarton` (`src/carton/short/ShortCarton.tsx`) : teaser vertical de 38 s → `renders/1000-promesses-short-presidentielle-2027.mp4`.
-Extrait 109,2 s → 147,5 s de la chanson (« Qui fait les lois ? » + refrain 2). Chaque ligne chantée reçoit un titre
-« version 2027 » (`HEADLINES`), suivi d'une carte de fin qui renvoie vers le clip complet. Tout tourne en temps « chanson »
-(Sequence décalée) : les paroles calées et l'analyse des temps du clip principal sont réutilisées telles quelles.
+`ShortCarton` (`src/carton/short/ShortCarton.tsx`) : 33 s → `renders/1000-promesses-short-v2.mp4`.
+- 0–4,5 s : accroche « tour de magie » sur « La poudre de perlimpinpin » (la promesse dorée part en fumée sur « …pin »),
+  effets sonores synthétisés par `scripts/synth_magic_sfx.py` → `public/audio/sfx-magic.wav`.
+- 4,5–8,7 s : bascule « 18 avril 2027 · Présidentielle », puis « Les promesses reviennent » sur « le beurre a fondu en chemin ».
+- puis raccord sur le temps vers « Éh Tonton ! Pa pran nou pou kouyon ! » et le refrain 2, et la carte « Le clip complet sur la chaîne ».

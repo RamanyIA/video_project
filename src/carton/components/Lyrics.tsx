@@ -108,7 +108,7 @@ export const Responses: React.FC = () => {
     const side = (li + ri) % 2 === 0;
     const rot = (random(`r${li}${ri}`) - 0.5) * 22;
     items.push(
-      <div key={`${li}-${ri}`} style={{position: 'absolute', top: big ? 300 : 120 + (ri % 2) * 40, [side ? 'right' : 'left']: big ? 760 - (side ? 0 : 0) : 110,
+      <div key={`${li}-${ri}`} style={{position: 'absolute', top: big ? 300 : 250 + (ri % 2) * 40, [side ? 'right' : 'left']: big ? 760 - (side ? 0 : 0) : 110,
         transform: `scale(${interpolate(k, [0, 1], [2.6, 1])}) rotate(${rot}deg)`, opacity: Math.min(1, k * 3) * op, textAlign: 'center'}}>
         <div style={{fontFamily: big ? DISPLAY : MARKER, fontSize: big ? 190 : 84, color: C.red, padding: big ? '0 40px' : '6px 30px',
           border: big ? 'none' : `8px solid ${C.red}`, borderRadius: 18, textTransform: 'uppercase', letterSpacing: big ? 8 : 2,

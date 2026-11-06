@@ -1,0 +1,5007 @@
+{
+ "lines": [
+  {
+   "part": "intro",
+   "text": "Éh Tonton !",
+   "tr": "Eh Tonton !",
+   "start": 14.14,
+   "end": 15.0,
+   "words": [
+    {
+     "w": "Éh",
+     "s": 14.14,
+     "e": 14.77,
+     "i": 1
+    },
+    {
+     "w": "Tonton",
+     "s": 14.77,
+     "e": 15.0
+    }
+   ],
+   "resp": [
+    {
+     "text": "Hein ?",
+     "start": 16.2,
+     "end": 16.8,
+     "tr": null
+    }
+   ]
+  },
+  {
+   "part": "intro",
+   "text": "Ou ka tann mwen ?",
+   "tr": "Tu m'entends ?",
+   "start": 19.32,
+   "end": 20.4,
+   "words": [
+    {
+     "w": "Ou",
+     "s": 19.32,
+     "e": 19.52,
+     "i": 1
+    },
+    {
+     "w": "ka",
+     "s": 19.52,
+     "e": 19.73,
+     "i": 1
+    },
+    {
+     "w": "tann",
+     "s": 19.73,
+     "e": 20.06,
+     "i": 1
+    },
+    {
+     "w": "mwen",
+     "s": 20.06,
+     "e": 20.4,
+     "i": 1
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "intro",
+   "text": "Depuis là-bas, jusqu'ici,",
+   "tr": null,
+   "start": 23.0,
+   "end": 24.3,
+   "words": [
+    {
+     "w": "Depuis",
+     "s": 23.0,
+     "e": 23.4
+    },
+    {
+     "w": "là-bas,",
+     "s": 23.48,
+     "e": 23.88
+    },
+    {
+     "w": "jusqu'ici,",
+     "s": 24.06,
+     "e": 24.3
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "intro",
+   "text": "Depuis les îles jusqu'à Paris…",
+   "tr": null,
+   "start": 26.88,
+   "end": 29.2,
+   "words": [
+    {
+     "w": "Depuis",
+     "s": 26.88,
+     "e": 27.25
+    },
+    {
+     "w": "les",
+     "s": 27.25,
+     "e": 27.6
+    },
+    {
+     "w": "îles",
+     "s": 27.6,
+     "e": 27.97
+    },
+    {
+     "w": "jusqu'à",
+     "s": 27.97,
+     "e": 28.22
+    },
+    {
+     "w": "Paris…",
+     "s": 28.76,
+     "e": 29.2
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "intro",
+   "text": "Mille promesses !",
+   "tr": "J'entends !",
+   "start": 33.38,
+   "end": 34.2,
+   "words": [
+    {
+     "w": "Mille",
+     "s": 33.38,
+     "e": 33.68
+    },
+    {
+     "w": "promesses",
+     "s": 33.68,
+     "e": 34.2
+    }
+   ],
+   "resp": [
+    {
+     "text": "An ka tann !",
+     "start": 34.1,
+     "end": 34.6,
+     "tr": "J'entends !"
+    }
+   ]
+  },
+  {
+   "part": "intro",
+   "text": "Mille promesses !",
+   "tr": "J'attends !",
+   "start": 34.4,
+   "end": 35.5,
+   "words": [
+    {
+     "w": "Mille",
+     "s": 34.4,
+     "e": 34.65
+    },
+    {
+     "w": "promesses",
+     "s": 35.0,
+     "e": 35.5
+    }
+   ],
+   "resp": [
+    {
+     "text": "An ka atann !",
+     "start": 35.8,
+     "end": 36.4,
+     "tr": "J'attends !"
+    }
+   ]
+  },
+  {
+   "part": "intro",
+   "text": "Pani pwoblèm, ou ka di !",
+   "tr": "Pas de problème, tu dis !",
+   "start": 37.8,
+   "end": 39.79,
+   "words": [
+    {
+     "w": "Pani",
+     "s": 37.8,
+     "e": 38
+    },
+    {
+     "w": "pwoblèm,",
+     "s": 38.14,
+     "e": 38.74
+    },
+    {
+     "w": "ou",
+     "s": 38.74,
+     "e": 39.09,
+     "i": 1
+    },
+    {
+     "w": "ka",
+     "s": 39.09,
+     "e": 39.44,
+     "i": 1
+    },
+    {
+     "w": "di",
+     "s": 39.44,
+     "e": 39.79,
+     "i": 1
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "intro",
+   "text": "Mé pwoblèm-la toujou isi !",
+   "tr": "Mais le problème est toujours ici !",
+   "start": 39.79,
+   "end": 41.56,
+   "words": [
+    {
+     "w": "Mé",
+     "s": 39.79,
+     "e": 40.14,
+     "i": 1
+    },
+    {
+     "w": "pwoblèm-la",
+     "s": 40.14,
+     "e": 40.42
+    },
+    {
+     "w": "toujou",
+     "s": 40.74,
+     "e": 41.34
+    },
+    {
+     "w": "isi",
+     "s": 41.34,
+     "e": 41.56
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "intro",
+   "text": "Tonton !",
+   "tr": null,
+   "start": 41.62,
+   "end": 42.52,
+   "words": [
+    {
+     "w": "Tonton",
+     "s": 41.62,
+     "e": 42.52
+    }
+   ],
+   "resp": [
+    {
+     "text": "Hein ?",
+     "start": 42.52,
+     "end": 43.02,
+     "tr": null
+    }
+   ]
+  },
+  {
+   "part": "intro",
+   "text": "Macwon !",
+   "tr": null,
+   "start": 42.74,
+   "end": 43.62,
+   "words": [
+    {
+     "w": "Macwon",
+     "s": 42.74,
+     "e": 43.62
+    }
+   ],
+   "resp": [
+    {
+     "text": "Hein ?",
+     "start": 43.62,
+     "end": 44.12,
+     "tr": null
+    }
+   ]
+  },
+  {
+   "part": "intro",
+   "text": "Ou ka palé asi mil ton !",
+   "tr": "Tu parles sur mille tons !",
+   "start": 43.93,
+   "end": 46.78,
+   "words": [
+    {
+     "w": "Ou",
+     "s": 43.93,
+     "e": 44.12,
+     "i": 1
+    },
+    {
+     "w": "ka",
+     "s": 44.12,
+     "e": 44.31,
+     "i": 1
+    },
+    {
+     "w": "palé",
+     "s": 44.31,
+     "e": 44.62,
+     "i": 1
+    },
+    {
+     "w": "asi",
+     "s": 44.62,
+     "e": 44.84
+    },
+    {
+     "w": "mil",
+     "s": 46.16,
+     "e": 46.52
+    },
+    {
+     "w": "ton",
+     "s": 46.52,
+     "e": 46.78
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "intro",
+   "text": "Mille tons, mille tons, Tonton !",
+   "tr": null,
+   "start": 46.96,
+   "end": 48.34,
+   "words": [
+    {
+     "w": "Mille",
+     "s": 46.96,
+     "e": 47
+    },
+    {
+     "w": "tons,",
+     "s": 47.42,
+     "e": 47.7
+    },
+    {
+     "w": "mille",
+     "s": 47.5,
+     "e": 47.7,
+     "i": 1
+    },
+    {
+     "w": "tons,",
+     "s": 47.7,
+     "e": 48.06
+    },
+    {
+     "w": "Tonton",
+     "s": 48.06,
+     "e": 48.34
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "intro",
+   "text": "Mille promesses en carton !",
+   "tr": null,
+   "start": 48.74,
+   "end": 50.6,
+   "words": [
+    {
+     "w": "Mille",
+     "s": 48.74,
+     "e": 49
+    },
+    {
+     "w": "promesses",
+     "s": 49.46,
+     "e": 49.96
+    },
+    {
+     "w": "en",
+     "s": 49.96,
+     "e": 50.1
+    },
+    {
+     "w": "carton",
+     "s": 50.22,
+     "e": 50.6
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "refrain",
+   "text": "Mille promesses en carton !",
+   "tr": null,
+   "start": 51,
+   "end": 52.8,
+   "words": [
+    {
+     "w": "Mille",
+     "s": 51,
+     "e": 51.62
+    },
+    {
+     "w": "promesses",
+     "s": 51.62,
+     "e": 52.16
+    },
+    {
+     "w": "en",
+     "s": 52.16,
+     "e": 52.4
+    },
+    {
+     "w": "carton",
+     "s": 52.4,
+     "e": 52.8
+    }
+   ],
+   "resp": [
+    {
+     "text": "Tonton !",
+     "start": 52.96,
+     "end": 53.46,
+     "tr": null
+    }
+   ]
+  },
+  {
+   "part": "refrain",
+   "text": "Ou ka palé asi mil ton !",
+   "tr": "Tu parles sur mille tons !",
+   "start": 53.4,
+   "end": 54.96,
+   "words": [
+    {
+     "w": "Ou",
+     "s": 53.4,
+     "e": 53.57,
+     "i": 1
+    },
+    {
+     "w": "ka",
+     "s": 53.57,
+     "e": 53.74,
+     "i": 1
+    },
+    {
+     "w": "palé",
+     "s": 53.74,
+     "e": 54.02,
+     "i": 1
+    },
+    {
+     "w": "asi",
+     "s": 54.02,
+     "e": 54.24,
+     "i": 1
+    },
+    {
+     "w": "mil",
+     "s": 54.24,
+     "e": 54.82
+    },
+    {
+     "w": "ton",
+     "s": 54.82,
+     "e": 54.96
+    }
+   ],
+   "resp": [
+    {
+     "text": "Tonton !",
+     "start": 55.12,
+     "end": 55.62,
+     "tr": null
+    }
+   ]
+  },
+  {
+   "part": "refrain",
+   "text": "Pani pwoblèm, pani pwoblèm !",
+   "tr": "Pas de problème, pas de problème !",
+   "start": 55.82,
+   "end": 57.16,
+   "words": [
+    {
+     "w": "Pani",
+     "s": 55.82,
+     "e": 56.04
+    },
+    {
+     "w": "pwoblèm,",
+     "s": 56.04,
+     "e": 56.4
+    },
+    {
+     "w": "pani",
+     "s": 56.62,
+     "e": 56.9
+    },
+    {
+     "w": "pwoblèm",
+     "s": 56.9,
+     "e": 57.16
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "refrain",
+   "text": "Mé sé toujou nou ki ni pwoblèm !",
+   "tr": "Mais c'est toujours nous qui avons des problèmes !",
+   "start": 57.16,
+   "end": 59.36,
+   "words": [
+    {
+     "w": "Mé",
+     "s": 57.16,
+     "e": 57.57,
+     "i": 1
+    },
+    {
+     "w": "sé",
+     "s": 57.57,
+     "e": 57.98,
+     "i": 1
+    },
+    {
+     "w": "toujou",
+     "s": 57.98,
+     "e": 58.3
+    },
+    {
+     "w": "nou",
+     "s": 58.3,
+     "e": 58.56
+    },
+    {
+     "w": "ki",
+     "s": 58.48,
+     "e": 58.68,
+     "i": 1
+    },
+    {
+     "w": "ni",
+     "s": 58.68,
+     "e": 59.06
+    },
+    {
+     "w": "pwoblèm",
+     "s": 59.06,
+     "e": 59.36
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "refrain",
+   "text": "Du pain, du beurre, un peu d'horizon,",
+   "tr": null,
+   "start": 59.56,
+   "end": 61.46,
+   "words": [
+    {
+     "w": "Du",
+     "s": 59.56,
+     "e": 59.86
+    },
+    {
+     "w": "pain,",
+     "s": 59.86,
+     "e": 60.02
+    },
+    {
+     "w": "du",
+     "s": 60.02,
+     "e": 60.24
+    },
+    {
+     "w": "beurre,",
+     "s": 60.24,
+     "e": 60.44
+    },
+    {
+     "w": "un",
+     "s": 60.54,
+     "e": 60.7
+    },
+    {
+     "w": "peu",
+     "s": 60.7,
+     "e": 60.86
+    },
+    {
+     "w": "d'horizon,",
+     "s": 60.86,
+     "e": 61.46
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "refrain",
+   "text": "Pas des beaux discours livrés en camion !",
+   "tr": null,
+   "start": 61.6,
+   "end": 63.7,
+   "words": [
+    {
+     "w": "Pas",
+     "s": 61.6,
+     "e": 61.78
+    },
+    {
+     "w": "des",
+     "s": 61.78,
+     "e": 61.98
+    },
+    {
+     "w": "beaux",
+     "s": 61.98,
+     "e": 62.27,
+     "i": 1
+    },
+    {
+     "w": "discours",
+     "s": 62.27,
+     "e": 62.72,
+     "i": 1
+    },
+    {
+     "w": "livrés",
+     "s": 62.72,
+     "e": 63.06,
+     "i": 1
+    },
+    {
+     "w": "en",
+     "s": 63.06,
+     "e": 63.32
+    },
+    {
+     "w": "camion",
+     "s": 63.32,
+     "e": 63.7
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "refrain",
+   "text": "Mille tons, mille tons, Tonton !",
+   "tr": null,
+   "start": 64.02,
+   "end": 65.86,
+   "words": [
+    {
+     "w": "Mille",
+     "s": 64.02,
+     "e": 64.34
+    },
+    {
+     "w": "tons,",
+     "s": 64.34,
+     "e": 64.56
+    },
+    {
+     "w": "mille",
+     "s": 64.62,
+     "e": 64.9
+    },
+    {
+     "w": "tons,",
+     "s": 64.9,
+     "e": 65.24
+    },
+    {
+     "w": "Tonton",
+     "s": 65.24,
+     "e": 65.86
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "refrain",
+   "text": "Mais la faim n'a qu'une seule chanson !",
+   "tr": null,
+   "start": 66.14,
+   "end": 68.68,
+   "words": [
+    {
+     "w": "Mais",
+     "s": 66.14,
+     "e": 66.36
+    },
+    {
+     "w": "la",
+     "s": 66.36,
+     "e": 66.56
+    },
+    {
+     "w": "faim",
+     "s": 66.58,
+     "e": 66.76
+    },
+    {
+     "w": "n'a",
+     "s": 66.78,
+     "e": 66.98
+    },
+    {
+     "w": "qu'une",
+     "s": 66.98,
+     "e": 67.3
+    },
+    {
+     "w": "seule",
+     "s": 67.3,
+     "e": 67.62
+    },
+    {
+     "w": "chanson",
+     "s": 67.68,
+     "e": 68.68
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 1",
+   "text": "Mon grand-père coupait la canne,",
+   "tr": null,
+   "start": 76.82,
+   "end": 78.7,
+   "words": [
+    {
+     "w": "Mon",
+     "s": 76.82,
+     "e": 77
+    },
+    {
+     "w": "grand-père",
+     "s": 77,
+     "e": 77.26
+    },
+    {
+     "w": "coupait",
+     "s": 77.7,
+     "e": 78.14
+    },
+    {
+     "w": "la",
+     "s": 78.14,
+     "e": 78.54
+    },
+    {
+     "w": "canne,",
+     "s": 78.54,
+     "e": 78.7
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 1",
+   "text": "Sous le soleil, sous les savanes,",
+   "tr": null,
+   "start": 79,
+   "end": 81,
+   "words": [
+    {
+     "w": "Sous",
+     "s": 79,
+     "e": 79.16
+    },
+    {
+     "w": "le",
+     "s": 79.16,
+     "e": 79.48
+    },
+    {
+     "w": "soleil,",
+     "s": 79.48,
+     "e": 79.8
+    },
+    {
+     "w": "sous",
+     "s": 79.98,
+     "e": 80.12
+    },
+    {
+     "w": "les",
+     "s": 80.12,
+     "e": 80.44
+    },
+    {
+     "w": "savanes,",
+     "s": 80.44,
+     "e": 81
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 1",
+   "text": "Il avait des chaînes dans l'histoire,",
+   "tr": null,
+   "start": 81.24,
+   "end": 83.3,
+   "words": [
+    {
+     "w": "Il",
+     "s": 81.24,
+     "e": 81.52
+    },
+    {
+     "w": "avait",
+     "s": 81.52,
+     "e": 81.86
+    },
+    {
+     "w": "des",
+     "s": 81.86,
+     "e": 82.1
+    },
+    {
+     "w": "chaînes",
+     "s": 82.1,
+     "e": 82.42
+    },
+    {
+     "w": "dans",
+     "s": 82.42,
+     "e": 82.56
+    },
+    {
+     "w": "l'histoire,",
+     "s": 82.9,
+     "e": 83.3
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 1",
+   "text": "Mais dans les yeux, tout un espoir.",
+   "tr": null,
+   "start": 83.52,
+   "end": 85.32,
+   "words": [
+    {
+     "w": "Mais",
+     "s": 83.52,
+     "e": 83.64
+    },
+    {
+     "w": "dans",
+     "s": 83.64,
+     "e": 83.82
+    },
+    {
+     "w": "les",
+     "s": 83.82,
+     "e": 84.1
+    },
+    {
+     "w": "yeux,",
+     "s": 84.1,
+     "e": 84.2
+    },
+    {
+     "w": "tout",
+     "s": 84.32,
+     "e": 84.52
+    },
+    {
+     "w": "un",
+     "s": 84.42,
+     "e": 84.62,
+     "i": 1
+    },
+    {
+     "w": "espoir.",
+     "s": 84.62,
+     "e": 85.32
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 1",
+   "text": "On nous a promis l'égalité,",
+   "tr": null,
+   "start": 85.52,
+   "end": 86.62,
+   "words": [
+    {
+     "w": "On",
+     "s": 85.52,
+     "e": 85.72
+    },
+    {
+     "w": "nous",
+     "s": 85.72,
+     "e": 85.84
+    },
+    {
+     "w": "a",
+     "s": 85.84,
+     "e": 86.06
+    },
+    {
+     "w": "promis",
+     "s": 86.06,
+     "e": 86.5
+    },
+    {
+     "w": "l'égalité,",
+     "s": 86.5,
+     "e": 86.62
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 1",
+   "text": "La même lumière, la même dignité,",
+   "tr": null,
+   "start": 87.58,
+   "end": 89,
+   "words": [
+    {
+     "w": "La",
+     "s": 87.58,
+     "e": 87.76
+    },
+    {
+     "w": "même",
+     "s": 87.76,
+     "e": 88.04
+    },
+    {
+     "w": "lumière,",
+     "s": 88.04,
+     "e": 88.34
+    },
+    {
+     "w": "la",
+     "s": 88.4,
+     "e": 88.6
+    },
+    {
+     "w": "même",
+     "s": 88.6,
+     "e": 88.88
+    },
+    {
+     "w": "dignité,",
+     "s": 88.88,
+     "e": 89
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 1",
+   "text": "Mais quand le bateau quitte le port,",
+   "tr": null,
+   "start": 90.04,
+   "end": 92.12,
+   "words": [
+    {
+     "w": "Mais",
+     "s": 90.04,
+     "e": 90.18
+    },
+    {
+     "w": "quand",
+     "s": 90.18,
+     "e": 90.32
+    },
+    {
+     "w": "le",
+     "s": 90.32,
+     "e": 90.56
+    },
+    {
+     "w": "bateau",
+     "s": 90.56,
+     "e": 91
+    },
+    {
+     "w": "quitte",
+     "s": 91,
+     "e": 91.3
+    },
+    {
+     "w": "le",
+     "s": 91.3,
+     "e": 91.84
+    },
+    {
+     "w": "port,",
+     "s": 91.84,
+     "e": 92.12
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 1",
+   "text": "Le prix du riz grimpe encore !",
+   "tr": null,
+   "start": 92.28,
+   "end": 94.08,
+   "words": [
+    {
+     "w": "Le",
+     "s": 92.28,
+     "e": 92.54
+    },
+    {
+     "w": "prix",
+     "s": 92.54,
+     "e": 92.76
+    },
+    {
+     "w": "du",
+     "s": 92.76,
+     "e": 92.96
+    },
+    {
+     "w": "riz",
+     "s": 92.96,
+     "e": 93.21,
+     "i": 1
+    },
+    {
+     "w": "grimpe",
+     "s": 93.21,
+     "e": 93.64,
+     "i": 1
+    },
+    {
+     "w": "encore",
+     "s": 93.64,
+     "e": 94.08,
+     "i": 1
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 1",
+   "text": "Vos promesses en carton, Tonton,",
+   "tr": null,
+   "start": 94.08,
+   "end": 96.46,
+   "words": [
+    {
+     "w": "Vos",
+     "s": 94.08,
+     "e": 94.58
+    },
+    {
+     "w": "promesses",
+     "s": 94.58,
+     "e": 94.94
+    },
+    {
+     "w": "en",
+     "s": 94.94,
+     "e": 95.22,
+     "i": 1
+    },
+    {
+     "w": "carton,",
+     "s": 95.22,
+     "e": 95.6
+    },
+    {
+     "w": "Tonton,",
+     "s": 95.71,
+     "e": 96.46,
+     "i": 1
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 1",
+   "text": "Nous, on finit dans un carton !",
+   "tr": null,
+   "start": 96.46,
+   "end": 98,
+   "words": [
+    {
+     "w": "Nous,",
+     "s": 96.46,
+     "e": 96.64
+    },
+    {
+     "w": "on",
+     "s": 96.64,
+     "e": 96.94
+    },
+    {
+     "w": "finit",
+     "s": 96.94,
+     "e": 97.34
+    },
+    {
+     "w": "dans",
+     "s": 97.34,
+     "e": 97.64
+    },
+    {
+     "w": "un",
+     "s": 97.64,
+     "e": 97.96
+    },
+    {
+     "w": "carton",
+     "s": 97.96,
+     "e": 98
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 1",
+   "text": "Traverser la rue ? On l'a fait !",
+   "tr": null,
+   "start": 98.66,
+   "end": 100.54,
+   "words": [
+    {
+     "w": "Traverser",
+     "s": 98.66,
+     "e": 99.26
+    },
+    {
+     "w": "la",
+     "s": 99.26,
+     "e": 99.56
+    },
+    {
+     "w": "rue",
+     "s": 99.56,
+     "e": 100.46
+    },
+    {
+     "w": "On",
+     "s": 99.94,
+     "e": 100.1,
+     "i": 1
+    },
+    {
+     "w": "l'a",
+     "s": 100.1,
+     "e": 100.27,
+     "i": 1
+    },
+    {
+     "w": "fait",
+     "s": 100.27,
+     "e": 100.54,
+     "i": 1
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 1",
+   "text": "De l'autre côté, même galère, même effet !",
+   "tr": null,
+   "start": 100.54,
+   "end": 102.86,
+   "words": [
+    {
+     "w": "De",
+     "s": 100.54,
+     "e": 100.66
+    },
+    {
+     "w": "l'autre",
+     "s": 100.66,
+     "e": 101.22
+    },
+    {
+     "w": "côté,",
+     "s": 101.22,
+     "e": 101.38
+    },
+    {
+     "w": "même",
+     "s": 101.44,
+     "e": 101.7
+    },
+    {
+     "w": "galère,",
+     "s": 101.7,
+     "e": 102
+    },
+    {
+     "w": "même",
+     "s": 102.08,
+     "e": 102.48
+    },
+    {
+     "w": "effet",
+     "s": 102.48,
+     "e": 102.86
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 1",
+   "text": "Sous les ponts de la métropole,",
+   "tr": null,
+   "start": 102.96,
+   "end": 105.06,
+   "words": [
+    {
+     "w": "Sous",
+     "s": 102.96,
+     "e": 103.2
+    },
+    {
+     "w": "les",
+     "s": 103.2,
+     "e": 103.44
+    },
+    {
+     "w": "ponts",
+     "s": 103.44,
+     "e": 103.68
+    },
+    {
+     "w": "de",
+     "s": 103.68,
+     "e": 103.88
+    },
+    {
+     "w": "la",
+     "s": 103.88,
+     "e": 104.18
+    },
+    {
+     "w": "métropole,",
+     "s": 104.18,
+     "e": 105.06
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 1",
+   "text": "Un homme dort, personne le console.",
+   "tr": null,
+   "start": 105.22,
+   "end": 107.12,
+   "words": [
+    {
+     "w": "Un",
+     "s": 105.22,
+     "e": 105.42
+    },
+    {
+     "w": "homme",
+     "s": 105.42,
+     "e": 105.58
+    },
+    {
+     "w": "dort,",
+     "s": 105.58,
+     "e": 105.76
+    },
+    {
+     "w": "personne",
+     "s": 105.98,
+     "e": 106
+    },
+    {
+     "w": "le",
+     "s": 106.32,
+     "e": 106.78
+    },
+    {
+     "w": "console.",
+     "s": 106.78,
+     "e": 107.12
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 1",
+   "text": "Pendant que les discours font salon,",
+   "tr": null,
+   "start": 107.24,
+   "end": 109,
+   "words": [
+    {
+     "w": "Pendant",
+     "s": 107.24,
+     "e": 107.56
+    },
+    {
+     "w": "que",
+     "s": 107.56,
+     "e": 107.74
+    },
+    {
+     "w": "les",
+     "s": 107.74,
+     "e": 108.12
+    },
+    {
+     "w": "discours",
+     "s": 108.12,
+     "e": 108.48
+    },
+    {
+     "w": "font",
+     "s": 108.48,
+     "e": 108.8
+    },
+    {
+     "w": "salon,",
+     "s": 108.8,
+     "e": 109
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 1",
+   "text": "Lui, il construit sa maison… en carton !",
+   "tr": null,
+   "start": 109.22,
+   "end": 112.12,
+   "words": [
+    {
+     "w": "Lui,",
+     "s": 109.22,
+     "e": 109.52
+    },
+    {
+     "w": "il",
+     "s": 109.74,
+     "e": 110.1
+    },
+    {
+     "w": "construit",
+     "s": 110.1,
+     "e": 110.38
+    },
+    {
+     "w": "sa",
+     "s": 110.38,
+     "e": 110.8
+    },
+    {
+     "w": "maison…",
+     "s": 110.8,
+     "e": 111
+    },
+    {
+     "w": "en",
+     "s": 111.24,
+     "e": 111.52
+    },
+    {
+     "w": "carton",
+     "s": 111.52,
+     "e": 112.12
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "pré-refrain",
+   "text": "Qui fait les lois ?",
+   "tr": null,
+   "start": 112.28,
+   "end": 113,
+   "words": [
+    {
+     "w": "Qui",
+     "s": 112.28,
+     "e": 112.4
+    },
+    {
+     "w": "fait",
+     "s": 112.4,
+     "e": 112.58
+    },
+    {
+     "w": "les",
+     "s": 112.58,
+     "e": 112.76
+    },
+    {
+     "w": "lois",
+     "s": 112.76,
+     "e": 113
+    }
+   ],
+   "resp": [
+    {
+     "text": "Tonton !",
+     "start": 113.67,
+     "end": 114.42,
+     "tr": null
+    }
+   ]
+  },
+  {
+   "part": "pré-refrain",
+   "text": "Qui paie les choix ?",
+   "tr": null,
+   "start": 114.42,
+   "end": 115,
+   "words": [
+    {
+     "w": "Qui",
+     "s": 114.42,
+     "e": 114.58
+    },
+    {
+     "w": "paie",
+     "s": 114.52,
+     "e": 114.72,
+     "i": 1
+    },
+    {
+     "w": "les",
+     "s": 114.72,
+     "e": 114.96
+    },
+    {
+     "w": "choix",
+     "s": 114.96,
+     "e": 115
+    }
+   ],
+   "resp": [
+    {
+     "text": "Sé nou !",
+     "start": 115.02,
+     "end": 116.22,
+     "tr": "C'est nous !"
+    }
+   ]
+  },
+  {
+   "part": "pré-refrain",
+   "text": "Qui mange le gâteau ?",
+   "tr": null,
+   "start": 116.22,
+   "end": 117,
+   "words": [
+    {
+     "w": "Qui",
+     "s": 116.22,
+     "e": 116.54
+    },
+    {
+     "w": "mange",
+     "s": 116.54,
+     "e": 116.76
+    },
+    {
+     "w": "le",
+     "s": 116.76,
+     "e": 116.94
+    },
+    {
+     "w": "gâteau",
+     "s": 116.94,
+     "e": 117
+    }
+   ],
+   "resp": [
+    {
+     "text": "Là-haut !",
+     "start": 117.65,
+     "end": 118.4,
+     "tr": null
+    }
+   ]
+  },
+  {
+   "part": "pré-refrain",
+   "text": "Qui ramasse les miettes ?",
+   "tr": null,
+   "start": 118.4,
+   "end": 120.06,
+   "words": [
+    {
+     "w": "Qui",
+     "s": 118.4,
+     "e": 118.7
+    },
+    {
+     "w": "ramasse",
+     "s": 118.7,
+     "e": 119
+    },
+    {
+     "w": "les",
+     "s": 119.12,
+     "e": 119.26
+    },
+    {
+     "w": "miettes",
+     "s": 119.26,
+     "e": 120.06
+    }
+   ],
+   "resp": [
+    {
+     "text": "Sé nou !",
+     "start": 121.21,
+     "end": 122.1,
+     "tr": "C'est nous !"
+    }
+   ]
+  },
+  {
+   "part": "pré-refrain",
+   "text": "Éh Tonton !",
+   "tr": null,
+   "start": 122.1,
+   "end": 123.38,
+   "words": [
+    {
+     "w": "Éh",
+     "s": 122.1,
+     "e": 122.48,
+     "i": 1
+    },
+    {
+     "w": "Tonton",
+     "s": 122.48,
+     "e": 123.38,
+     "i": 1
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "pré-refrain",
+   "text": "Pa pran nou pou kouyon !",
+   "tr": "Ne nous prends pas pour des idiots !",
+   "start": 123.38,
+   "end": 125.48,
+   "words": [
+    {
+     "w": "Pa",
+     "s": 123.38,
+     "e": 123.76,
+     "i": 1
+    },
+    {
+     "w": "pran",
+     "s": 123.76,
+     "e": 124.06
+    },
+    {
+     "w": "nou",
+     "s": 124.06,
+     "e": 124.48
+    },
+    {
+     "w": "pou",
+     "s": 124.48,
+     "e": 124.84,
+     "i": 1
+    },
+    {
+     "w": "kouyon",
+     "s": 124.84,
+     "e": 125.48,
+     "i": 1
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "refrain",
+   "text": "Mille promesses en carton !",
+   "tr": null,
+   "start": 125.48,
+   "end": 127.52,
+   "words": [
+    {
+     "w": "Mille",
+     "s": 125.48,
+     "e": 125.78
+    },
+    {
+     "w": "promesses",
+     "s": 125.78,
+     "e": 125.9
+    },
+    {
+     "w": "en",
+     "s": 126.34,
+     "e": 126.52
+    },
+    {
+     "w": "carton",
+     "s": 126.52,
+     "e": 127.52
+    }
+   ],
+   "resp": [
+    {
+     "text": "Tonton !",
+     "start": 127.48,
+     "end": 127.98,
+     "tr": null
+    }
+   ]
+  },
+  {
+   "part": "refrain",
+   "text": "Ou ka palé asi mil ton !",
+   "tr": "Tu parles sur mille tons !",
+   "start": 127.68,
+   "end": 129.3,
+   "words": [
+    {
+     "w": "Ou",
+     "s": 127.68,
+     "e": 127.8
+    },
+    {
+     "w": "ka",
+     "s": 127.78,
+     "e": 127.98,
+     "i": 1
+    },
+    {
+     "w": "palé",
+     "s": 127.98,
+     "e": 128.26
+    },
+    {
+     "w": "asi",
+     "s": 128.36,
+     "e": 128.48
+    },
+    {
+     "w": "mil",
+     "s": 128.68,
+     "e": 128.9
+    },
+    {
+     "w": "ton",
+     "s": 128.98,
+     "e": 129.3
+    }
+   ],
+   "resp": [
+    {
+     "text": "Tonton !",
+     "start": 129.3,
+     "end": 129.88,
+     "tr": null
+    }
+   ]
+  },
+  {
+   "part": "refrain",
+   "text": "Pani pwoblèm, pani pwoblèm !",
+   "tr": "Pas de problème, pas de problème !",
+   "start": 129.88,
+   "end": 131.4,
+   "words": [
+    {
+     "w": "Pani",
+     "s": 129.88,
+     "e": 129.98
+    },
+    {
+     "w": "pwoblèm,",
+     "s": 130.22,
+     "e": 130.54
+    },
+    {
+     "w": "pani",
+     "s": 130.78,
+     "e": 131
+    },
+    {
+     "w": "pwoblèm",
+     "s": 131.14,
+     "e": 131.4
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "refrain",
+   "text": "Mé sé toujou nou ki ni pwoblèm !",
+   "tr": "Mais c'est toujours nous qui avons des problèmes !",
+   "start": 131.4,
+   "end": 133.58,
+   "words": [
+    {
+     "w": "Mé",
+     "s": 131.4,
+     "e": 131.79,
+     "i": 1
+    },
+    {
+     "w": "sé",
+     "s": 131.79,
+     "e": 132.18,
+     "i": 1
+    },
+    {
+     "w": "toujou",
+     "s": 132.18,
+     "e": 132.48
+    },
+    {
+     "w": "nou",
+     "s": 132.48,
+     "e": 132.7
+    },
+    {
+     "w": "ki",
+     "s": 132.64,
+     "e": 132.84,
+     "i": 1
+    },
+    {
+     "w": "ni",
+     "s": 132.84,
+     "e": 132.84
+    },
+    {
+     "w": "pwoblèm",
+     "s": 133.24,
+     "e": 133.58
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "refrain",
+   "text": "Du pain, du beurre, un peu d'horizon,",
+   "tr": null,
+   "start": 133.72,
+   "end": 135.62,
+   "words": [
+    {
+     "w": "Du",
+     "s": 133.72,
+     "e": 134
+    },
+    {
+     "w": "pain,",
+     "s": 134,
+     "e": 134.12
+    },
+    {
+     "w": "du",
+     "s": 134.2,
+     "e": 134.4
+    },
+    {
+     "w": "beurre,",
+     "s": 134.4,
+     "e": 134.58
+    },
+    {
+     "w": "un",
+     "s": 134.7,
+     "e": 134.84
+    },
+    {
+     "w": "peu",
+     "s": 134.84,
+     "e": 135
+    },
+    {
+     "w": "d'horizon,",
+     "s": 135.02,
+     "e": 135.62
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "refrain",
+   "text": "Pas des beaux discours livrés en camion !",
+   "tr": null,
+   "start": 135.78,
+   "end": 137.86,
+   "words": [
+    {
+     "w": "Pas",
+     "s": 135.78,
+     "e": 135.92
+    },
+    {
+     "w": "des",
+     "s": 135.92,
+     "e": 136.14
+    },
+    {
+     "w": "beaux",
+     "s": 136.14,
+     "e": 136.44
+    },
+    {
+     "w": "discours",
+     "s": 136.44,
+     "e": 136.86
+    },
+    {
+     "w": "livrés",
+     "s": 136.86,
+     "e": 137
+    },
+    {
+     "w": "en",
+     "s": 137.24,
+     "e": 137.52
+    },
+    {
+     "w": "camion",
+     "s": 137.52,
+     "e": 137.86
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "refrain",
+   "text": "Mille tons, mille tons, Tonton !",
+   "tr": null,
+   "start": 138.14,
+   "end": 140.04,
+   "words": [
+    {
+     "w": "Mille",
+     "s": 138.14,
+     "e": 138.48
+    },
+    {
+     "w": "tons,",
+     "s": 138.48,
+     "e": 138.78,
+     "i": 1
+    },
+    {
+     "w": "mille",
+     "s": 138.78,
+     "e": 139
+    },
+    {
+     "w": "tons,",
+     "s": 139.0,
+     "e": 139.3,
+     "i": 1
+    },
+    {
+     "w": "Tonton",
+     "s": 139.3,
+     "e": 140.04
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "refrain",
+   "text": "Nou pa lé viv an carton !",
+   "tr": "On ne veut pas vivre dans le carton !",
+   "start": 140.3,
+   "end": 142,
+   "words": [
+    {
+     "w": "Nou",
+     "s": 140.3,
+     "e": 140.62
+    },
+    {
+     "w": "pa",
+     "s": 140.62,
+     "e": 141
+    },
+    {
+     "w": "lé",
+     "s": 141,
+     "e": 141.28
+    },
+    {
+     "w": "viv",
+     "s": 141.28,
+     "e": 141.86
+    },
+    {
+     "w": "an",
+     "s": 141.66,
+     "e": 141.86,
+     "i": 1
+    },
+    {
+     "w": "carton",
+     "s": 141.86,
+     "e": 142
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 2",
+   "text": "Tonton commande une pizza,",
+   "tr": null,
+   "start": 142.5,
+   "end": 144,
+   "words": [
+    {
+     "w": "Tonton",
+     "s": 142.5,
+     "e": 142.84
+    },
+    {
+     "w": "commande",
+     "s": 143.04,
+     "e": 143.34
+    },
+    {
+     "w": "une",
+     "s": 143.34,
+     "e": 143.84
+    },
+    {
+     "w": "pizza,",
+     "s": 143.84,
+     "e": 144
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 2",
+   "text": "Nous, on regarde le prix du repas.",
+   "tr": null,
+   "start": 144.5,
+   "end": 146,
+   "words": [
+    {
+     "w": "Nous,",
+     "s": 144.5,
+     "e": 144.72
+    },
+    {
+     "w": "on",
+     "s": 144.72,
+     "e": 145.06
+    },
+    {
+     "w": "regarde",
+     "s": 145.06,
+     "e": 145.34
+    },
+    {
+     "w": "le",
+     "s": 145.34,
+     "e": 145.54
+    },
+    {
+     "w": "prix",
+     "s": 145.54,
+     "e": 145.7
+    },
+    {
+     "w": "du",
+     "s": 145.7,
+     "e": 145.88
+    },
+    {
+     "w": "repas.",
+     "s": 145.88,
+     "e": 146
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 2",
+   "text": "La pizza arrive dans un carton,",
+   "tr": null,
+   "start": 146.54,
+   "end": 148.6,
+   "words": [
+    {
+     "w": "La",
+     "s": 146.54,
+     "e": 146.92
+    },
+    {
+     "w": "pizza",
+     "s": 146.92,
+     "e": 147.5
+    },
+    {
+     "w": "arrive",
+     "s": 147.5,
+     "e": 147.72
+    },
+    {
+     "w": "dans",
+     "s": 147.72,
+     "e": 148
+    },
+    {
+     "w": "un",
+     "s": 148,
+     "e": 148
+    },
+    {
+     "w": "carton,",
+     "s": 148.26,
+     "e": 148.6
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 2",
+   "text": "Comme le programme des élections !",
+   "tr": null,
+   "start": 148.78,
+   "end": 150.74,
+   "words": [
+    {
+     "w": "Comme",
+     "s": 148.78,
+     "e": 148.98
+    },
+    {
+     "w": "le",
+     "s": 148.98,
+     "e": 149.44
+    },
+    {
+     "w": "programme",
+     "s": 149.44,
+     "e": 149.78
+    },
+    {
+     "w": "des",
+     "s": 149.78,
+     "e": 150
+    },
+    {
+     "w": "élections",
+     "s": 150.14,
+     "e": 150.74
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 2",
+   "text": "Vous jouez au poker avec nos salaires,",
+   "tr": null,
+   "start": 150.86,
+   "end": 153.08,
+   "words": [
+    {
+     "w": "Vous",
+     "s": 150.86,
+     "e": 151
+    },
+    {
+     "w": "jouez",
+     "s": 151,
+     "e": 151.26
+    },
+    {
+     "w": "au",
+     "s": 151.26,
+     "e": 151.54
+    },
+    {
+     "w": "poker",
+     "s": 151.54,
+     "e": 151.94
+    },
+    {
+     "w": "avec",
+     "s": 151.94,
+     "e": 152
+    },
+    {
+     "w": "nos",
+     "s": 152.26,
+     "e": 152.6
+    },
+    {
+     "w": "salaires,",
+     "s": 152.6,
+     "e": 153.08
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 2",
+   "text": "Vous gardez les as, nous les galères.",
+   "tr": null,
+   "start": 153.18,
+   "end": 155.3,
+   "words": [
+    {
+     "w": "Vous",
+     "s": 153.18,
+     "e": 153.42
+    },
+    {
+     "w": "gardez",
+     "s": 153.42,
+     "e": 153.82
+    },
+    {
+     "w": "les",
+     "s": 153.82,
+     "e": 154
+    },
+    {
+     "w": "as,",
+     "s": 154.04,
+     "e": 154.18
+    },
+    {
+     "w": "nous",
+     "s": 154.28,
+     "e": 154.48
+    },
+    {
+     "w": "les",
+     "s": 154.48,
+     "e": 154.76
+    },
+    {
+     "w": "galères.",
+     "s": 154.76,
+     "e": 155.3
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 2",
+   "text": "Vous parlez du haut de Jupiter,",
+   "tr": null,
+   "start": 155.3,
+   "end": 157.38,
+   "words": [
+    {
+     "w": "Vous",
+     "s": 155.3,
+     "e": 155.62,
+     "i": 1
+    },
+    {
+     "w": "parlez",
+     "s": 155.62,
+     "e": 156
+    },
+    {
+     "w": "du",
+     "s": 156.06,
+     "e": 156.28
+    },
+    {
+     "w": "haut",
+     "s": 156.28,
+     "e": 156.46
+    },
+    {
+     "w": "de",
+     "s": 156.46,
+     "e": 156.8
+    },
+    {
+     "w": "Jupiter,",
+     "s": 156.8,
+     "e": 157.38
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 2",
+   "text": "Nous, on compte les pièces sur terre !",
+   "tr": null,
+   "start": 157.6,
+   "end": 159.68,
+   "words": [
+    {
+     "w": "Nous,",
+     "s": 157.6,
+     "e": 157.78
+    },
+    {
+     "w": "on",
+     "s": 157.78,
+     "e": 158
+    },
+    {
+     "w": "compte",
+     "s": 158.18,
+     "e": 158.44
+    },
+    {
+     "w": "les",
+     "s": 158.44,
+     "e": 158.58
+    },
+    {
+     "w": "pièces",
+     "s": 158.58,
+     "e": 159.02
+    },
+    {
+     "w": "sur",
+     "s": 159.02,
+     "e": 159.34
+    },
+    {
+     "w": "terre",
+     "s": 159.34,
+     "e": 159.68
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 2",
+   "text": "La poudre de perlimpinpin,",
+   "tr": null,
+   "start": 159.88,
+   "end": 162.06,
+   "words": [
+    {
+     "w": "La",
+     "s": 159.88,
+     "e": 160
+    },
+    {
+     "w": "poudre",
+     "s": 160.18,
+     "e": 160.54
+    },
+    {
+     "w": "de",
+     "s": 160.54,
+     "e": 160.86
+    },
+    {
+     "w": "perlimpinpin,",
+     "s": 161.31,
+     "e": 162.06,
+     "i": 1
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 2",
+   "text": "On connaît la recette, le refrain !",
+   "tr": null,
+   "start": 162.06,
+   "end": 163.92,
+   "words": [
+    {
+     "w": "On",
+     "s": 162.06,
+     "e": 162.32
+    },
+    {
+     "w": "connaît",
+     "s": 162.32,
+     "e": 162.6
+    },
+    {
+     "w": "la",
+     "s": 162.6,
+     "e": 162.82
+    },
+    {
+     "w": "recette,",
+     "s": 162.82,
+     "e": 163.18
+    },
+    {
+     "w": "le",
+     "s": 163.34,
+     "e": 163.72
+    },
+    {
+     "w": "refrain",
+     "s": 163.72,
+     "e": 163.92
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 2",
+   "text": "Tu nous promets du beurre et du pain,",
+   "tr": null,
+   "start": 164.12,
+   "end": 166.26,
+   "words": [
+    {
+     "w": "Tu",
+     "s": 164.12,
+     "e": 164.28
+    },
+    {
+     "w": "nous",
+     "s": 164.28,
+     "e": 164.58
+    },
+    {
+     "w": "promets",
+     "s": 164.58,
+     "e": 164.94
+    },
+    {
+     "w": "du",
+     "s": 164.94,
+     "e": 165.2
+    },
+    {
+     "w": "beurre",
+     "s": 165.2,
+     "e": 165.58
+    },
+    {
+     "w": "et",
+     "s": 165.58,
+     "e": 165.8
+    },
+    {
+     "w": "du",
+     "s": 165.8,
+     "e": 166.08
+    },
+    {
+     "w": "pain,",
+     "s": 166.08,
+     "e": 166.26
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 2",
+   "text": "Mais le beurre a fondu en chemin !",
+   "tr": null,
+   "start": 166.42,
+   "end": 168.34,
+   "words": [
+    {
+     "w": "Mais",
+     "s": 166.42,
+     "e": 166.54
+    },
+    {
+     "w": "le",
+     "s": 166.54,
+     "e": 166.7
+    },
+    {
+     "w": "beurre",
+     "s": 166.7,
+     "e": 166.96
+    },
+    {
+     "w": "a",
+     "s": 166.96,
+     "e": 167.18
+    },
+    {
+     "w": "fondu",
+     "s": 167.2,
+     "e": 167.7
+    },
+    {
+     "w": "en",
+     "s": 167.7,
+     "e": 168
+    },
+    {
+     "w": "chemin",
+     "s": 168.1,
+     "e": 168.34
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 2",
+   "text": "Quoi qu'il en coûte, Tonton, tu dis,",
+   "tr": null,
+   "start": 168.4,
+   "end": 170.54,
+   "words": [
+    {
+     "w": "Quoi",
+     "s": 168.4,
+     "e": 168.52
+    },
+    {
+     "w": "qu'il",
+     "s": 168.42,
+     "e": 168.62
+    },
+    {
+     "w": "en",
+     "s": 168.88,
+     "e": 169.02
+    },
+    {
+     "w": "coûte,",
+     "s": 169.04,
+     "e": 169.32
+    },
+    {
+     "w": "Tonton,",
+     "s": 169.64,
+     "e": 169.84
+    },
+    {
+     "w": "tu",
+     "s": 169.84,
+     "e": 170
+    },
+    {
+     "w": "dis,",
+     "s": 170.0,
+     "e": 170.54,
+     "i": 1
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 2",
+   "text": "Mais qui règle la note aujourd'hui ?",
+   "tr": null,
+   "start": 170.54,
+   "end": 172.32,
+   "words": [
+    {
+     "w": "Mais",
+     "s": 170.54,
+     "e": 170.84
+    },
+    {
+     "w": "qui",
+     "s": 170.84,
+     "e": 171.06
+    },
+    {
+     "w": "règle",
+     "s": 171.06,
+     "e": 171.54
+    },
+    {
+     "w": "la",
+     "s": 171.54,
+     "e": 171.76
+    },
+    {
+     "w": "note",
+     "s": 171.76,
+     "e": 172.16
+    },
+    {
+     "w": "aujourd'hui",
+     "s": 172.16,
+     "e": 172.32
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 2",
+   "text": "C'est toujours le même petit bonhomme,",
+   "tr": null,
+   "start": 172.78,
+   "end": 174.6,
+   "words": [
+    {
+     "w": "C'est",
+     "s": 172.78,
+     "e": 173.2
+    },
+    {
+     "w": "toujours",
+     "s": 173.2,
+     "e": 173.48
+    },
+    {
+     "w": "le",
+     "s": 173.48,
+     "e": 173.64
+    },
+    {
+     "w": "même",
+     "s": 173.64,
+     "e": 174.04
+    },
+    {
+     "w": "petit",
+     "s": 174.04,
+     "e": 174.32
+    },
+    {
+     "w": "bonhomme,",
+     "s": 174.32,
+     "e": 174.6
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 2",
+   "text": "Qui paie l'addition et les sommes !",
+   "tr": null,
+   "start": 174.88,
+   "end": 177.2,
+   "words": [
+    {
+     "w": "Qui",
+     "s": 174.88,
+     "e": 175.28
+    },
+    {
+     "w": "paie",
+     "s": 175.28,
+     "e": 175.7
+    },
+    {
+     "w": "l'addition",
+     "s": 175.7,
+     "e": 176.4
+    },
+    {
+     "w": "et",
+     "s": 176.4,
+     "e": 176.56
+    },
+    {
+     "w": "les",
+     "s": 176.56,
+     "e": 176.96
+    },
+    {
+     "w": "sommes",
+     "s": 176.96,
+     "e": 177.2
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "break",
+   "text": "Ka-la ka sonné !",
+   "tr": "Le tambour résonne !",
+   "start": 177.2,
+   "end": 178.6,
+   "words": [
+    {
+     "w": "Ka-la",
+     "s": 177.2,
+     "e": 177.7,
+     "i": 1
+    },
+    {
+     "w": "ka",
+     "s": 177.7,
+     "e": 178.0,
+     "i": 1
+    },
+    {
+     "w": "sonné",
+     "s": 178.0,
+     "e": 178.6,
+     "i": 1
+    }
+   ],
+   "resp": [
+    {
+     "text": "BOUM !",
+     "start": 178.6,
+     "end": 179.1,
+     "tr": null
+    }
+   ]
+  },
+  {
+   "part": "break",
+   "text": "Pèp-la ka lévé !",
+   "tr": "Le peuple se lève !",
+   "start": 178.72,
+   "end": 179.4,
+   "words": [
+    {
+     "w": "Pèp-la",
+     "s": 178.72,
+     "e": 179.05,
+     "i": 1
+    },
+    {
+     "w": "ka",
+     "s": 179.05,
+     "e": 179.22,
+     "i": 1
+    },
+    {
+     "w": "lévé",
+     "s": 179.22,
+     "e": 179.4
+    }
+   ],
+   "resp": [
+    {
+     "text": "HÉ !",
+     "start": 179.4,
+     "end": 179.9,
+     "tr": null
+    }
+   ]
+  },
+  {
+   "part": "break",
+   "text": "Ka-la ka sonné !",
+   "tr": "Le tambour résonne !",
+   "start": 179.59,
+   "end": 180.47,
+   "words": [
+    {
+     "w": "Ka-la",
+     "s": 179.59,
+     "e": 179.9,
+     "i": 1
+    },
+    {
+     "w": "ka",
+     "s": 179.9,
+     "e": 180.09,
+     "i": 1
+    },
+    {
+     "w": "sonné",
+     "s": 180.09,
+     "e": 180.47,
+     "i": 1
+    }
+   ],
+   "resp": [
+    {
+     "text": "BOUM !",
+     "start": 180.47,
+     "end": 180.97,
+     "tr": null
+    }
+   ]
+  },
+  {
+   "part": "break",
+   "text": "Nou pa ka dòmi !",
+   "tr": "On ne dort pas !",
+   "start": 180.78,
+   "end": 181.78,
+   "words": [
+    {
+     "w": "Nou",
+     "s": 180.78,
+     "e": 181.12
+    },
+    {
+     "w": "pa",
+     "s": 180.92,
+     "e": 181.12,
+     "i": 1
+    },
+    {
+     "w": "ka",
+     "s": 181.12,
+     "e": 181.4
+    },
+    {
+     "w": "dòmi",
+     "s": 181.46,
+     "e": 181.78
+    }
+   ],
+   "resp": [
+    {
+     "text": "HÉ !",
+     "start": 181.78,
+     "end": 182.28,
+     "tr": null
+    }
+   ]
+  },
+  {
+   "part": "break",
+   "text": "Ka-la ka sonné !",
+   "tr": "Le tambour résonne !",
+   "start": 181.94,
+   "end": 182.69,
+   "words": [
+    {
+     "w": "Ka-la",
+     "s": 181.94,
+     "e": 182.21,
+     "i": 1
+    },
+    {
+     "w": "ka",
+     "s": 182.21,
+     "e": 182.37,
+     "i": 1
+    },
+    {
+     "w": "sonné",
+     "s": 182.37,
+     "e": 182.69,
+     "i": 1
+    }
+   ],
+   "resp": [
+    {
+     "text": "BOUM !",
+     "start": 182.69,
+     "end": 183.19,
+     "tr": null
+    }
+   ]
+  },
+  {
+   "part": "break",
+   "text": "Nou pa ka dòmi !",
+   "tr": "On ne dort pas !",
+   "start": 182.96,
+   "end": 183.9,
+   "words": [
+    {
+     "w": "Nou",
+     "s": 182.96,
+     "e": 183.3
+    },
+    {
+     "w": "pa",
+     "s": 183.1,
+     "e": 183.3,
+     "i": 1
+    },
+    {
+     "w": "ka",
+     "s": 183.3,
+     "e": 183.6
+    },
+    {
+     "w": "dòmi",
+     "s": 183.64,
+     "e": 183.9
+    }
+   ],
+   "resp": [
+    {
+     "text": "HÉ !",
+     "start": 184.46,
+     "end": 185.06,
+     "tr": null
+    }
+   ]
+  },
+  {
+   "part": "break",
+   "text": "Éh Tonton !",
+   "tr": null,
+   "start": 185.06,
+   "end": 186.4,
+   "words": [
+    {
+     "w": "Éh",
+     "s": 185.06,
+     "e": 185.66,
+     "i": 1
+    },
+    {
+     "w": "Tonton",
+     "s": 185.66,
+     "e": 186.4
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "break",
+   "text": "T'as changé le ton ?",
+   "tr": null,
+   "start": 186.78,
+   "end": 188.4,
+   "words": [
+    {
+     "w": "T'as",
+     "s": 186.78,
+     "e": 187.38
+    },
+    {
+     "w": "changé",
+     "s": 187.38,
+     "e": 187.68
+    },
+    {
+     "w": "le",
+     "s": 187.68,
+     "e": 187.92
+    },
+    {
+     "w": "ton",
+     "s": 187.92,
+     "e": 188.4
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "break",
+   "text": "Ou changé le carton ?",
+   "tr": "Tu as changé le carton ?",
+   "start": 188.92,
+   "end": 190.28,
+   "words": [
+    {
+     "w": "Ou",
+     "s": 188.92,
+     "e": 189.26
+    },
+    {
+     "w": "changé",
+     "s": 189.26,
+     "e": 189.82
+    },
+    {
+     "w": "le",
+     "s": 189.82,
+     "e": 190
+    },
+    {
+     "w": "carton",
+     "s": 190.12,
+     "e": 190.28
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "break",
+   "text": "Non, non, non !",
+   "tr": null,
+   "start": 190.5,
+   "end": 191.24,
+   "words": [
+    {
+     "w": "Non,",
+     "s": 190.5,
+     "e": 190.6
+    },
+    {
+     "w": "non,",
+     "s": 190.74,
+     "e": 190.82
+    },
+    {
+     "w": "non",
+     "s": 191.04,
+     "e": 191.24
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "break",
+   "text": "Toujours le même carton !",
+   "tr": null,
+   "start": 191.4,
+   "end": 193,
+   "words": [
+    {
+     "w": "Toujours",
+     "s": 191.4,
+     "e": 191.78
+    },
+    {
+     "w": "le",
+     "s": 191.78,
+     "e": 191.94
+    },
+    {
+     "w": "même",
+     "s": 191.94,
+     "e": 192.3
+    },
+    {
+     "w": "carton",
+     "s": 192.3,
+     "e": 193
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 3",
+   "text": "Nos ancêtres ont brisé des chaînes,",
+   "tr": null,
+   "start": 204.14,
+   "end": 207,
+   "words": [
+    {
+     "w": "Nos",
+     "s": 204.14,
+     "e": 204.54
+    },
+    {
+     "w": "ancêtres",
+     "s": 204.54,
+     "e": 204.94
+    },
+    {
+     "w": "ont",
+     "s": 204.94,
+     "e": 205.16
+    },
+    {
+     "w": "brisé",
+     "s": 205.16,
+     "e": 205.6
+    },
+    {
+     "w": "des",
+     "s": 205.6,
+     "e": 205.94
+    },
+    {
+     "w": "chaînes,",
+     "s": 205.94,
+     "e": 207
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 3",
+   "text": "Pour que nos enfants marchent sans haine.",
+   "tr": null,
+   "start": 208.46,
+   "end": 211,
+   "words": [
+    {
+     "w": "Pour",
+     "s": 208.46,
+     "e": 208.66
+    },
+    {
+     "w": "que",
+     "s": 208.66,
+     "e": 208.9
+    },
+    {
+     "w": "nos",
+     "s": 208.9,
+     "e": 209.3
+    },
+    {
+     "w": "enfants",
+     "s": 209.3,
+     "e": 209.92
+    },
+    {
+     "w": "marchent",
+     "s": 209.92,
+     "e": 210.4
+    },
+    {
+     "w": "sans",
+     "s": 210.4,
+     "e": 210.92
+    },
+    {
+     "w": "haine.",
+     "s": 210.92,
+     "e": 211
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 3",
+   "text": "Ils n'ont pas traversé les douleurs,",
+   "tr": null,
+   "start": 212.86,
+   "end": 215.58,
+   "words": [
+    {
+     "w": "Ils",
+     "s": 212.86,
+     "e": 212.98
+    },
+    {
+     "w": "n'ont",
+     "s": 212.98,
+     "e": 213.26
+    },
+    {
+     "w": "pas",
+     "s": 213.26,
+     "e": 213.74
+    },
+    {
+     "w": "traversé",
+     "s": 213.74,
+     "e": 214.18
+    },
+    {
+     "w": "les",
+     "s": 214.18,
+     "e": 214.38
+    },
+    {
+     "w": "douleurs,",
+     "s": 214.38,
+     "e": 215.58
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 3",
+   "text": "Pour qu'on marchande encore leur valeur.",
+   "tr": null,
+   "start": 216.98,
+   "end": 220,
+   "words": [
+    {
+     "w": "Pour",
+     "s": 216.98,
+     "e": 217.14
+    },
+    {
+     "w": "qu'on",
+     "s": 217.16,
+     "e": 217.56
+    },
+    {
+     "w": "marchande",
+     "s": 217.56,
+     "e": 217.84
+    },
+    {
+     "w": "encore",
+     "s": 218.34,
+     "e": 218.78
+    },
+    {
+     "w": "leur",
+     "s": 218.78,
+     "e": 219.22
+    },
+    {
+     "w": "valeur.",
+     "s": 219.22,
+     "e": 220
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 3",
+   "text": "De Pointe-à-Pitre à Fort-de-France,",
+   "tr": null,
+   "start": 221.06,
+   "end": 223,
+   "words": [
+    {
+     "w": "De",
+     "s": 221.06,
+     "e": 221.26
+    },
+    {
+     "w": "Pointe-à-Pitre",
+     "s": 221.26,
+     "e": 221.54
+    },
+    {
+     "w": "à",
+     "s": 221.92,
+     "e": 222.26
+    },
+    {
+     "w": "Fort-de-France,",
+     "s": 222.82,
+     "e": 223
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 3",
+   "text": "De Basse-Terre jusqu'en France,",
+   "tr": null,
+   "start": 223.4,
+   "end": 225.18,
+   "words": [
+    {
+     "w": "De",
+     "s": 223.4,
+     "e": 223.62
+    },
+    {
+     "w": "Basse-Terre",
+     "s": 223.62,
+     "e": 224
+    },
+    {
+     "w": "jusqu'en",
+     "s": 224.3,
+     "e": 224.58
+    },
+    {
+     "w": "France,",
+     "s": 225.04,
+     "e": 225.18
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 3",
+   "text": "Nous demandons la même considération,",
+   "tr": null,
+   "start": 225.3,
+   "end": 227,
+   "words": [
+    {
+     "w": "Nous",
+     "s": 225.3,
+     "e": 225.58
+    },
+    {
+     "w": "demandons",
+     "s": 225.58,
+     "e": 225.98
+    },
+    {
+     "w": "la",
+     "s": 225.98,
+     "e": 226.2
+    },
+    {
+     "w": "même",
+     "s": 226.2,
+     "e": 226.66
+    },
+    {
+     "w": "considération,",
+     "s": 226.66,
+     "e": 227
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 3",
+   "text": "Pas mille promesses en décoration.",
+   "tr": null,
+   "start": 227.0,
+   "end": 229,
+   "words": [
+    {
+     "w": "Pas",
+     "s": 227.0,
+     "e": 227.42,
+     "i": 1
+    },
+    {
+     "w": "mille",
+     "s": 227.42,
+     "e": 228.06,
+     "i": 1
+    },
+    {
+     "w": "promesses",
+     "s": 228.06,
+     "e": 228.48
+    },
+    {
+     "w": "en",
+     "s": 228.48,
+     "e": 228.7,
+     "i": 1
+    },
+    {
+     "w": "décoration.",
+     "s": 228.7,
+     "e": 229
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 3",
+   "text": "Le travail mérite son salaire,",
+   "tr": null,
+   "start": 229.7,
+   "end": 232.04,
+   "words": [
+    {
+     "w": "Le",
+     "s": 229.7,
+     "e": 230.06
+    },
+    {
+     "w": "travail",
+     "s": 230.06,
+     "e": 230.36
+    },
+    {
+     "w": "mérite",
+     "s": 230.36,
+     "e": 230.9
+    },
+    {
+     "w": "son",
+     "s": 230.9,
+     "e": 231.3
+    },
+    {
+     "w": "salaire,",
+     "s": 231.3,
+     "e": 232.04
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 3",
+   "text": "L'école mérite sa lumière,",
+   "tr": null,
+   "start": 232.12,
+   "end": 233.94,
+   "words": [
+    {
+     "w": "L'école",
+     "s": 232.12,
+     "e": 232.72
+    },
+    {
+     "w": "mérite",
+     "s": 232.72,
+     "e": 233
+    },
+    {
+     "w": "sa",
+     "s": 233.18,
+     "e": 233.52
+    },
+    {
+     "w": "lumière,",
+     "s": 233.52,
+     "e": 233.94
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 3",
+   "text": "La jeunesse mérite un lendemain,",
+   "tr": null,
+   "start": 234.08,
+   "end": 236.34,
+   "words": [
+    {
+     "w": "La",
+     "s": 234.08,
+     "e": 234.26
+    },
+    {
+     "w": "jeunesse",
+     "s": 234.26,
+     "e": 234.9
+    },
+    {
+     "w": "mérite",
+     "s": 234.9,
+     "e": 235.28
+    },
+    {
+     "w": "un",
+     "s": 235.28,
+     "e": 235.48
+    },
+    {
+     "w": "lendemain,",
+     "s": 235.48,
+     "e": 236.34
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 3",
+   "text": "Et les anciens, un peu de pain.",
+   "tr": null,
+   "start": 236.34,
+   "end": 238.34,
+   "words": [
+    {
+     "w": "Et",
+     "s": 236.34,
+     "e": 236.56
+    },
+    {
+     "w": "les",
+     "s": 236.56,
+     "e": 237
+    },
+    {
+     "w": "anciens,",
+     "s": 237.12,
+     "e": 237.4
+    },
+    {
+     "w": "un",
+     "s": 237.54,
+     "e": 237.8
+    },
+    {
+     "w": "peu",
+     "s": 237.8,
+     "e": 238.04
+    },
+    {
+     "w": "de",
+     "s": 238.04,
+     "e": 238.26
+    },
+    {
+     "w": "pain.",
+     "s": 238.26,
+     "e": 238.34
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 3",
+   "text": "Nous ne demandons pas la charité,",
+   "tr": null,
+   "start": 238.4,
+   "end": 240.46,
+   "words": [
+    {
+     "w": "Nous",
+     "s": 238.4,
+     "e": 238.54
+    },
+    {
+     "w": "ne",
+     "s": 238.54,
+     "e": 238.86
+    },
+    {
+     "w": "demandons",
+     "s": 238.86,
+     "e": 239
+    },
+    {
+     "w": "pas",
+     "s": 239.44,
+     "e": 239.54
+    },
+    {
+     "w": "la",
+     "s": 239.68,
+     "e": 239.94
+    },
+    {
+     "w": "charité,",
+     "s": 239.94,
+     "e": 240.46
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 3",
+   "text": "Nous parlons de respect, d'égalité.",
+   "tr": null,
+   "start": 240.58,
+   "end": 242.64,
+   "words": [
+    {
+     "w": "Nous",
+     "s": 240.58,
+     "e": 240.78
+    },
+    {
+     "w": "parlons",
+     "s": 240.78,
+     "e": 241
+    },
+    {
+     "w": "de",
+     "s": 241.06,
+     "e": 241.56
+    },
+    {
+     "w": "respect,",
+     "s": 241.56,
+     "e": 241.7
+    },
+    {
+     "w": "d'égalité.",
+     "s": 241.94,
+     "e": 242.64
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 3",
+   "text": "La dignité n'est pas un bonbon",
+   "tr": null,
+   "start": 242.76,
+   "end": 244.9,
+   "words": [
+    {
+     "w": "La",
+     "s": 242.76,
+     "e": 242.94
+    },
+    {
+     "w": "dignité",
+     "s": 242.94,
+     "e": 243.42
+    },
+    {
+     "w": "n'est",
+     "s": 243.42,
+     "e": 243.8
+    },
+    {
+     "w": "pas",
+     "s": 243.8,
+     "e": 244
+    },
+    {
+     "w": "un",
+     "s": 244.14,
+     "e": 244.32
+    },
+    {
+     "w": "bonbon",
+     "s": 244.32,
+     "e": 244.9
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "couplet 3",
+   "text": "Qu'on distribue avant les élections !",
+   "tr": null,
+   "start": 244.96,
+   "end": 247,
+   "words": [
+    {
+     "w": "Qu'on",
+     "s": 244.96,
+     "e": 245.46
+    },
+    {
+     "w": "distribue",
+     "s": 245.46,
+     "e": 246.02
+    },
+    {
+     "w": "avant",
+     "s": 246.02,
+     "e": 246.28
+    },
+    {
+     "w": "les",
+     "s": 246.28,
+     "e": 246.64
+    },
+    {
+     "w": "élections",
+     "s": 246.64,
+     "e": 247
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "pont",
+   "text": "Manman disait : « Ti moun, tiens bon,",
+   "tr": null,
+   "start": 249.55,
+   "end": 253.7,
+   "words": [
+    {
+     "w": "Manman",
+     "s": 249.55,
+     "e": 250.3,
+     "i": 1
+    },
+    {
+     "w": "disait",
+     "s": 250.3,
+     "e": 251.5
+    },
+    {
+     "w": "Ti",
+     "s": 251.5,
+     "e": 252.24,
+     "i": 1
+    },
+    {
+     "w": "moun,",
+     "s": 252.24,
+     "e": 252.72
+    },
+    {
+     "w": "tiens",
+     "s": 252.72,
+     "e": 253.1
+    },
+    {
+     "w": "bon,",
+     "s": 253.1,
+     "e": 253.7
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "pont",
+   "text": "Ne laisse personne voler ton nom.",
+   "tr": null,
+   "start": 254.22,
+   "end": 257.24,
+   "words": [
+    {
+     "w": "Ne",
+     "s": 254.22,
+     "e": 254.42
+    },
+    {
+     "w": "laisse",
+     "s": 254.42,
+     "e": 255.08
+    },
+    {
+     "w": "personne",
+     "s": 255.08,
+     "e": 255.44
+    },
+    {
+     "w": "voler",
+     "s": 255.44,
+     "e": 255.7
+    },
+    {
+     "w": "ton",
+     "s": 255.76,
+     "e": 256.04
+    },
+    {
+     "w": "nom.",
+     "s": 256.04,
+     "e": 257.24
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "pont",
+   "text": "La liberté n'est pas un cadeau,",
+   "tr": null,
+   "start": 258.1,
+   "end": 259.7,
+   "words": [
+    {
+     "w": "La",
+     "s": 258.1,
+     "e": 258.38
+    },
+    {
+     "w": "liberté",
+     "s": 258.38,
+     "e": 258.78
+    },
+    {
+     "w": "n'est",
+     "s": 258.78,
+     "e": 259.02
+    },
+    {
+     "w": "pas",
+     "s": 259.02,
+     "e": 259.28
+    },
+    {
+     "w": "un",
+     "s": 259.28,
+     "e": 259.56
+    },
+    {
+     "w": "cadeau,",
+     "s": 259.56,
+     "e": 259.7
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "pont",
+   "text": "C'est une flamme qu'on porte bien haut. »",
+   "tr": null,
+   "start": 262.46,
+   "end": 264.7,
+   "words": [
+    {
+     "w": "C'est",
+     "s": 262.46,
+     "e": 262.7
+    },
+    {
+     "w": "une",
+     "s": 262.7,
+     "e": 263.04
+    },
+    {
+     "w": "flamme",
+     "s": 263.04,
+     "e": 263.56
+    },
+    {
+     "w": "qu'on",
+     "s": 263.6,
+     "e": 264.04
+    },
+    {
+     "w": "porte",
+     "s": 264.04,
+     "e": 264.3
+    },
+    {
+     "w": "bien",
+     "s": 264.3,
+     "e": 264.68
+    },
+    {
+     "w": "haut.",
+     "s": 264.68,
+     "e": 264.7
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "pont",
+   "text": "On a chanté sous les orages,",
+   "tr": null,
+   "start": 273.38,
+   "end": 275.3,
+   "words": [
+    {
+     "w": "On",
+     "s": 273.38,
+     "e": 273.6
+    },
+    {
+     "w": "a",
+     "s": 273.6,
+     "e": 273.88
+    },
+    {
+     "w": "chanté",
+     "s": 273.88,
+     "e": 274.54
+    },
+    {
+     "w": "sous",
+     "s": 274.54,
+     "e": 274.74
+    },
+    {
+     "w": "les",
+     "s": 274.74,
+     "e": 275.06
+    },
+    {
+     "w": "orages,",
+     "s": 275.06,
+     "e": 275.3
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "pont",
+   "text": "On a tenu malgré les naufrages.",
+   "tr": null,
+   "start": 275.3,
+   "end": 277.3,
+   "words": [
+    {
+     "w": "On",
+     "s": 275.3,
+     "e": 275.86,
+     "i": 1
+    },
+    {
+     "w": "a",
+     "s": 275.86,
+     "e": 276.06
+    },
+    {
+     "w": "tenu",
+     "s": 276.06,
+     "e": 276.52
+    },
+    {
+     "w": "malgré",
+     "s": 276.52,
+     "e": 276.74
+    },
+    {
+     "w": "les",
+     "s": 276.86,
+     "e": 277.04
+    },
+    {
+     "w": "naufrages.",
+     "s": 277.12,
+     "e": 277.3
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "pont",
+   "text": "Et si demain change de saison,",
+   "tr": null,
+   "start": 277.78,
+   "end": 279.76,
+   "words": [
+    {
+     "w": "Et",
+     "s": 277.78,
+     "e": 277.96
+    },
+    {
+     "w": "si",
+     "s": 277.96,
+     "e": 278.24
+    },
+    {
+     "w": "demain",
+     "s": 278.24,
+     "e": 278.96
+    },
+    {
+     "w": "change",
+     "s": 278.96,
+     "e": 279.18
+    },
+    {
+     "w": "de",
+     "s": 279.18,
+     "e": 279.3
+    },
+    {
+     "w": "saison,",
+     "s": 279.44,
+     "e": 279.76
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "pont",
+   "text": "Qu'il ne reste pas… un autre carton.",
+   "tr": null,
+   "start": 279.9,
+   "end": 282.3,
+   "words": [
+    {
+     "w": "Qu'il",
+     "s": 279.9,
+     "e": 280.14
+    },
+    {
+     "w": "ne",
+     "s": 280.14,
+     "e": 280.34
+    },
+    {
+     "w": "reste",
+     "s": 280.34,
+     "e": 280.8
+    },
+    {
+     "w": "pas…",
+     "s": 280.8,
+     "e": 281.22
+    },
+    {
+     "w": "un",
+     "s": 281.22,
+     "e": 281.46
+    },
+    {
+     "w": "autre",
+     "s": 281.46,
+     "e": 281.74
+    },
+    {
+     "w": "carton.",
+     "s": 281.74,
+     "e": 282.3
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "montée",
+   "text": "Tonton !",
+   "tr": null,
+   "start": 283.26,
+   "end": 284.14,
+   "words": [
+    {
+     "w": "Tonton",
+     "s": 283.26,
+     "e": 284.14
+    }
+   ],
+   "resp": [
+    {
+     "text": "Hein ?",
+     "start": 284.14,
+     "end": 284.64,
+     "tr": null
+    }
+   ]
+  },
+  {
+   "part": "montée",
+   "text": "Tonton !",
+   "tr": null,
+   "start": 284.46,
+   "end": 284.8,
+   "words": [
+    {
+     "w": "Tonton",
+     "s": 284.46,
+     "e": 284.8
+    }
+   ],
+   "resp": [
+    {
+     "text": "Hein ?",
+     "start": 284.8,
+     "end": 285.34,
+     "tr": null
+    }
+   ]
+  },
+  {
+   "part": "montée",
+   "text": "On a fait les calculs à la maison !",
+   "tr": null,
+   "start": 285.34,
+   "end": 287.4,
+   "words": [
+    {
+     "w": "On",
+     "s": 285.34,
+     "e": 285.5
+    },
+    {
+     "w": "a",
+     "s": 285.5,
+     "e": 285.72
+    },
+    {
+     "w": "fait",
+     "s": 285.72,
+     "e": 285.86
+    },
+    {
+     "w": "les",
+     "s": 285.86,
+     "e": 286.14
+    },
+    {
+     "w": "calculs",
+     "s": 286.14,
+     "e": 286.56
+    },
+    {
+     "w": "à",
+     "s": 286.56,
+     "e": 286.7
+    },
+    {
+     "w": "la",
+     "s": 286.7,
+     "e": 286.8
+    },
+    {
+     "w": "maison",
+     "s": 287.04,
+     "e": 287.4
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "montée",
+   "text": "Avec une vieille calculatrice en carton !",
+   "tr": null,
+   "start": 287.6,
+   "end": 289.8,
+   "words": [
+    {
+     "w": "Avec",
+     "s": 287.6,
+     "e": 287.82
+    },
+    {
+     "w": "une",
+     "s": 287.82,
+     "e": 287.92
+    },
+    {
+     "w": "vieille",
+     "s": 287.92,
+     "e": 288.32
+    },
+    {
+     "w": "calculatrice",
+     "s": 288.32,
+     "e": 289.14
+    },
+    {
+     "w": "en",
+     "s": 289.14,
+     "e": 289.36
+    },
+    {
+     "w": "carton",
+     "s": 289.36,
+     "e": 289.8
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "montée",
+   "text": "Mille promesses, zéro solution !",
+   "tr": null,
+   "start": 290.26,
+   "end": 292.3,
+   "words": [
+    {
+     "w": "Mille",
+     "s": 290.26,
+     "e": 290.58
+    },
+    {
+     "w": "promesses,",
+     "s": 290.58,
+     "e": 290.8
+    },
+    {
+     "w": "zéro",
+     "s": 291.43,
+     "e": 292.18,
+     "i": 1
+    },
+    {
+     "w": "solution",
+     "s": 292.18,
+     "e": 292.3
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "montée",
+   "text": "Pas besoin d'intelligence artificielle",
+   "tr": null,
+   "start": 292.78,
+   "end": 294.8,
+   "words": [
+    {
+     "w": "Pas",
+     "s": 292.78,
+     "e": 293.16
+    },
+    {
+     "w": "besoin",
+     "s": 293.16,
+     "e": 293.56
+    },
+    {
+     "w": "d'intelligence",
+     "s": 293.56,
+     "e": 294.54
+    },
+    {
+     "w": "artificielle",
+     "s": 294.54,
+     "e": 294.8
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "montée",
+   "text": "Pour voir le prix de nos assiettes réelles !",
+   "tr": null,
+   "start": 294.8,
+   "end": 297.82,
+   "words": [
+    {
+     "w": "Pour",
+     "s": 294.8,
+     "e": 295.52,
+     "i": 1
+    },
+    {
+     "w": "voir",
+     "s": 295.52,
+     "e": 295.66
+    },
+    {
+     "w": "le",
+     "s": 295.66,
+     "e": 295.92
+    },
+    {
+     "w": "prix",
+     "s": 295.92,
+     "e": 296.22
+    },
+    {
+     "w": "de",
+     "s": 296.22,
+     "e": 296.38
+    },
+    {
+     "w": "nos",
+     "s": 296.38,
+     "e": 296.54
+    },
+    {
+     "w": "assiettes",
+     "s": 296.54,
+     "e": 297.04
+    },
+    {
+     "w": "réelles",
+     "s": 297.04,
+     "e": 297.82
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "montée",
+   "text": "Quarante-neuf trois, tu connais la chanson,",
+   "tr": null,
+   "start": 298.42,
+   "end": 301,
+   "words": [
+    {
+     "w": "Quarante-neuf",
+     "s": 298.42,
+     "e": 298.76
+    },
+    {
+     "w": "trois,",
+     "s": 299.01,
+     "e": 299.76,
+     "i": 1
+    },
+    {
+     "w": "tu",
+     "s": 299.76,
+     "e": 300.02
+    },
+    {
+     "w": "connais",
+     "s": 300.02,
+     "e": 300.26
+    },
+    {
+     "w": "la",
+     "s": 300.26,
+     "e": 300.4
+    },
+    {
+     "w": "chanson,",
+     "s": 300.4,
+     "e": 301
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "montée",
+   "text": "Mais nous aussi, on connaît le refrain !",
+   "tr": null,
+   "start": 301.68,
+   "end": 304,
+   "words": [
+    {
+     "w": "Mais",
+     "s": 301.68,
+     "e": 301.82
+    },
+    {
+     "w": "nous",
+     "s": 301.82,
+     "e": 302.36
+    },
+    {
+     "w": "aussi,",
+     "s": 302.36,
+     "e": 302.76
+    },
+    {
+     "w": "on",
+     "s": 302.92,
+     "e": 303.18
+    },
+    {
+     "w": "connaît",
+     "s": 303.18,
+     "e": 303.32
+    },
+    {
+     "w": "le",
+     "s": 303.32,
+     "e": 303.7
+    },
+    {
+     "w": "refrain",
+     "s": 303.7,
+     "e": 304
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "montée",
+   "text": "Éh Tonton !",
+   "tr": null,
+   "start": 307.54,
+   "end": 309.14,
+   "words": [
+    {
+     "w": "Éh",
+     "s": 307.54,
+     "e": 307.94
+    },
+    {
+     "w": "Tonton",
+     "s": 307.94,
+     "e": 309.14
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "montée",
+   "text": "Chanjé ton ton !",
+   "tr": "Change de ton !",
+   "start": 311.13,
+   "end": 312.78,
+   "words": [
+    {
+     "w": "Chanjé",
+     "s": 311.13,
+     "e": 311.9,
+     "i": 1
+    },
+    {
+     "w": "ton",
+     "s": 311.9,
+     "e": 312.34,
+     "i": 1
+    },
+    {
+     "w": "ton",
+     "s": 312.34,
+     "e": 312.78,
+     "i": 1
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "refrain final",
+   "text": "Mille promesses en carton !",
+   "tr": null,
+   "start": 312.78,
+   "end": 314.58,
+   "words": [
+    {
+     "w": "Mille",
+     "s": 312.78,
+     "e": 313.3
+    },
+    {
+     "w": "promesses",
+     "s": 313.3,
+     "e": 313.96,
+     "i": 1
+    },
+    {
+     "w": "en",
+     "s": 313.96,
+     "e": 314.16,
+     "i": 1
+    },
+    {
+     "w": "carton",
+     "s": 314.16,
+     "e": 314.58
+    }
+   ],
+   "resp": [
+    {
+     "text": "Tonton !",
+     "start": 314.72,
+     "end": 315.24,
+     "tr": null
+    }
+   ]
+  },
+  {
+   "part": "refrain final",
+   "text": "Ou ka palé asi mil ton !",
+   "tr": "Tu parles sur mille tons !",
+   "start": 315.32,
+   "end": 317,
+   "words": [
+    {
+     "w": "Ou",
+     "s": 315.32,
+     "e": 315.42
+    },
+    {
+     "w": "ka",
+     "s": 315.42,
+     "e": 315.74,
+     "i": 1
+    },
+    {
+     "w": "palé",
+     "s": 315.74,
+     "e": 315.9
+    },
+    {
+     "w": "asi",
+     "s": 315.9,
+     "e": 316.26,
+     "i": 1
+    },
+    {
+     "w": "mil",
+     "s": 316.26,
+     "e": 316.56
+    },
+    {
+     "w": "ton",
+     "s": 316.56,
+     "e": 317
+    }
+   ],
+   "resp": [
+    {
+     "text": "Tonton !",
+     "start": 317.0,
+     "end": 317.62,
+     "tr": null
+    }
+   ]
+  },
+  {
+   "part": "refrain final",
+   "text": "Pani pwoblèm, pani pwoblèm !",
+   "tr": "Pas de problème, pas de problème !",
+   "start": 317.62,
+   "end": 319,
+   "words": [
+    {
+     "w": "Pani",
+     "s": 317.62,
+     "e": 317.84
+    },
+    {
+     "w": "pwoblèm,",
+     "s": 317.84,
+     "e": 318.24
+    },
+    {
+     "w": "pani",
+     "s": 318.42,
+     "e": 318.74
+    },
+    {
+     "w": "pwoblèm",
+     "s": 318.74,
+     "e": 319
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "refrain final",
+   "text": "Mé sé toujou nou ki ni pwoblèm !",
+   "tr": "Mais c'est toujours nous qui avons des problèmes !",
+   "start": 319.0,
+   "end": 321,
+   "words": [
+    {
+     "w": "Mé",
+     "s": 319.0,
+     "e": 319.38,
+     "i": 1
+    },
+    {
+     "w": "sé",
+     "s": 319.38,
+     "e": 319.76,
+     "i": 1
+    },
+    {
+     "w": "toujou",
+     "s": 319.76,
+     "e": 320.12
+    },
+    {
+     "w": "nou",
+     "s": 320.12,
+     "e": 320.36
+    },
+    {
+     "w": "ki",
+     "s": 320.28,
+     "e": 320.48,
+     "i": 1
+    },
+    {
+     "w": "ni",
+     "s": 320.48,
+     "e": 320.48
+    },
+    {
+     "w": "pwoblèm",
+     "s": 320.74,
+     "e": 321
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "refrain final",
+   "text": "Du pain, du beurre, un peu d'horizon,",
+   "tr": null,
+   "start": 321.36,
+   "end": 323,
+   "words": [
+    {
+     "w": "Du",
+     "s": 321.36,
+     "e": 321.64
+    },
+    {
+     "w": "pain,",
+     "s": 321.64,
+     "e": 321.8
+    },
+    {
+     "w": "du",
+     "s": 321.84,
+     "e": 322.06
+    },
+    {
+     "w": "beurre,",
+     "s": 322.06,
+     "e": 322.26
+    },
+    {
+     "w": "un",
+     "s": 322.34,
+     "e": 322.48
+    },
+    {
+     "w": "peu",
+     "s": 322.48,
+     "e": 322.66
+    },
+    {
+     "w": "d'horizon,",
+     "s": 322.66,
+     "e": 323
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "refrain final",
+   "text": "Du respect pour chaque génération !",
+   "tr": null,
+   "start": 323.0,
+   "end": 325,
+   "words": [
+    {
+     "w": "Du",
+     "s": 323.0,
+     "e": 323.62,
+     "i": 1
+    },
+    {
+     "w": "respect",
+     "s": 323.62,
+     "e": 323.98
+    },
+    {
+     "w": "pour",
+     "s": 324,
+     "e": 324.2
+    },
+    {
+     "w": "chaque",
+     "s": 324.2,
+     "e": 324.6
+    },
+    {
+     "w": "génération",
+     "s": 324.6,
+     "e": 325
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "refrain final",
+   "text": "Mille tons, mille tons, Tonton !",
+   "tr": null,
+   "start": 325.82,
+   "end": 327.58,
+   "words": [
+    {
+     "w": "Mille",
+     "s": 325.82,
+     "e": 326.1
+    },
+    {
+     "w": "tons,",
+     "s": 326.1,
+     "e": 326.3
+    },
+    {
+     "w": "mille",
+     "s": 326.4,
+     "e": 326.7
+    },
+    {
+     "w": "tons,",
+     "s": 326.96,
+     "e": 327
+    },
+    {
+     "w": "Tonton",
+     "s": 327.18,
+     "e": 327.58
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "refrain final",
+   "text": "La dignité n'est pas en carton !",
+   "tr": null,
+   "start": 327.76,
+   "end": 330,
+   "words": [
+    {
+     "w": "La",
+     "s": 327.76,
+     "e": 327.98
+    },
+    {
+     "w": "dignité",
+     "s": 327.98,
+     "e": 328.78
+    },
+    {
+     "w": "n'est",
+     "s": 328.8,
+     "e": 329.04
+    },
+    {
+     "w": "pas",
+     "s": 329.04,
+     "e": 329.22
+    },
+    {
+     "w": "en",
+     "s": 329.22,
+     "e": 329.46
+    },
+    {
+     "w": "carton",
+     "s": 329.46,
+     "e": 330
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "outro",
+   "text": "Tonton…",
+   "tr": null,
+   "start": 332.4,
+   "end": 333.6,
+   "words": [
+    {
+     "w": "Tonton…",
+     "s": 332.4,
+     "e": 333.6
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "outro",
+   "text": "Tu nous as dit :",
+   "tr": null,
+   "start": 334.34,
+   "end": 336.04,
+   "words": [
+    {
+     "w": "Tu",
+     "s": 334.34,
+     "e": 334.52
+    },
+    {
+     "w": "nous",
+     "s": 334.52,
+     "e": 334.68
+    },
+    {
+     "w": "as",
+     "s": 334.68,
+     "e": 334.94
+    },
+    {
+     "w": "dit",
+     "s": 334.94,
+     "e": 336.04
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "outro",
+   "text": "« Venez me chercher. »",
+   "tr": null,
+   "start": 336.58,
+   "end": 338,
+   "words": [
+    {
+     "w": "Venez",
+     "s": 336.58,
+     "e": 336.9
+    },
+    {
+     "w": "me",
+     "s": 336.9,
+     "e": 337.2
+    },
+    {
+     "w": "chercher.",
+     "s": 337.2,
+     "e": 338
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "outro",
+   "text": "On est venus.",
+   "tr": null,
+   "start": 339.5,
+   "end": 340.92,
+   "words": [
+    {
+     "w": "On",
+     "s": 339.5,
+     "e": 339.62
+    },
+    {
+     "w": "est",
+     "s": 339.62,
+     "e": 339.84
+    },
+    {
+     "w": "venus.",
+     "s": 339.84,
+     "e": 340.92
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "outro",
+   "text": "On a sonné.",
+   "tr": null,
+   "start": 341.92,
+   "end": 343.5,
+   "words": [
+    {
+     "w": "On",
+     "s": 341.92,
+     "e": 342.08
+    },
+    {
+     "w": "a",
+     "s": 342.08,
+     "e": 342.38
+    },
+    {
+     "w": "sonné.",
+     "s": 342.38,
+     "e": 343.5
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "outro",
+   "text": "Personne à la maison.",
+   "tr": null,
+   "start": 344.42,
+   "end": 346,
+   "words": [
+    {
+     "w": "Personne",
+     "s": 344.42,
+     "e": 344.76
+    },
+    {
+     "w": "à",
+     "s": 344.76,
+     "e": 344.88
+    },
+    {
+     "w": "la",
+     "s": 344.88,
+     "e": 345.3
+    },
+    {
+     "w": "maison.",
+     "s": 345.3,
+     "e": 346
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "outro",
+   "text": "Alors on a laissé un carton…",
+   "tr": null,
+   "start": 347.66,
+   "end": 350,
+   "words": [
+    {
+     "w": "Alors",
+     "s": 347.66,
+     "e": 348.58
+    },
+    {
+     "w": "on",
+     "s": 348.58,
+     "e": 348.7
+    },
+    {
+     "w": "a",
+     "s": 348.7,
+     "e": 348.8
+    },
+    {
+     "w": "laissé",
+     "s": 348.8,
+     "e": 349.24
+    },
+    {
+     "w": "un",
+     "s": 349.24,
+     "e": 349.4
+    },
+    {
+     "w": "carton…",
+     "s": 349.4,
+     "e": 350
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "outro",
+   "text": "Un carton rouge, Tonton !",
+   "tr": null,
+   "start": 358.13,
+   "end": 360.6,
+   "words": [
+    {
+     "w": "Un",
+     "s": 358.13,
+     "e": 358.88,
+     "i": 1
+    },
+    {
+     "w": "carton",
+     "s": 358.88,
+     "e": 359.48
+    },
+    {
+     "w": "rouge,",
+     "s": 359.48,
+     "e": 359.68
+    },
+    {
+     "w": "Tonton",
+     "s": 359.98,
+     "e": 360.6
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "dernier chœur",
+   "text": "Mille promesses en carton…",
+   "tr": null,
+   "start": 361,
+   "end": 362.72,
+   "words": [
+    {
+     "w": "Mille",
+     "s": 361,
+     "e": 361.46
+    },
+    {
+     "w": "promesses",
+     "s": 361.46,
+     "e": 361.98
+    },
+    {
+     "w": "en",
+     "s": 361.98,
+     "e": 362.18
+    },
+    {
+     "w": "carton…",
+     "s": 362.18,
+     "e": 362.72
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "dernier chœur",
+   "text": "Mille promesses en carton…",
+   "tr": null,
+   "start": 363.14,
+   "end": 365.1,
+   "words": [
+    {
+     "w": "Mille",
+     "s": 363.14,
+     "e": 363.72
+    },
+    {
+     "w": "promesses",
+     "s": 363.72,
+     "e": 364.18
+    },
+    {
+     "w": "en",
+     "s": 364.18,
+     "e": 364.44
+    },
+    {
+     "w": "carton…",
+     "s": 364.44,
+     "e": 365.1
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "dernier chœur",
+   "text": "Mille promesses en carton…",
+   "tr": null,
+   "start": 365.3,
+   "end": 367.68,
+   "words": [
+    {
+     "w": "Mille",
+     "s": 365.3,
+     "e": 365.82
+    },
+    {
+     "w": "promesses",
+     "s": 365.82,
+     "e": 366.36
+    },
+    {
+     "w": "en",
+     "s": 366.36,
+     "e": 366.6
+    },
+    {
+     "w": "carton…",
+     "s": 366.6,
+     "e": 367.68
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "dernier chœur",
+   "text": "Mille promesses en carton…",
+   "tr": null,
+   "start": 367.5,
+   "end": 369.0,
+   "words": [
+    {
+     "w": "Mille",
+     "s": 367.5,
+     "e": 367.83
+    },
+    {
+     "w": "promesses",
+     "s": 367.83,
+     "e": 368.39
+    },
+    {
+     "w": "en",
+     "s": 368.39,
+     "e": 368.56
+    },
+    {
+     "w": "carton…",
+     "s": 368.56,
+     "e": 369.0
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "dernier chœur",
+   "text": "Mille promesses en carton…",
+   "tr": null,
+   "start": 369.22,
+   "end": 370.9,
+   "words": [
+    {
+     "w": "Mille",
+     "s": 369.22,
+     "e": 369.59
+    },
+    {
+     "w": "promesses",
+     "s": 369.59,
+     "e": 370.22
+    },
+    {
+     "w": "en",
+     "s": 370.22,
+     "e": 370.4
+    },
+    {
+     "w": "carton…",
+     "s": 370.4,
+     "e": 370.9
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "dernier chœur",
+   "text": "Pani pwoblèm ?",
+   "tr": "Pas de problème ?",
+   "start": 371.53,
+   "end": 373,
+   "words": [
+    {
+     "w": "Pani",
+     "s": 371.53,
+     "e": 372.28,
+     "i": 1
+    },
+    {
+     "w": "pwoblèm",
+     "s": 372.28,
+     "e": 373
+    }
+   ],
+   "resp": []
+  },
+  {
+   "part": "dernier chœur",
+   "text": "Sé la pwomès-la ki an carton !",
+   "tr": "C'est la promesse qui est en carton !",
+   "start": 373.8,
+   "end": 376.6,
+   "words": [
+    {
+     "w": "Sé",
+     "s": 373.8,
+     "e": 373.95,
+     "i": 1
+    },
+    {
+     "w": "la",
+     "s": 373.95,
+     "e": 374.0
+    },
+    {
+     "w": "pwomès-la",
+     "s": 374.0,
+     "e": 374.1
+    },
+    {
+     "w": "ki",
+     "s": 376.36,
+     "e": 376.48,
+     "i": 1
+    },
+    {
+     "w": "an",
+     "s": 376.48,
+     "e": 376.6,
+     "i": 1
+    },
+    {
+     "w": "carton",
+     "s": 376.6,
+     "e": 376.6
+    }
+   ],
+   "resp": []
+  }
+ ]
+}

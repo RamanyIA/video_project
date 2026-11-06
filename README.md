@@ -33,3 +33,26 @@ Dans l'environnement cloud, préfixer les rendus par
 - **Texte mal transcrit** : ajouter une paire dans `CORRECTIONS` de `scripts/build_captions.py`, relancer le script.
 - **Changer une scène** : éditer `src/scenes.ts` (temps de début, photo `CROPS.*`, titre, emoji).
 - **Couleurs** : `src/theme.ts`.
+
+---
+
+# 1000 promesses en carton · clip (16:9)
+
+Clip 1920×1080, 30 fps, 6 min 23 — `PromessesCarton` dans `src/Root.tsx`, rendu : `renders/1000-promesses-en-carton.mp4`.
+
+| Chemin | Rôle |
+| --- | --- |
+| `public/audio/promesses-carton.mp3` | la chanson |
+| `public/carton/NN.jpg` | les 72 plans du storyboard, remis en 1920×1080 |
+| `data/carton_lyrics.txt` | paroles **telles qu'elles sont chantées** (break à 3 « Ka-la ka sonné », a cappella final ×5) |
+| `data/carton_whisper*.json` | Whisper mot à mot (passe complète + passes courtes sur l'intro, le break et l'outro) |
+| `scripts/build_carton_lyrics.py` | alignement paroles ↔ voix (Needleman-Wunsch) + corrections `FIX` / `RESP_FIX` → `src/carton/data/lyrics.json` |
+| `src/carton/storyboard.ts` | **montage** : chaque coupe tombe sur une ligne chantée ; `gfx` = motion design plein écran, `over` = incrust sur photo |
+| `src/carton/components/Lyrics.tsx` | karaoké sur bande de carton déchirée, traduction des lignes en créole, tampons rouges du chœur |
+| `src/carton/components/Gfx.tsx` | boîte-titre, compteur de promesses, prix du riz, passage piéton, pizza-programme, poker, Jupiter, ticket « quoi qu'il en coûte », calculatrice en carton, tampon 49.3, I.A., carton rouge, slogans écrits sur les pancartes |
+
+```bash
+python3 scripts/build_carton_lyrics.py
+COMP=PromessesCarton node scripts/stills.mjs 35 123.8 299
+npx remotion render src/index.ts PromessesCarton out/promesses-carton.mp4 --crf=20
+```

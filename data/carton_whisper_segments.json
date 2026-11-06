@@ -1,0 +1,2041 @@
+[
+ {
+  "range": [
+   0,
+   25
+  ],
+  "text": "... Et ton ton?...... au gâteau de Moins.... Depuis là-bas, jusqu'ici,",
+  "chunks": [
+   {
+    "text": "...",
+    "timestamp": [
+     1,
+     1.02
+    ]
+   },
+   {
+    "text": " Et",
+    "timestamp": [
+     14.14,
+     14.38
+    ]
+   },
+   {
+    "text": " ton",
+    "timestamp": [
+     14.38,
+     14.66
+    ]
+   },
+   {
+    "text": " ton?",
+    "timestamp": [
+     14.66,
+     15.04
+    ]
+   },
+   {
+    "text": "...",
+    "timestamp": [
+     18.02,
+     19
+    ]
+   },
+   {
+    "text": "...",
+    "timestamp": [
+     19.32,
+     19.32
+    ]
+   },
+   {
+    "text": " au",
+    "timestamp": [
+     19.32,
+     19.44
+    ]
+   },
+   {
+    "text": " gâteau",
+    "timestamp": [
+     19.44,
+     19.7
+    ]
+   },
+   {
+    "text": " de",
+    "timestamp": [
+     19.7,
+     19.84
+    ]
+   },
+   {
+    "text": " Moins.",
+    "timestamp": [
+     19.84,
+     20.5
+    ]
+   },
+   {
+    "text": "...",
+    "timestamp": [
+     22.16,
+     22.6
+    ]
+   },
+   {
+    "text": " Depuis",
+    "timestamp": [
+     23,
+     23.3
+    ]
+   },
+   {
+    "text": " là",
+    "timestamp": [
+     23.3,
+     23.36
+    ]
+   },
+   {
+    "text": "-bas,",
+    "timestamp": [
+     23.36,
+     23.66
+    ]
+   },
+   {
+    "text": " jusqu",
+    "timestamp": [
+     23.8,
+     23.98
+    ]
+   },
+   {
+    "text": "'ici,",
+    "timestamp": [
+     23.98,
+     24.6
+    ]
+   }
+  ]
+ },
+ {
+  "range": [
+   25,
+   50
+  ],
+  "text": " depuis les îles jusqu'à Paris 1000 promesses 1000 promesses pas ni problème, moqadi mais problème là toujours ici Tonton, maquwant, au Kabbalé, assis, mileton mil ton, mil ton ton ton 1000 promesses en Cahine",
+  "chunks": [
+   {
+    "text": " depuis",
+    "timestamp": [
+     26.88,
+     27.22
+    ]
+   },
+   {
+    "text": " les",
+    "timestamp": [
+     27.22,
+     27.54
+    ]
+   },
+   {
+    "text": " îles",
+    "timestamp": [
+     27.54,
+     27.88
+    ]
+   },
+   {
+    "text": " jusqu",
+    "timestamp": [
+     27.88,
+     28.1
+    ]
+   },
+   {
+    "text": "'à",
+    "timestamp": [
+     28.1,
+     28.6
+    ]
+   },
+   {
+    "text": " Paris",
+    "timestamp": [
+     28.6,
+     29
+    ]
+   },
+   {
+    "text": " 1000",
+    "timestamp": [
+     33.38,
+     33.68
+    ]
+   },
+   {
+    "text": " promesses",
+    "timestamp": [
+     33.68,
+     34.2
+    ]
+   },
+   {
+    "text": " 1000",
+    "timestamp": [
+     34.4,
+     35
+    ]
+   },
+   {
+    "text": " promesses",
+    "timestamp": [
+     35.86,
+     37.56
+    ]
+   },
+   {
+    "text": " pas",
+    "timestamp": [
+     37.72,
+     37.8
+    ]
+   },
+   {
+    "text": " ni",
+    "timestamp": [
+     37.8,
+     38
+    ]
+   },
+   {
+    "text": " problème,",
+    "timestamp": [
+     38.14,
+     38.74
+    ]
+   },
+   {
+    "text": " moqadi",
+    "timestamp": [
+     38.74,
+     39.74
+    ]
+   },
+   {
+    "text": " mais",
+    "timestamp": [
+     39.86,
+     40
+    ]
+   },
+   {
+    "text": " problème",
+    "timestamp": [
+     40.14,
+     40.42
+    ]
+   },
+   {
+    "text": " là",
+    "timestamp": [
+     40.42,
+     40.74
+    ]
+   },
+   {
+    "text": " toujours",
+    "timestamp": [
+     40.74,
+     41.34
+    ]
+   },
+   {
+    "text": " ici",
+    "timestamp": [
+     41.34,
+     41.56
+    ]
+   },
+   {
+    "text": " Tonton,",
+    "timestamp": [
+     41.620000000000005,
+     42.519999999999996
+    ]
+   },
+   {
+    "text": " maquwant,",
+    "timestamp": [
+     42.739999999999995,
+     43.620000000000005
+    ]
+   },
+   {
+    "text": " au",
+    "timestamp": [
+     43.72,
+     43.879999999999995
+    ]
+   },
+   {
+    "text": " Kabbalé,",
+    "timestamp": [
+     43.879999999999995,
+     44
+    ]
+   },
+   {
+    "text": " assis,",
+    "timestamp": [
+     44.620000000000005,
+     44.84
+    ]
+   },
+   {
+    "text": " mileton",
+    "timestamp": [
+     45,
+     45.8
+    ]
+   },
+   {
+    "text": " mil",
+    "timestamp": [
+     46.16,
+     46.519999999999996
+    ]
+   },
+   {
+    "text": " ton,",
+    "timestamp": [
+     46.519999999999996,
+     46.78
+    ]
+   },
+   {
+    "text": " mil",
+    "timestamp": [
+     46.96,
+     47
+    ]
+   },
+   {
+    "text": " ton",
+    "timestamp": [
+     47.42,
+     47.7
+    ]
+   },
+   {
+    "text": " ton",
+    "timestamp": [
+     47.7,
+     48.06
+    ]
+   },
+   {
+    "text": " ton",
+    "timestamp": [
+     48.06,
+     48.34
+    ]
+   },
+   {
+    "text": " 1000",
+    "timestamp": [
+     48.739999999999995,
+     49
+    ]
+   },
+   {
+    "text": " promesses",
+    "timestamp": [
+     49.46,
+     49.96
+    ]
+   },
+   {
+    "text": " en",
+    "timestamp": [
+     49.96,
+     50.1
+    ]
+   },
+   {
+    "text": " Cahine",
+    "timestamp": [
+     50.1,
+     54.980000000000004
+    ]
+   }
+  ]
+ },
+ {
+  "range": [
+   170,
+   195
+  ],
+  "text": " Mais qui règle la note aujourd'hui C'est toujours le même petit bonhomme Qui paye l'addition et les sommes Calacassoné, ouh, tablaka levé Calacassoné, ouh, paka domi Calacassoné, ouh, paka domi Et tonton T'as changé le ton Ou changé le carton Non, non, non Toujours le même carton",
+  "chunks": [
+   {
+    "text": " Mais",
+    "timestamp": [
+     170.54,
+     170.84
+    ]
+   },
+   {
+    "text": " qui",
+    "timestamp": [
+     170.84,
+     171.06
+    ]
+   },
+   {
+    "text": " règle",
+    "timestamp": [
+     171.06,
+     171.54
+    ]
+   },
+   {
+    "text": " la",
+    "timestamp": [
+     171.54,
+     171.76
+    ]
+   },
+   {
+    "text": " note",
+    "timestamp": [
+     171.76,
+     172.16
+    ]
+   },
+   {
+    "text": " aujourd",
+    "timestamp": [
+     172.16,
+     172.32
+    ]
+   },
+   {
+    "text": "'hui",
+    "timestamp": [
+     172.32,
+     172.4
+    ]
+   },
+   {
+    "text": " C",
+    "timestamp": [
+     172.78,
+     172.78
+    ]
+   },
+   {
+    "text": "'est",
+    "timestamp": [
+     172.78,
+     173.2
+    ]
+   },
+   {
+    "text": " toujours",
+    "timestamp": [
+     173.2,
+     173.48
+    ]
+   },
+   {
+    "text": " le",
+    "timestamp": [
+     173.48,
+     173.64
+    ]
+   },
+   {
+    "text": " même",
+    "timestamp": [
+     173.64,
+     174.04
+    ]
+   },
+   {
+    "text": " petit",
+    "timestamp": [
+     174.04,
+     174.32
+    ]
+   },
+   {
+    "text": " bonhomme",
+    "timestamp": [
+     174.32,
+     174.6
+    ]
+   },
+   {
+    "text": " Qui",
+    "timestamp": [
+     174.88,
+     175.28
+    ]
+   },
+   {
+    "text": " paye",
+    "timestamp": [
+     175.28,
+     175.7
+    ]
+   },
+   {
+    "text": " l",
+    "timestamp": [
+     175.7,
+     175.7
+    ]
+   },
+   {
+    "text": "'addition",
+    "timestamp": [
+     175.7,
+     176.4
+    ]
+   },
+   {
+    "text": " et",
+    "timestamp": [
+     176.4,
+     176.56
+    ]
+   },
+   {
+    "text": " les",
+    "timestamp": [
+     176.56,
+     176.96
+    ]
+   },
+   {
+    "text": " sommes",
+    "timestamp": [
+     176.96,
+     177.2
+    ]
+   },
+   {
+    "text": " Calacassoné,",
+    "timestamp": [
+     177.62,
+     178.48
+    ]
+   },
+   {
+    "text": " ouh,",
+    "timestamp": [
+     178.6,
+     178.72
+    ]
+   },
+   {
+    "text": " tablaka",
+    "timestamp": [
+     178.84,
+     179.22
+    ]
+   },
+   {
+    "text": " levé",
+    "timestamp": [
+     179.22,
+     179.4
+    ]
+   },
+   {
+    "text": " Calacassoné,",
+    "timestamp": [
+     179.8,
+     180.66
+    ]
+   },
+   {
+    "text": " ouh,",
+    "timestamp": [
+     180.78,
+     181.12
+    ]
+   },
+   {
+    "text": " paka",
+    "timestamp": [
+     181.12,
+     181.4
+    ]
+   },
+   {
+    "text": " domi",
+    "timestamp": [
+     181.46,
+     181.78
+    ]
+   },
+   {
+    "text": " Calacassoné,",
+    "timestamp": [
+     181.98,
+     182.82
+    ]
+   },
+   {
+    "text": " ouh,",
+    "timestamp": [
+     182.96,
+     183.3
+    ]
+   },
+   {
+    "text": " paka",
+    "timestamp": [
+     183.3,
+     183.6
+    ]
+   },
+   {
+    "text": " domi",
+    "timestamp": [
+     183.64,
+     183.9
+    ]
+   },
+   {
+    "text": " Et",
+    "timestamp": [
+     184.54,
+     185.66
+    ]
+   },
+   {
+    "text": " tonton",
+    "timestamp": [
+     185.66,
+     186.4
+    ]
+   },
+   {
+    "text": " T",
+    "timestamp": [
+     186.76,
+     186.78
+    ]
+   },
+   {
+    "text": "'as",
+    "timestamp": [
+     186.78,
+     187.38
+    ]
+   },
+   {
+    "text": " changé",
+    "timestamp": [
+     187.38,
+     187.68
+    ]
+   },
+   {
+    "text": " le",
+    "timestamp": [
+     187.68,
+     187.92000000000002
+    ]
+   },
+   {
+    "text": " ton",
+    "timestamp": [
+     187.92000000000002,
+     188.4
+    ]
+   },
+   {
+    "text": " Ou",
+    "timestamp": [
+     188.92000000000002,
+     189.26
+    ]
+   },
+   {
+    "text": " changé",
+    "timestamp": [
+     189.26,
+     189.82
+    ]
+   },
+   {
+    "text": " le",
+    "timestamp": [
+     189.82,
+     190
+    ]
+   },
+   {
+    "text": " carton",
+    "timestamp": [
+     190.12,
+     190.28
+    ]
+   },
+   {
+    "text": " Non,",
+    "timestamp": [
+     190.5,
+     190.6
+    ]
+   },
+   {
+    "text": " non,",
+    "timestamp": [
+     190.74,
+     190.82
+    ]
+   },
+   {
+    "text": " non",
+    "timestamp": [
+     191.04,
+     191.24
+    ]
+   },
+   {
+    "text": " Toujours",
+    "timestamp": [
+     191.4,
+     191.78
+    ]
+   },
+   {
+    "text": " le",
+    "timestamp": [
+     191.78,
+     191.94
+    ]
+   },
+   {
+    "text": " même",
+    "timestamp": [
+     191.94,
+     192.3
+    ]
+   },
+   {
+    "text": " carton",
+    "timestamp": [
+     192.3,
+     193
+    ]
+   }
+  ]
+ },
+ {
+  "range": [
+   195,
+   220
+  ],
+  "text": " Nos ancêtres ont brisé les chaînes Pour que nos enfants marchent sans haine Ils n'ont pas traversé les douleurs Pour qu'on marche en encore leur valeur",
+  "chunks": [
+   {
+    "text": " Nos",
+    "timestamp": [
+     204.14,
+     204.54
+    ]
+   },
+   {
+    "text": " ancêtres",
+    "timestamp": [
+     204.54,
+     204.94
+    ]
+   },
+   {
+    "text": " ont",
+    "timestamp": [
+     204.94,
+     205.16
+    ]
+   },
+   {
+    "text": " brisé",
+    "timestamp": [
+     205.16,
+     205.6
+    ]
+   },
+   {
+    "text": " les",
+    "timestamp": [
+     205.6,
+     205.94
+    ]
+   },
+   {
+    "text": " chaînes",
+    "timestamp": [
+     205.94,
+     207
+    ]
+   },
+   {
+    "text": " Pour",
+    "timestamp": [
+     208.46,
+     208.66
+    ]
+   },
+   {
+    "text": " que",
+    "timestamp": [
+     208.66,
+     208.9
+    ]
+   },
+   {
+    "text": " nos",
+    "timestamp": [
+     208.9,
+     209.3
+    ]
+   },
+   {
+    "text": " enfants",
+    "timestamp": [
+     209.3,
+     209.92
+    ]
+   },
+   {
+    "text": " marchent",
+    "timestamp": [
+     209.92,
+     210.4
+    ]
+   },
+   {
+    "text": " sans",
+    "timestamp": [
+     210.4,
+     210.92
+    ]
+   },
+   {
+    "text": " haine",
+    "timestamp": [
+     210.92,
+     211
+    ]
+   },
+   {
+    "text": " Ils",
+    "timestamp": [
+     212.86,
+     212.98
+    ]
+   },
+   {
+    "text": " n",
+    "timestamp": [
+     212.98,
+     212.98
+    ]
+   },
+   {
+    "text": "'ont",
+    "timestamp": [
+     212.98,
+     213.26
+    ]
+   },
+   {
+    "text": " pas",
+    "timestamp": [
+     213.26,
+     213.74
+    ]
+   },
+   {
+    "text": " traversé",
+    "timestamp": [
+     213.74,
+     214.18
+    ]
+   },
+   {
+    "text": " les",
+    "timestamp": [
+     214.18,
+     214.38
+    ]
+   },
+   {
+    "text": " douleurs",
+    "timestamp": [
+     214.38,
+     216
+    ]
+   },
+   {
+    "text": " Pour",
+    "timestamp": [
+     216.98,
+     217.14
+    ]
+   },
+   {
+    "text": " qu",
+    "timestamp": [
+     217.14,
+     217.16
+    ]
+   },
+   {
+    "text": "'on",
+    "timestamp": [
+     217.16,
+     217.56
+    ]
+   },
+   {
+    "text": " marche",
+    "timestamp": [
+     217.56,
+     217.84
+    ]
+   },
+   {
+    "text": " en",
+    "timestamp": [
+     217.84,
+     218.34
+    ]
+   },
+   {
+    "text": " encore",
+    "timestamp": [
+     218.34,
+     218.78
+    ]
+   },
+   {
+    "text": " leur",
+    "timestamp": [
+     218.78,
+     219.22
+    ]
+   },
+   {
+    "text": " valeur",
+    "timestamp": [
+     219.22,
+     220
+    ]
+   }
+  ]
+ },
+ {
+  "range": [
+   245,
+   270
+  ],
+  "text": " distribue avant les élections Maman disait « Si mon tien bon » Ne laisse personne voler ton nom La liberté n'est pas un cadeau C'est une flamme qu'on porte bien haut",
+  "chunks": [
+   {
+    "text": " distribue",
+    "timestamp": [
+     245.46,
+     246.02
+    ]
+   },
+   {
+    "text": " avant",
+    "timestamp": [
+     246.02,
+     246.28
+    ]
+   },
+   {
+    "text": " les",
+    "timestamp": [
+     246.28,
+     246.64
+    ]
+   },
+   {
+    "text": " élections",
+    "timestamp": [
+     246.64,
+     247
+    ]
+   },
+   {
+    "text": " Maman",
+    "timestamp": [
+     249.92,
+     250.3
+    ]
+   },
+   {
+    "text": " disait",
+    "timestamp": [
+     250.3,
+     251.7
+    ]
+   },
+   {
+    "text": " «",
+    "timestamp": [
+     251.74,
+     251.88
+    ]
+   },
+   {
+    "text": " Si",
+    "timestamp": [
+     251.88,
+     252.24
+    ]
+   },
+   {
+    "text": " mon",
+    "timestamp": [
+     252.24,
+     252.72
+    ]
+   },
+   {
+    "text": " tien",
+    "timestamp": [
+     252.72,
+     253.1
+    ]
+   },
+   {
+    "text": " bon",
+    "timestamp": [
+     253.1,
+     253.7
+    ]
+   },
+   {
+    "text": " »",
+    "timestamp": [
+     253.84,
+     254.06
+    ]
+   },
+   {
+    "text": " Ne",
+    "timestamp": [
+     254.22,
+     254.42
+    ]
+   },
+   {
+    "text": " laisse",
+    "timestamp": [
+     254.42,
+     255.08
+    ]
+   },
+   {
+    "text": " personne",
+    "timestamp": [
+     255.08,
+     255.44
+    ]
+   },
+   {
+    "text": " voler",
+    "timestamp": [
+     255.44,
+     255.7
+    ]
+   },
+   {
+    "text": " ton",
+    "timestamp": [
+     255.76,
+     256.04
+    ]
+   },
+   {
+    "text": " nom",
+    "timestamp": [
+     256.04,
+     257.74
+    ]
+   },
+   {
+    "text": " La",
+    "timestamp": [
+     258.1,
+     258.38
+    ]
+   },
+   {
+    "text": " liberté",
+    "timestamp": [
+     258.38,
+     258.78
+    ]
+   },
+   {
+    "text": " n",
+    "timestamp": [
+     258.78,
+     258.78
+    ]
+   },
+   {
+    "text": "'est",
+    "timestamp": [
+     258.78,
+     259.02
+    ]
+   },
+   {
+    "text": " pas",
+    "timestamp": [
+     259.02,
+     259.28
+    ]
+   },
+   {
+    "text": " un",
+    "timestamp": [
+     259.28,
+     259.56
+    ]
+   },
+   {
+    "text": " cadeau",
+    "timestamp": [
+     259.56,
+     259.7
+    ]
+   },
+   {
+    "text": " C",
+    "timestamp": [
+     262.44,
+     262.46
+    ]
+   },
+   {
+    "text": "'est",
+    "timestamp": [
+     262.46,
+     262.7
+    ]
+   },
+   {
+    "text": " une",
+    "timestamp": [
+     262.7,
+     263.04
+    ]
+   },
+   {
+    "text": " flamme",
+    "timestamp": [
+     263.04,
+     263.56
+    ]
+   },
+   {
+    "text": " qu",
+    "timestamp": [
+     263.56,
+     263.6
+    ]
+   },
+   {
+    "text": "'on",
+    "timestamp": [
+     263.6,
+     264.04
+    ]
+   },
+   {
+    "text": " porte",
+    "timestamp": [
+     264.04,
+     264.3
+    ]
+   },
+   {
+    "text": " bien",
+    "timestamp": [
+     264.3,
+     264.68
+    ]
+   },
+   {
+    "text": " haut",
+    "timestamp": [
+     264.68,
+     264.7
+    ]
+   }
+  ]
+ },
+ {
+  "range": [
+   270,
+   295
+  ],
+  "text": " On a chanté sous les orages J'en a tenu mal de les non-frages Et si demain change de saison Il ne reste pas un autre carton Tantan, tantan On a fait les calculs à la maison Avec une vieille calculatrice en carton Mil promesses C'est en solution Pas besoin d'intéressance artificielle",
+  "chunks": [
+   {
+    "text": " On",
+    "timestamp": [
+     273.38,
+     273.6
+    ]
+   },
+   {
+    "text": " a",
+    "timestamp": [
+     273.6,
+     273.88
+    ]
+   },
+   {
+    "text": " chanté",
+    "timestamp": [
+     273.88,
+     274.54
+    ]
+   },
+   {
+    "text": " sous",
+    "timestamp": [
+     274.54,
+     274.74
+    ]
+   },
+   {
+    "text": " les",
+    "timestamp": [
+     274.74,
+     275.06
+    ]
+   },
+   {
+    "text": " orages",
+    "timestamp": [
+     275.06,
+     275.3
+    ]
+   },
+   {
+    "text": " J",
+    "timestamp": [
+     275.52,
+     275.52
+    ]
+   },
+   {
+    "text": "'en",
+    "timestamp": [
+     275.52,
+     275.86
+    ]
+   },
+   {
+    "text": " a",
+    "timestamp": [
+     275.86,
+     276.06
+    ]
+   },
+   {
+    "text": " tenu",
+    "timestamp": [
+     276.06,
+     276.52
+    ]
+   },
+   {
+    "text": " mal",
+    "timestamp": [
+     276.52,
+     276.74
+    ]
+   },
+   {
+    "text": " de",
+    "timestamp": [
+     276.74,
+     276.86
+    ]
+   },
+   {
+    "text": " les",
+    "timestamp": [
+     276.86,
+     277.04
+    ]
+   },
+   {
+    "text": " non",
+    "timestamp": [
+     277.04,
+     277.12
+    ]
+   },
+   {
+    "text": "-frages",
+    "timestamp": [
+     277.12,
+     277.3
+    ]
+   },
+   {
+    "text": " Et",
+    "timestamp": [
+     277.78,
+     277.96
+    ]
+   },
+   {
+    "text": " si",
+    "timestamp": [
+     277.96,
+     278.24
+    ]
+   },
+   {
+    "text": " demain",
+    "timestamp": [
+     278.24,
+     278.96
+    ]
+   },
+   {
+    "text": " change",
+    "timestamp": [
+     278.96,
+     279.18
+    ]
+   },
+   {
+    "text": " de",
+    "timestamp": [
+     279.18,
+     279.3
+    ]
+   },
+   {
+    "text": " saison",
+    "timestamp": [
+     279.44,
+     279.76
+    ]
+   },
+   {
+    "text": " Il",
+    "timestamp": [
+     279.9,
+     280.14
+    ]
+   },
+   {
+    "text": " ne",
+    "timestamp": [
+     280.14,
+     280.34
+    ]
+   },
+   {
+    "text": " reste",
+    "timestamp": [
+     280.34,
+     280.8
+    ]
+   },
+   {
+    "text": " pas",
+    "timestamp": [
+     280.8,
+     281.22
+    ]
+   },
+   {
+    "text": " un",
+    "timestamp": [
+     281.22,
+     281.46
+    ]
+   },
+   {
+    "text": " autre",
+    "timestamp": [
+     281.46,
+     281.74
+    ]
+   },
+   {
+    "text": " carton",
+    "timestamp": [
+     281.74,
+     282.3
+    ]
+   },
+   {
+    "text": " Tantan,",
+    "timestamp": [
+     283.26,
+     284.14
+    ]
+   },
+   {
+    "text": " tantan",
+    "timestamp": [
+     284.46,
+     284.8
+    ]
+   },
+   {
+    "text": " On",
+    "timestamp": [
+     285.34,
+     285.5
+    ]
+   },
+   {
+    "text": " a",
+    "timestamp": [
+     285.5,
+     285.72
+    ]
+   },
+   {
+    "text": " fait",
+    "timestamp": [
+     285.72,
+     285.86
+    ]
+   },
+   {
+    "text": " les",
+    "timestamp": [
+     285.86,
+     286.14
+    ]
+   },
+   {
+    "text": " calculs",
+    "timestamp": [
+     286.14,
+     286.56
+    ]
+   },
+   {
+    "text": " à",
+    "timestamp": [
+     286.56,
+     286.7
+    ]
+   },
+   {
+    "text": " la",
+    "timestamp": [
+     286.7,
+     286.8
+    ]
+   },
+   {
+    "text": " maison",
+    "timestamp": [
+     287.04,
+     287.4
+    ]
+   },
+   {
+    "text": " Avec",
+    "timestamp": [
+     287.6,
+     287.82
+    ]
+   },
+   {
+    "text": " une",
+    "timestamp": [
+     287.82,
+     287.92
+    ]
+   },
+   {
+    "text": " vieille",
+    "timestamp": [
+     287.92,
+     288.32
+    ]
+   },
+   {
+    "text": " calculatrice",
+    "timestamp": [
+     288.32,
+     289.14
+    ]
+   },
+   {
+    "text": " en",
+    "timestamp": [
+     289.14,
+     289.36
+    ]
+   },
+   {
+    "text": " carton",
+    "timestamp": [
+     289.36,
+     289.8
+    ]
+   },
+   {
+    "text": " Mil",
+    "timestamp": [
+     290.26,
+     290.58
+    ]
+   },
+   {
+    "text": " promesses",
+    "timestamp": [
+     290.58,
+     290.8
+    ]
+   },
+   {
+    "text": " C",
+    "timestamp": [
+     291.22,
+     291.22
+    ]
+   },
+   {
+    "text": "'est",
+    "timestamp": [
+     291.22,
+     291.46
+    ]
+   },
+   {
+    "text": " en",
+    "timestamp": [
+     291.46,
+     292.18
+    ]
+   },
+   {
+    "text": " solution",
+    "timestamp": [
+     292.18,
+     292.3
+    ]
+   },
+   {
+    "text": " Pas",
+    "timestamp": [
+     292.78,
+     293.16
+    ]
+   },
+   {
+    "text": " besoin",
+    "timestamp": [
+     293.16,
+     293.56
+    ]
+   },
+   {
+    "text": " d",
+    "timestamp": [
+     293.56,
+     293.56
+    ]
+   },
+   {
+    "text": "'intéressance",
+    "timestamp": [
+     293.56,
+     294.54
+    ]
+   },
+   {
+    "text": " artificielle",
+    "timestamp": [
+     294.54,
+     294.8
+    ]
+   }
+  ]
+ },
+ {
+  "range": [
+   330,
+   355
+  ],
+  "text": " Tantan tu nous as dit, venez me chercher On est venus, on a sonné, personne à la maison Alors on a laissé un carton",
+  "chunks": [
+   {
+    "text": " Tantan",
+    "timestamp": [
+     332.4,
+     334.34
+    ]
+   },
+   {
+    "text": " tu",
+    "timestamp": [
+     334.34,
+     334.52
+    ]
+   },
+   {
+    "text": " nous",
+    "timestamp": [
+     334.52,
+     334.68
+    ]
+   },
+   {
+    "text": " as",
+    "timestamp": [
+     334.68,
+     334.94
+    ]
+   },
+   {
+    "text": " dit,",
+    "timestamp": [
+     334.94,
+     336.04
+    ]
+   },
+   {
+    "text": " venez",
+    "timestamp": [
+     336.58,
+     336.9
+    ]
+   },
+   {
+    "text": " me",
+    "timestamp": [
+     336.9,
+     337.2
+    ]
+   },
+   {
+    "text": " chercher",
+    "timestamp": [
+     337.2,
+     338
+    ]
+   },
+   {
+    "text": " On",
+    "timestamp": [
+     339.5,
+     339.62
+    ]
+   },
+   {
+    "text": " est",
+    "timestamp": [
+     339.62,
+     339.84
+    ]
+   },
+   {
+    "text": " venus,",
+    "timestamp": [
+     339.84,
+     340.92
+    ]
+   },
+   {
+    "text": " on",
+    "timestamp": [
+     341.92,
+     342.08
+    ]
+   },
+   {
+    "text": " a",
+    "timestamp": [
+     342.08,
+     342.38
+    ]
+   },
+   {
+    "text": " sonné,",
+    "timestamp": [
+     342.38,
+     343.5
+    ]
+   },
+   {
+    "text": " personne",
+    "timestamp": [
+     344.42,
+     344.76
+    ]
+   },
+   {
+    "text": " à",
+    "timestamp": [
+     344.76,
+     344.88
+    ]
+   },
+   {
+    "text": " la",
+    "timestamp": [
+     344.88,
+     345.3
+    ]
+   },
+   {
+    "text": " maison",
+    "timestamp": [
+     345.3,
+     346
+    ]
+   },
+   {
+    "text": " Alors",
+    "timestamp": [
+     347.66,
+     348.58
+    ]
+   },
+   {
+    "text": " on",
+    "timestamp": [
+     348.58,
+     348.7
+    ]
+   },
+   {
+    "text": " a",
+    "timestamp": [
+     348.7,
+     348.8
+    ]
+   },
+   {
+    "text": " laissé",
+    "timestamp": [
+     348.8,
+     349.24
+    ]
+   },
+   {
+    "text": " un",
+    "timestamp": [
+     349.24,
+     349.4
+    ]
+   },
+   {
+    "text": " carton",
+    "timestamp": [
+     349.4,
+     350
+    ]
+   }
+  ]
+ },
+ {
+  "range": [
+   355,
+   382.8
+  ],
+  "text": " A carton rouge et bonbon 1000 promises en carton 1000 promises en carton 1000 promises en carton 1000 promises en carton 1000 promises en carton Un n'y pour problème C'est la promesse là qui encarte ton",
+  "chunks": [
+   {
+    "text": " A",
+    "timestamp": [
+     358.4,
+     358.88
+    ]
+   },
+   {
+    "text": " carton",
+    "timestamp": [
+     358.88,
+     359.48
+    ]
+   },
+   {
+    "text": " rouge",
+    "timestamp": [
+     359.48,
+     359.68
+    ]
+   },
+   {
+    "text": " et",
+    "timestamp": [
+     359.68,
+     359.98
+    ]
+   },
+   {
+    "text": " bonbon",
+    "timestamp": [
+     359.98,
+     360.6
+    ]
+   },
+   {
+    "text": " 1000",
+    "timestamp": [
+     361,
+     361.46
+    ]
+   },
+   {
+    "text": " promises",
+    "timestamp": [
+     361.46,
+     361.98
+    ]
+   },
+   {
+    "text": " en",
+    "timestamp": [
+     361.98,
+     362.18
+    ]
+   },
+   {
+    "text": " carton",
+    "timestamp": [
+     362.18,
+     362.72
+    ]
+   },
+   {
+    "text": " 1000",
+    "timestamp": [
+     363.14,
+     363.72
+    ]
+   },
+   {
+    "text": " promises",
+    "timestamp": [
+     363.72,
+     364.18
+    ]
+   },
+   {
+    "text": " en",
+    "timestamp": [
+     364.18,
+     364.44
+    ]
+   },
+   {
+    "text": " carton",
+    "timestamp": [
+     364.44,
+     365.1
+    ]
+   },
+   {
+    "text": " 1000",
+    "timestamp": [
+     365.3,
+     365.82
+    ]
+   },
+   {
+    "text": " promises",
+    "timestamp": [
+     365.82,
+     366.36
+    ]
+   },
+   {
+    "text": " en",
+    "timestamp": [
+     366.36,
+     366.6
+    ]
+   },
+   {
+    "text": " carton",
+    "timestamp": [
+     366.6,
+     367.68
+    ]
+   },
+   {
+    "text": " 1000",
+    "timestamp": [
+     367.68,
+     367.68
+    ]
+   },
+   {
+    "text": " promises",
+    "timestamp": [
+     367.68,
+     367.68
+    ]
+   },
+   {
+    "text": " en",
+    "timestamp": [
+     367.68,
+     367.68
+    ]
+   },
+   {
+    "text": " carton",
+    "timestamp": [
+     367.68,
+     367.88
+    ]
+   },
+   {
+    "text": " 1000",
+    "timestamp": [
+     369.22,
+     369.22
+    ]
+   },
+   {
+    "text": " promises",
+    "timestamp": [
+     369.22,
+     369.22
+    ]
+   },
+   {
+    "text": " en",
+    "timestamp": [
+     369.22,
+     369.22
+    ]
+   },
+   {
+    "text": " carton",
+    "timestamp": [
+     369.22,
+     370.34
+    ]
+   },
+   {
+    "text": " Un",
+    "timestamp": [
+     371.7,
+     371.8
+    ]
+   },
+   {
+    "text": " n",
+    "timestamp": [
+     371.8,
+     371.8
+    ]
+   },
+   {
+    "text": "'y",
+    "timestamp": [
+     371.8,
+     371.96
+    ]
+   },
+   {
+    "text": " pour",
+    "timestamp": [
+     371.96,
+     372.28
+    ]
+   },
+   {
+    "text": " problème",
+    "timestamp": [
+     372.28,
+     373
+    ]
+   },
+   {
+    "text": " C",
+    "timestamp": [
+     373.8,
+     373.8
+    ]
+   },
+   {
+    "text": "'est",
+    "timestamp": [
+     373.8,
+     374
+    ]
+   },
+   {
+    "text": " la",
+    "timestamp": [
+     374,
+     374.26
+    ]
+   },
+   {
+    "text": " promesse",
+    "timestamp": [
+     374.26,
+     374.74
+    ]
+   },
+   {
+    "text": " là",
+    "timestamp": [
+     374.74,
+     375
+    ]
+   },
+   {
+    "text": " qui",
+    "timestamp": [
+     375.02,
+     375.26
+    ]
+   },
+   {
+    "text": " encarte",
+    "timestamp": [
+     375.26,
+     375.82
+    ]
+   },
+   {
+    "text": " ton",
+    "timestamp": [
+     375.82,
+     377.74
+    ]
+   }
+  ]
+ }
+]

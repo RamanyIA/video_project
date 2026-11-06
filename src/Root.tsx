@@ -7,6 +7,7 @@ import feuxMusic from './feux/data/music.json';
 import {MilleFeux} from './feux/MilleFeux';
 import {TitleSequence} from './chaines/TitleSequence';
 import {PromessesCarton} from './carton/PromessesCarton';
+import {SHORT_FROM, SHORT_TO, ShortCarton} from './carton/short/ShortCarton';
 import cartonMusic from './carton/data/music.json';
 import {MillePoemes} from './poemes/MillePoemes';
 import {Podcast, podcastDuration} from './podcast/Podcast';
@@ -58,6 +59,14 @@ export const Root: React.FC = () => (
       height={1080}
       fps={FPS}
       durationInFrames={Math.floor(cartonMusic.duration * FPS)}
+    />
+    <Composition
+      id="ShortCarton"
+      component={ShortCarton}
+      width={1080}
+      height={1920}
+      fps={FPS}
+      durationInFrames={Math.round((SHORT_TO - SHORT_FROM) * FPS)}
     />
     <Composition id="MilleChaines" component={TitleSequence} width={1920} height={1080} fps={FPS} durationInFrames={FPS * 22} />
   </>

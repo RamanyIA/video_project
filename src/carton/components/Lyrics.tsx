@@ -32,7 +32,7 @@ const activeLine = (t: number) => {
 
 // Karaoke on a torn cardboard strip: every word is stamped in ink exactly when it is sung,
 // the current word gets a mango marker swipe; Creole lines carry their French translation.
-export const Lyrics: React.FC<{hidden?: boolean}> = ({hidden}) => {
+export const Lyrics: React.FC<{hidden?: boolean; bottom?: number; maxWidth?: number; scale?: number}> = ({hidden, bottom = 70, maxWidth = 1650, scale = 1}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
   const t = f / fps;
@@ -43,13 +43,13 @@ export const Lyrics: React.FC<{hidden?: boolean}> = ({hidden}) => {
   const inK = spring({frame: f - Math.round((line.start - LEAD_IN) * fps), fps, config: {damping: 14, stiffness: 170}});
   const out = interpolate(t, [until, until + 0.25], [1, 0], clamp);
   const len = line.text.length;
-  const size = chorus ? (len > 34 ? 66 : 78) : len > 40 ? 54 : len > 28 ? 62 : 72;
+  const size = scale * (chorus ? (len > 34 ? 66 : 78) : len > 40 ? 54 : len > 28 ? 62 : 72);
   const tilt = (random(`tilt${idx}`) - 0.5) * 2.2;
   const b = beatPulse(t);
   return (
-    <div style={{position: 'absolute', left: 0, right: 0, bottom: 70, display: 'flex', flexDirection: 'column', alignItems: 'center',
+    <div style={{position: 'absolute', left: 0, right: 0, bottom, display: 'flex', flexDirection: 'column', alignItems: 'center',
       opacity: out, transform: `translateY(${(1 - inK) * 160}px) rotate(${tilt}deg)`}}>
-      <div style={{position: 'relative', padding: `${size * 0.32}px ${size * 0.7}px`, maxWidth: 1650}}>
+      <div style={{position: 'relative', padding: `${size * 0.32}px ${size * 0.7}px`, maxWidth}}>
         <div style={{position: 'absolute', inset: 0, ...cardboardBg(chorus ? C.cartonLight : C.carton), clipPath: tornClip(`l${idx}`, 5),
           filter: 'drop-shadow(0 14px 22px rgba(0,0,0,0.6))'}} />
         <div style={{position: 'absolute', inset: 0, clipPath: tornClip(`l${idx}`, 5), boxShadow: 'inset 0 0 50px rgba(70,35,8,0.6)'}} />
@@ -94,7 +94,7 @@ const Tape: React.FC<{side: 'left' | 'right'; seed: number}> = ({side, seed}) =>
 );
 
 // Choir answers "(Tonton !)", "(Sé nou !)", "(BOUM !)": red rubber stamps slammed onto the frame.
-export const Responses: React.FC = () => {
+export const Responses: React.FC<{top?: number}> = ({top}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
   const t = f / fps;
@@ -108,7 +108,7 @@ export const Responses: React.FC = () => {
     const side = (li + ri) % 2 === 0;
     const rot = (random(`r${li}${ri}`) - 0.5) * 22;
     items.push(
-      <div key={`${li}-${ri}`} style={{position: 'absolute', top: big ? 300 : 250 + (ri % 2) * 40, [side ? 'right' : 'left']: big ? 760 - (side ? 0 : 0) : 110,
+      <div key={`${li}-${ri}`} style={{position: 'absolute', top: top ?? (big ? 300 : 250 + (ri % 2) * 40), [side ? 'right' : 'left']: big ? 760 - (side ? 0 : 0) : 110,
         transform: `scale(${interpolate(k, [0, 1], [2.6, 1])}) rotate(${rot}deg)`, opacity: Math.min(1, k * 3) * op, textAlign: 'center'}}>
         <div style={{fontFamily: big ? DISPLAY : MARKER, fontSize: big ? 190 : 84, color: C.red, padding: big ? '0 40px' : '6px 30px',
           border: big ? 'none' : `8px solid ${C.red}`, borderRadius: 18, textTransform: 'uppercase', letterSpacing: big ? 8 : 2,

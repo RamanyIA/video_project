@@ -56,3 +56,10 @@ python3 scripts/build_carton_lyrics.py
 COMP=PromessesCarton node scripts/stills.mjs 35 123.8 299
 npx remotion render src/index.ts PromessesCarton out/promesses-carton.mp4 --crf=20
 ```
+
+## Short « Présidentielle 2027 » (9:16)
+
+`ShortCarton` (`src/carton/short/ShortCarton.tsx`) : teaser vertical de 38 s → `renders/1000-promesses-short-presidentielle-2027.mp4`.
+Extrait 109,2 s → 147,5 s de la chanson (« Qui fait les lois ? » + refrain 2). Chaque ligne chantée reçoit un titre
+« version 2027 » (`HEADLINES`), suivi d'une carte de fin qui renvoie vers le clip complet. Tout tourne en temps « chanson »
+(Sequence décalée) : les paroles calées et l'analyse des temps du clip principal sont réutilisées telles quelles.
